@@ -1,0 +1,6215 @@
+[
+  {
+    "id": "fa668070-b3c7-4bdc-900d-138e1c32d64f",
+    "name": "バイロンベイコーヒー 大門店",
+    "address": "東京都港区浜松町1-23-9 セゾンビル浜松町 1F",
+    "lat": 35.657506578727904,
+    "lng": 139.75644157415178,
+    "tabelog_rating": 3.59,
+    "personal_rating": null,
+    "cuisine": "カフェ",
+    "price_tier": 1,
+    "awards": [],
+    "tabelog_url": "https://tabelog.com/tokyo/A1314/A131401/13201172/",
+    "tags": ["australian cafe"],
+    "notes": "",
+    "visited": false
+  },
+  {
+    "id": "3ba68574-605a-4464-975b-9999f4e37c3e",
+    "name": "Single O Hamacho",
+    "address": "東京都中央区日本橋浜町3-16-7 スプラウト日本橋浜町 1F",
+    "lat": 35.68409037872149,
+    "lng": 139.78932149439726,
+    "tabelog_rating": 3.56,
+    "personal_rating": null,
+    "cuisine": "カフェ",
+    "price_tier": 2,
+    "awards": [],
+    "tabelog_url": "https://tabelog.com/tokyo/A1302/A130204/13264861/",
+    "tags": ["australian cafe"],
+    "notes": "",
+    "visited": false
+  },
+  {
+    "id": "52243d21-bd73-4b9f-9bf6-234dfcd96c59",
+    "name": "MIYASHITA CAFE +softcream",
+    "address": "東京都渋谷区神宮前6-20-10 MIYASHITA PARK South 2F",
+    "lat": 35.66069460653396,
+    "lng": 139.70167118549764,
+    "tabelog_rating": 3.47,
+    "personal_rating": null,
+    "cuisine": "カフェ",
+    "price_tier": 1,
+    "awards": [],
+    "tabelog_url": "https://tabelog.com/tokyo/A1303/A130301/13248368/",
+    "tags": ["ice cream"],
+    "notes": "",
+    "visited": false
+  },
+  {
+    "id": "cea91efe-7307-4140-9135-5b7c8e3aa8c6",
+    "name": "CREMAHOP 赤坂見附店",
+    "address": "東京都港区赤坂3-9-18 赤坂見附KITAYAMAビル 1F",
+    "lat": 35.67749646452244,
+    "lng": 139.73599645008866,
+    "tabelog_rating": 3.46,
+    "personal_rating": null,
+    "cuisine": "カフェ",
+    "price_tier": 1,
+    "awards": [],
+    "tabelog_url": "https://tabelog.com/tokyo/A1308/A130801/13306089/",
+    "tags": ["ice cream"],
+    "notes": "",
+    "visited": false
+  },
+  {
+    "id": "43154dcd-718c-4df1-92a9-33b8172540c0",
+    "name": "Johns ice cream",
+    "address": "東京都目黒区上目黒1-8-30 ヒルズ代官山 B1F",
+    "lat": 35.64620794871711,
+    "lng": 139.70001542407724,
+    "tabelog_rating": 3.21,
+    "personal_rating": null,
+    "cuisine": "カフェ",
+    "price_tier": 2,
+    "awards": [],
+    "tabelog_url": "https://tabelog.com/tokyo/A1317/A131701/13272143/",
+    "tags": ["ice cream"],
+    "notes": "",
+    "visited": false
+  },
+  {
+    "id": "67bec5ef-2e14-4659-bb5d-4b8562898e43",
+    "name": "JAM17 GELATERIA",
+    "address": "東京都新宿区歌舞伎町1-29-1 東急歌舞伎町タワー 17F",
+    "lat": 35.695975918685676,
+    "lng": 139.70055758457954,
+    "tabelog_rating": 3.44,
+    "personal_rating": null,
+    "cuisine": "カフェ",
+    "price_tier": 1,
+    "awards": [],
+    "tabelog_url": "https://tabelog.com/tokyo/A1304/A130401/13284072/",
+    "tags": ["ice cream"],
+    "notes": "",
+    "visited": false
+  },
+  {
+    "id": "51592235-f5e0-484e-a75d-a61b61878cdf",
+    "name": "Eriko Osawa Earthly Gelato",
+    "address": "東京都港区北青山3-8-15 GREEN TERRACE 表参道 4F",
+    "lat": 35.66528723870816,
+    "lng": 139.70995088426298,
+    "tabelog_rating": 3.4,
+    "personal_rating": null,
+    "cuisine": "カフェ",
+    "price_tier": 2,
+    "awards": [],
+    "tabelog_url": "https://tabelog.com/tokyo/A1306/A130602/13309259/",
+    "tags": ["ice cream"],
+    "notes": "",
+    "visited": false
+  },
+  {
+    "id": "a2994e77-2c63-4fff-b66e-3182a5923e34",
+    "name": "リビスコ 銀座店",
+    "address": "東京都中央区銀座3-7-12 2F",
+    "lat": 35.67148393791702,
+    "lng": 139.76698178312384,
+    "tabelog_rating": 3.69,
+    "personal_rating": null,
+    "cuisine": "カフェ",
+    "price_tier": 2,
+    "awards": [
+      {
+        "type": "hyakumeiten",
+        "year": 2023,
+        "category": "Ice_gelato"
+      }
+    ],
+    "tabelog_url": "https://tabelog.com/tokyo/A1301/A130101/13212493/",
+    "tags": ["ice cream"],
+    "notes": "",
+    "visited": false
+  },
+  {
+    "id": "60abebd6-2bdc-459a-859e-c564c38a3358",
+    "name": "Bole COFFEE&ICE CREAM",
+    "address": "東京都世田谷区羽根木1-19-19 羽根木インターナショナルガーデンハウス CT-03",
+    "lat": 35.66377865869281,
+    "lng": 139.65874738428363,
+    "tabelog_rating": 3.56,
+    "personal_rating": null,
+    "cuisine": "カフェ",
+    "price_tier": 1,
+    "awards": [],
+    "tabelog_url": "https://tabelog.com/tokyo/A1318/A131803/13285909/",
+    "tags": [],
+    "notes": "",
+    "visited": false
+  },
+  {
+    "id": "6bf5683e-e0cd-4433-8d84-605303d9fbd5",
+    "name": "プレマルシェ・ジェラテリア 東京中目黒駅前店",
+    "address": "東京都目黒区上目黒2-9-36",
+    "lat": 35.643277058718795,
+    "lng": 139.699471314048,
+    "tabelog_rating": 3.82,
+    "personal_rating": null,
+    "cuisine": "カフェ",
+    "price_tier": 1,
+    "awards": [
+      {
+        "type": "hyakumeiten",
+        "year": 2023,
+        "category": "Ice_gelato"
+      }
+    ],
+    "tabelog_url": "https://tabelog.com/tokyo/A1317/A131701/13223646/",
+    "tags": ["ice cream"],
+    "notes": "",
+    "visited": false
+  },
+  {
+    "id": "3dd52fee-79c2-4daf-8a62-791912e1987c",
+    "name": "MAISON FARMER NAGISA AOKI",
+    "address": "東京都目黒区鷹番3-15-18 ル・コントゥ学芸大学 1F",
+    "lat": 35.6289375374176,
+    "lng": 139.6834789148212,
+    "tabelog_rating": 3.12,
+    "personal_rating": null,
+    "cuisine": "カフェ",
+    "price_tier": 2,
+    "awards": [],
+    "tabelog_url": "https://tabelog.com/tokyo/A1317/A131702/13322680/",
+    "tags": ["ice cream"],
+    "notes": "",
+    "visited": false
+  },
+  {
+    "id": "89011c08-1960-4fd6-ab44-78945adc7bfb",
+    "name": "日曜日はアイスクリーム",
+    "address": "東京都新宿区大久保1-4-15 SLビル",
+    "lat": 35.700893438684425,
+    "lng": 139.7064346846251,
+    "tabelog_rating": 3.07,
+    "personal_rating": null,
+    "cuisine": "カフェ",
+    "price_tier": 3,
+    "awards": [],
+    "tabelog_url": "https://tabelog.com/tokyo/A1304/A130401/13314634/",
+    "tags": ["ice cream"],
+    "notes": "",
+    "visited": false
+  },
+  {
+    "id": "0a8fcedc-28cc-4441-a3b4-cd2ed527773e",
+    "name": "森川",
+    "address": "東京都中央区銀座2-13-17",
+    "lat": 35.671629337917864,
+    "lng": 139.76994918312317,
+    "tabelog_rating": 3.52,
+    "personal_rating": null,
+    "cuisine": "鳥料理",
+    "price_tier": 4,
+    "awards": [],
+    "tabelog_url": "https://tabelog.com/tokyo/A1313/A131301/13171163/",
+    "tags": [],
+    "notes": "",
+    "visited": false
+  },
+  {
+    "id": "a23e95fc-6b7a-44e9-ad18-5bfc338c30b3",
+    "name": "マーライオンテーブル 新宿",
+    "address": "東京都新宿区新宿3-35-17 F.U.Assets 4F",
+    "lat": 35.690115095656665,
+    "lng": 139.70309360168204,
+    "tabelog_rating": 3.34,
+    "personal_rating": null,
+    "cuisine": "シンガポール料理",
+    "price_tier": 3,
+    "awards": [],
+    "tabelog_url": "https://tabelog.com/tokyo/A1304/A130401/13314466/",
+    "tags": [],
+    "notes": "",
+    "visited": false
+  },
+  {
+    "id": "8e955321-63af-4478-8df9-72731b8d4838",
+    "name": "良縁糖水",
+    "address": "東京都新宿区高田馬場3-13-1 NOKK BUILDING 1F",
+    "lat": 35.71264512819885,
+    "lng": 139.69979422725987,
+    "tabelog_rating": 3.45,
+    "personal_rating": null,
+    "cuisine": "カフェ",
+    "price_tier": 1,
+    "awards": [],
+    "tabelog_url": "https://tabelog.com/tokyo/A1305/A130503/13239338/",
+    "tags": [
+      "chinese"
+    ],
+    "notes": "",
+    "visited": false
+  },
+  {
+    "id": "7ec90239-e630-4538-9c8a-2b6f0ae195b3",
+    "name": "和田金",
+    "address": "三重県松阪市中町1878",
+    "lat": 34.57724243758146,
+    "lng": 136.53108657433924,
+    "tabelog_rating": 4.13,
+    "personal_rating": null,
+    "cuisine": "すき焼き",
+    "price_tier": 4,
+    "awards": [
+      {
+        "type": "bronze",
+        "year": 2026
+      },
+      {
+        "type": "hyakumeiten",
+        "year": 2024,
+        "category": "Sukiyaki_shabushabu"
+      },
+      {
+        "type": "bronze",
+        "year": 2025
+      },
+      {
+        "type": "bronze",
+        "year": 2024
+      },
+      {
+        "type": "bronze",
+        "year": 2023
+      },
+      {
+        "type": "bronze",
+        "year": 2022
+      },
+      {
+        "type": "bronze",
+        "year": 2021
+      },
+      {
+        "type": "bronze",
+        "year": 2020
+      },
+      {
+        "type": "bronze",
+        "year": 2019
+      },
+      {
+        "type": "bronze",
+        "year": 2018
+      },
+      {
+        "type": "bronze",
+        "year": 2017
+      }
+    ],
+    "tabelog_url": "https://tabelog.com/mie/A2401/A240102/24000069/",
+    "tags": [],
+    "notes": "",
+    "visited": false
+  },
+  {
+    "id": "3b3f7703-89e5-4e30-b53b-5f488aa56af6",
+    "name": "大衆食堂 半田屋 東口BiVi店",
+    "address": "宮城県仙台市宮城野区榴岡2-1-25 BiVi仙台駅東口 1F",
+    "lat": 38.261078236628045,
+    "lng": 140.8840139084981,
+    "tabelog_rating": 3.24,
+    "personal_rating": null,
+    "cuisine": "食堂",
+    "price_tier": 1,
+    "awards": [],
+    "tabelog_url": "https://tabelog.com/miyagi/A0401/A040102/4008996/",
+    "tags": [],
+    "notes": "",
+    "visited": false
+  },
+  {
+    "id": "1059d4ff-1792-4ede-84d9-2c11bf46dada",
+    "name": "ヤマヨ食堂",
+    "address": "宮城県気仙沼市亀山8",
+    "lat": 38.877685487274135,
+    "lng": 141.6135651453768,
+    "tabelog_rating": 3.22,
+    "personal_rating": null,
+    "cuisine": "海鮮",
+    "price_tier": 2,
+    "awards": [],
+    "tabelog_url": "https://tabelog.com/miyagi/A0404/A040401/4026056/",
+    "tags": [],
+    "notes": "",
+    "visited": false
+  },
+  {
+    "id": "e7fe445c-4753-43e1-9000-597d7fe954cd",
+    "name": "かき小屋　唐桑番屋",
+    "address": "宮城県気仙沼市唐桑町鮪立214-6",
+    "lat": 38.891672717272414,
+    "lng": 141.6360618155023,
+    "tabelog_rating": 3.09,
+    "personal_rating": null,
+    "cuisine": "海鮮",
+    "price_tier": 2,
+    "awards": [],
+    "tabelog_url": "https://tabelog.com/miyagi/A0404/A040401/4012550/",
+    "tags": [],
+    "notes": "",
+    "visited": false
+  },
+  {
+    "id": "ba49622f-f0e5-404e-85e9-4142dcaf5f65",
+    "name": "音楽と珈琲の店 岬",
+    "address": "千葉県安房郡鋸南町元名1",
+    "lat": 35.15500564906695,
+    "lng": 139.81891177903228,
+    "tabelog_rating": 3.48,
+    "personal_rating": null,
+    "cuisine": "カフェ",
+    "price_tier": 2,
+    "awards": [],
+    "tabelog_url": "https://tabelog.com/chiba/A1206/A120603/12004072/",
+    "tags": [],
+    "notes": "",
+    "visited": false
+  },
+  {
+    "id": "bde6eafd-4c4a-4224-9835-37c12f3032c3",
+    "name": "ぎをん 小森",
+    "address": "京都府京都市東山区新橋通大和大路東入元吉町61",
+    "lat": 35.005847997889276,
+    "lng": 135.7745716477073,
+    "tabelog_rating": 3.66,
+    "personal_rating": null,
+    "cuisine": "カフェ",
+    "price_tier": 2,
+    "awards": [
+      {
+        "type": "hyakumeiten",
+        "year": 2023,
+        "category": "Wagashi"
+      }
+    ],
+    "tabelog_url": "https://tabelog.com/kyoto/A2601/A260301/26000280/",
+    "tags": [
+      "matcha"
+    ],
+    "notes": "",
+    "visited": false
+  },
+  {
+    "id": "42f7c333-00d4-4d52-9456-ce02955480cb",
+    "name": "松山寿司",
+    "address": "東京都台東区台東3-20-2",
+    "lat": 35.70470429870491,
+    "lng": 139.77834724461317,
+    "tabelog_rating": 3.04,
+    "personal_rating": null,
+    "cuisine": "寿司",
+    "price_tier": 3,
+    "awards": [],
+    "tabelog_url": "https://tabelog.com/tokyo/A1311/A131101/13071590/",
+    "tags": [],
+    "notes": "",
+    "visited": false
+  },
+  {
+    "id": "1f1b8c08-8d41-4433-929a-84d669092898",
+    "name": "川信 うなぎ",
+    "address": "東京都世田谷区桜新町2-8-4 ２F",
+    "lat": 35.63180702870862,
+    "lng": 139.6446221739706,
+    "tabelog_rating": 3.39,
+    "personal_rating": null,
+    "cuisine": "うなぎ",
+    "price_tier": 4,
+    "awards": [],
+    "tabelog_url": "https://tabelog.com/tokyo/A1317/A131707/13060396/",
+    "tags": [],
+    "notes": "",
+    "visited": false
+  },
+  {
+    "id": "dfd66f24-e806-4562-a412-01a5e09d5f0e",
+    "name": "銀座 安達直人",
+    "address": "東京都中央区銀座7-6-5 銀座石井紀州屋ビル 2F",
+    "lat": 35.66975303791651,
+    "lng": 139.76194718310987,
+    "tabelog_rating": 3.52,
+    "personal_rating": null,
+    "cuisine": "日本料理",
+    "price_tier": 4,
+    "awards": [],
+    "tabelog_url": "https://tabelog.com/tokyo/A1301/A130102/13163366/",
+    "tags": [],
+    "notes": "",
+    "visited": false
+  },
+  {
+    "id": "dc2cfd86-b1bc-4449-acba-01cef60eb030",
+    "name": "カープ 東京支店",
+    "address": "東京都千代田区神田鍛冶町3-5 保坂神田ビル",
+    "lat": 35.69373031870932,
+    "lng": 139.77032294450794,
+    "tabelog_rating": 3.51,
+    "personal_rating": null,
+    "cuisine": "お好み焼き",
+    "price_tier": 2,
+    "awards": [
+      {
+        "type": "hyakumeiten",
+        "year": 2024,
+        "category": "Okonomiyaki"
+      },
+      {
+        "type": "hyakumeiten",
+        "year": 2022,
+        "category": "Okonomiyaki"
+      },
+      {
+        "type": "hyakumeiten",
+        "year": 2019,
+        "category": "Okonomiyaki"
+      },
+      {
+        "type": "hyakumeiten",
+        "year": 2018,
+        "category": "Okonomiyaki"
+      }
+    ],
+    "tabelog_url": "https://tabelog.com/tokyo/A1310/A131002/13004170/",
+    "tags": [],
+    "notes": "",
+    "visited": false
+  },
+  {
+    "id": "476474f0-fe75-441a-b8de-c0c551bd8db3",
+    "name": "マジックスパイス 東京店",
+    "address": "東京都世田谷区代沢2-30-14",
+    "lat": 35.66035810869841,
+    "lng": 139.66951404424154,
+    "tabelog_rating": 3.58,
+    "personal_rating": 3.4,
+    "cuisine": "スープカレー",
+    "price_tier": 3,
+    "awards": [],
+    "tabelog_url": "https://tabelog.com/tokyo/A1318/A131802/13293518/",
+    "tags": [],
+    "notes": "",
+    "visited": true
+  },
+  {
+    "id": "3b7e0c24-94e0-4666-b813-9786a1f4c29a",
+    "name": "ラッキーピエロ ベイエリア本店",
+    "address": "北海道函館市末広町23-18",
+    "lat": 41.765763985153676,
+    "lng": 140.71494156517895,
+    "tabelog_rating": 3.47,
+    "personal_rating": null,
+    "cuisine": "ハンバーガー",
+    "price_tier": 2,
+    "awards": [
+      {
+        "type": "hyakumeiten",
+        "year": 2024,
+        "category": "Hamburger"
+      },
+      {
+        "type": "hyakumeiten",
+        "year": 2019,
+        "category": "Hamburger"
+      },
+      {
+        "type": "hyakumeiten",
+        "year": 2018,
+        "category": "Hamburger"
+      },
+      {
+        "type": "hyakumeiten",
+        "year": 2017,
+        "category": "Hamburger"
+      }
+    ],
+    "tabelog_url": "https://tabelog.com/hokkaido/A0105/A010501/1000019/",
+    "tags": [],
+    "notes": "",
+    "visited": false
+  },
+  {
+    "id": "92edb4eb-35f5-4997-846d-c478ddea918c",
+    "name": "うどん 萬田次郎",
+    "address": "東京都新宿区新宿1-12-1 サンサーラ第三御苑 1F",
+    "lat": 35.68862223788883,
+    "lng": 139.71270508333498,
+    "tabelog_rating": 3.59,
+    "personal_rating": null,
+    "cuisine": "うどん",
+    "price_tier": 2,
+    "awards": [],
+    "tabelog_url": "https://tabelog.com/tokyo/A1304/A130402/13268343/",
+    "tags": [],
+    "notes": "",
+    "visited": false
+  },
+  {
+    "id": "355a60ad-e3c4-400b-b6b3-5b793b871a8a",
+    "name": "銀座あけぼの 銀座本店",
+    "address": "東京都中央区銀座5-7-19",
+    "lat": 35.671418178721645,
+    "lng": 139.76452999428665,
+    "tabelog_rating": 3.35,
+    "personal_rating": null,
+    "cuisine": "カフェ",
+    "price_tier": 1,
+    "awards": [],
+    "tabelog_url": "https://tabelog.com/tokyo/A1301/A130101/13002549/",
+    "tags": [
+      "daifuku"
+    ],
+    "notes": "",
+    "visited": false
+  },
+  {
+    "id": "5bdfaeb2-13ee-4873-98aa-03c5be87612b",
+    "name": "カプーン 抹茶製造所",
+    "address": "東京都武蔵野市吉祥寺本町2-33-2",
+    "lat": 35.704662237834654,
+    "lng": 139.57453648359385,
+    "tabelog_rating": 3.51,
+    "personal_rating": null,
+    "cuisine": "カフェ",
+    "price_tier": 2,
+    "awards": [],
+    "tabelog_url": "https://tabelog.com/tokyo/A1320/A132001/13248270/",
+    "tags": [
+      "matcha"
+    ],
+    "notes": "",
+    "visited": false
+  },
+  {
+    "id": "eaec06c1-ef11-4067-92fd-b7d7bd48b7ae",
+    "name": "Anjin",
+    "address": "東京都渋谷区猿楽町17-5 代官山蔦屋書店 2号館 2F",
+    "lat": 35.64907440871515,
+    "lng": 139.69958157410647,
+    "tabelog_rating": 3.5,
+    "personal_rating": null,
+    "cuisine": "バー",
+    "price_tier": 3,
+    "awards": [],
+    "tabelog_url": "https://tabelog.com/tokyo/A1303/A130303/13135623/",
+    "tags": [],
+    "notes": "",
+    "visited": false
+  },
+  {
+    "id": "c23b6c93-ffda-4f62-8c15-0c7526d99a4f",
+    "name": "ash zero waste cafe & bar",
+    "address": "東京都渋谷区神南1-5-2 川村ビル 1F",
+    "lat": 35.66476941870544,
+    "lng": 139.70037941426446,
+    "tabelog_rating": 3.43,
+    "personal_rating": null,
+    "cuisine": "カフェ",
+    "price_tier": 3,
+    "awards": [],
+    "tabelog_url": "https://tabelog.com/tokyo/A1303/A130301/13272707/",
+    "tags": [],
+    "notes": "",
+    "visited": false
+  },
+  {
+    "id": "ef114f33-9703-41d7-ba00-8f4e98f3cc53",
+    "name": "夜パフェ専門店VIGO 蔵前店",
+    "address": "東京都台東区蔵前4-21-2 FOCUS KURAMAE  1F",
+    "lat": 35.704770398708575,
+    "lng": 139.7899703746057,
+    "tabelog_rating": 3.39,
+    "personal_rating": null,
+    "cuisine": "カフェ",
+    "price_tier": 3,
+    "awards": [],
+    "tabelog_url": "https://tabelog.com/tokyo/A1311/A131103/13272312/",
+    "tags": [],
+    "notes": "",
+    "visited": false
+  },
+  {
+    "id": "c11936a1-089f-475a-b524-5a4d83aba175",
+    "name": "やきとん三吉 神田北口店",
+    "address": "東京都千代田区内神田3-22-9 新八光ビル 1F",
+    "lat": 35.69253128883711,
+    "lng": 139.77029568708767,
+    "tabelog_rating": 3.19,
+    "personal_rating": null,
+    "cuisine": "焼き鳥",
+    "price_tier": 3,
+    "awards": [],
+    "tabelog_url": "https://tabelog.com/tokyo/A1310/A131002/13303214/",
+    "tags": [],
+    "notes": "",
+    "visited": false
+  },
+  {
+    "id": "2238e052-e2b5-40f2-88e1-ad9d84fefe9a",
+    "name": "和とBar 月の小路",
+    "address": "東京都大田区大森北1-1-7 HOTEL BAR GRANTiOS 別邸 2F",
+    "lat": 35.58904543795741,
+    "lng": 139.72943008231746,
+    "tabelog_rating": 3.18,
+    "personal_rating": null,
+    "cuisine": "寿司",
+    "price_tier": 2,
+    "awards": [],
+    "tabelog_url": "https://tabelog.com/tokyo/A1315/A131502/13207860/",
+    "tags": [],
+    "notes": "",
+    "visited": false
+  },
+  {
+    "id": "3c72f048-fe96-4c97-acea-236d6c6fad9f",
+    "name": "ロンドンバスキッチン",
+    "address": "東京都大田区大森北1-16-9",
+    "lat": 35.58626500263886,
+    "lng": 139.72975922410808,
+    "tabelog_rating": 3.17,
+    "personal_rating": null,
+    "cuisine": "洋食",
+    "price_tier": 2,
+    "awards": [],
+    "tabelog_url": "https://tabelog.com/tokyo/A1315/A131502/13239744/",
+    "tags": [],
+    "notes": "",
+    "visited": false
+  },
+  {
+    "id": "2a548c3d-ab2b-4a64-8270-be487e87ab9d",
+    "name": "Co Huong Beo",
+    "address": "東京都豊島区東池袋1-13-14 池袋1-2階店舗",
+    "lat": 35.72905965168647,
+    "lng": 139.71532360326634,
+    "tabelog_rating": 3.33,
+    "personal_rating": null,
+    "cuisine": "ベトナム料理",
+    "price_tier": 2,
+    "awards": [],
+    "tabelog_url": "https://tabelog.com/tokyo/A1305/A130501/13309055/",
+    "tags": [],
+    "notes": "",
+    "visited": false
+  },
+  {
+    "id": "797816d6-2885-4db2-8ac2-81ce4dffff6b",
+    "name": "麺屋にぼじ",
+    "address": "東京都大田区西蒲田7-1-5",
+    "lat": 35.56353073877479,
+    "lng": 139.71622088323073,
+    "tabelog_rating": 3.43,
+    "personal_rating": null,
+    "cuisine": "ラーメン",
+    "price_tier": 1,
+    "awards": [],
+    "tabelog_url": "https://tabelog.com/tokyo/A1315/A131503/13308446/",
+    "tags": [],
+    "notes": "",
+    "visited": false
+  },
+  {
+    "id": "0815f159-a0c0-4044-b5d5-409fba02803f",
+    "name": "BANANAS Filipino Bistro",
+    "address": "東京都新宿区新宿2-15-24 ヒカリビル 1F",
+    "lat": 35.691243050921415,
+    "lng": 139.70999753300458,
+    "tabelog_rating": 3.08,
+    "personal_rating": null,
+    "cuisine": "フィリピン料理",
+    "price_tier": 3,
+    "awards": [],
+    "tabelog_url": "https://tabelog.com/tokyo/A1304/A130401/13314461/",
+    "tags": [],
+    "notes": "",
+    "visited": false
+  },
+  {
+    "id": "21bf35bb-e0b8-4ee3-bc07-95555d014079",
+    "name": "SMOKEHOUSE",
+    "address": "東京都渋谷区神宮前5-17-13 2F",
+    "lat": 35.66547733790103,
+    "lng": 139.70483428310672,
+    "tabelog_rating": 3.49,
+    "personal_rating": null,
+    "cuisine": "バーベキュー",
+    "price_tier": 3,
+    "awards": [],
+    "tabelog_url": "https://tabelog.com/tokyo/A1303/A130301/13161143/",
+    "tags": [],
+    "notes": "",
+    "visited": false
+  },
+  {
+    "id": "d5400144-ad1e-4477-9dcc-bd5fb844db57",
+    "name": "ニューヨーク・グリル",
+    "address": "東京都新宿区西新宿3-7-1 パークハイアット東京 52F",
+    "lat": 35.6855091986892,
+    "lng": 139.69074727448069,
+    "tabelog_rating": 3.6,
+    "personal_rating": null,
+    "cuisine": "アメリカ料理",
+    "price_tier": 4,
+    "awards": [],
+    "tabelog_url": "https://tabelog.com/tokyo/A1304/A130401/13004204/",
+    "tags": [],
+    "notes": "",
+    "visited": false
+  },
+  {
+    "id": "bcfc309f-ae1c-4552-a5e6-c8ff7e0542f4",
+    "name": "CHATTERBOX CAFE",
+    "address": "東京都千代田区丸の内2-4-1 丸の内ビルディング 5F",
+    "lat": 35.680807578254765,
+    "lng": 139.76394514363545,
+    "tabelog_rating": 3.44,
+    "personal_rating": null,
+    "cuisine": "シンガポール料理",
+    "price_tier": 4,
+    "awards": [],
+    "tabelog_url": "https://tabelog.com/tokyo/A1302/A130201/13316049/",
+    "tags": [],
+    "notes": "",
+    "visited": false
+  },
+  {
+    "id": "49893ff2-d58b-4093-bc6e-21c2c4f62b42",
+    "name": "元喜",
+    "address": "東京都豊島区高田1-36-18 ハウスTKA目白201",
+    "lat": 35.718000737870994,
+    "lng": 139.71525818362994,
+    "tabelog_rating": 3.35,
+    "personal_rating": 3.3,
+    "cuisine": "食堂",
+    "price_tier": 4,
+    "awards": [],
+    "tabelog_url": "https://tabelog.com/tokyo/A1305/A130502/13230764/",
+    "tags": [],
+    "notes": "",
+    "visited": true
+  },
+  {
+    "id": "005d8ef5-d18f-4e1d-a23c-24b089c53c3e",
+    "name": "PIZZERIA SPONTINI カスケード原宿店",
+    "address": "東京都渋谷区神宮前1-10-37 CASCADE HARAJUKU 2F",
+    "lat": 35.67007039870316,
+    "lng": 139.7037869743156,
+    "tabelog_rating": 3.49,
+    "personal_rating": null,
+    "cuisine": "ピザ",
+    "price_tier": 3,
+    "awards": [],
+    "tabelog_url": "https://tabelog.com/tokyo/A1306/A130601/13188197/",
+    "tags": [],
+    "notes": "",
+    "visited": false
+  },
+  {
+    "id": "e1199380-39e4-4076-9b36-f9830f1b1992",
+    "name": "ピザ スライス",
+    "address": "東京都渋谷区猿楽町1-3 代官山上新ビル 1F",
+    "lat": 35.65352453871409,
+    "lng": 139.70511255414758,
+    "tabelog_rating": 3.47,
+    "personal_rating": null,
+    "cuisine": "ピザ",
+    "price_tier": 2,
+    "awards": [
+      {
+        "type": "hyakumeiten",
+        "year": 2018,
+        "category": "Pizza"
+      },
+      {
+        "type": "hyakumeiten",
+        "year": 2017,
+        "category": "Pizza"
+      }
+    ],
+    "tabelog_url": "https://tabelog.com/tokyo/A1303/A130303/13164019/",
+    "tags": [],
+    "notes": "",
+    "visited": false
+  },
+  {
+    "id": "2bf4c106-6d95-495f-bf37-dfe3c4701e5a",
+    "name": "寿し芳",
+    "address": "新潟県妙高市田町1-5-1",
+    "lat": 37.022972117381975,
+    "lng": 138.2533251889979,
+    "tabelog_rating": 3.29,
+    "personal_rating": null,
+    "cuisine": "寿司",
+    "price_tier": 3,
+    "awards": [],
+    "tabelog_url": "https://tabelog.com/niigata/A1503/A150303/15004185/",
+    "tags": [],
+    "notes": "",
+    "visited": false
+  },
+  {
+    "id": "fe2ad5d1-0d53-4cf5-8f16-0c0bab62abbd",
+    "name": "ガストロノミー ジョエル・ロブション",
+    "address": "東京都目黒区三田1-13-1 恵比寿ガーデンプレイス",
+    "lat": 35.64193966872446,
+    "lng": 139.71459105402388,
+    "tabelog_rating": 4.44,
+    "personal_rating": null,
+    "cuisine": "フレンチ",
+    "price_tier": 4,
+    "awards": [
+      {
+        "type": "silver",
+        "year": 2026
+      },
+      {
+        "type": "hyakumeiten",
+        "year": 2025,
+        "category": "French"
+      },
+      {
+        "type": "silver",
+        "year": 2025
+      },
+      {
+        "type": "silver",
+        "year": 2024
+      },
+      {
+        "type": "silver",
+        "year": 2023
+      },
+      {
+        "type": "silver",
+        "year": 2022
+      },
+      {
+        "type": "silver",
+        "year": 2021
+      },
+      {
+        "type": "silver",
+        "year": 2020
+      },
+      {
+        "type": "silver",
+        "year": 2019
+      },
+      {
+        "type": "hyakumeiten",
+        "year": 2023,
+        "category": "French"
+      },
+      {
+        "type": "hyakumeiten",
+        "year": 2021,
+        "category": "French"
+      },
+      {
+        "type": "silver",
+        "year": 2018
+      },
+      {
+        "type": "silver",
+        "year": 2017
+      }
+    ],
+    "tabelog_url": "https://tabelog.com/tokyo/A1303/A130302/13009310/",
+    "tags": [],
+    "notes": "",
+    "visited": false
+  },
+  {
+    "id": "061b666e-5b71-4301-9fbc-23c6f4133a48",
+    "name": "梢",
+    "address": "東京都新宿区西新宿3-7-1-2 パークハイアット東京 40F",
+    "lat": 35.6861248686887,
+    "lng": 139.69040682448716,
+    "tabelog_rating": 3.57,
+    "personal_rating": 3.5,
+    "cuisine": "日本料理",
+    "price_tier": 4,
+    "awards": [
+      {
+        "type": "hyakumeiten",
+        "year": 2021,
+        "category": "Japanese"
+      }
+    ],
+    "tabelog_url": "https://tabelog.com/tokyo/A1304/A130401/13004206/",
+    "tags": [],
+    "notes": "",
+    "visited": true
+  },
+  {
+    "id": "971ddb9b-dc66-4964-aba9-868ef4888992",
+    "name": "YOSUL",
+    "address": "東京都新宿区百人町1-7-10 MIVIA新大久保ビル",
+    "lat": 35.7008153378773,
+    "lng": 139.7007739834665,
+    "tabelog_rating": 3.48,
+    "personal_rating": null,
+    "cuisine": "韓国料理",
+    "price_tier": 3,
+    "awards": [],
+    "tabelog_url": "https://tabelog.com/tokyo/A1304/A130404/13276126/",
+    "tags": [],
+    "notes": "",
+    "visited": false
+  },
+  {
+    "id": "25a04dec-3563-4187-9242-2997596290ac",
+    "name": "ダルビッマル",
+    "address": "東京都新宿区百人町1-1-4 T.Kビル B1F",
+    "lat": 35.69834513787907,
+    "lng": 139.7014172834411,
+    "tabelog_rating": 3.29,
+    "personal_rating": null,
+    "cuisine": "韓国料理",
+    "price_tier": 3,
+    "awards": [],
+    "tabelog_url": "https://tabelog.com/tokyo/A1304/A130401/13269890/",
+    "tags": [],
+    "notes": "",
+    "visited": false
+  },
+  {
+    "id": "7650eeb5-0d3f-4276-976f-710555e0f039",
+    "name": "コサム冷麺専門店",
+    "address": "東京都新宿区百人町1-1-26 第三サタケビル 1F",
+    "lat": 35.69865709868444,
+    "lng": 139.7020148646056,
+    "tabelog_rating": 3.47,
+    "personal_rating": null,
+    "cuisine": "韓国料理",
+    "price_tier": 3,
+    "awards": [],
+    "tabelog_url": "https://tabelog.com/tokyo/A1304/A130401/13194657/",
+    "tags": [],
+    "notes": "",
+    "visited": false
+  },
+  {
+    "id": "649844e4-3dce-46f0-b806-89bd12e1d413",
+    "name": "多摩川ダイナー",
+    "address": "東京都大田区田園調布1-55-20 浅間ビル5号",
+    "lat": 35.58718190998113,
+    "lng": 139.66869376392893,
+    "tabelog_rating": 3.49,
+    "personal_rating": null,
+    "cuisine": "洋食",
+    "price_tier": 3,
+    "awards": [],
+    "tabelog_url": "https://tabelog.com/tokyo/A1317/A131704/13156072/",
+    "tags": [],
+    "notes": "",
+    "visited": false
+  },
+  {
+    "id": "32cb3c61-c4ab-4558-bdea-602cc515b87b",
+    "name": "ヨーロッパ軒 総本店",
+    "address": "福井県福井市順化1-7-4",
+    "lat": 36.06408169734178,
+    "lng": 136.21478979074115,
+    "tabelog_rating": 3.68,
+    "personal_rating": null,
+    "cuisine": "洋食",
+    "price_tier": 2,
+    "awards": [
+      {
+        "type": "hyakumeiten",
+        "year": 2025,
+        "category": "Yoshoku"
+      },
+      {
+        "type": "hyakumeiten",
+        "year": 2023,
+        "category": "Yoshoku"
+      },
+      {
+        "type": "hyakumeiten",
+        "year": 2018,
+        "category": "Tonkatsu"
+      }
+    ],
+    "tabelog_url": "https://tabelog.com/fukui/A1801/A180101/18000015/",
+    "tags": [],
+    "notes": "",
+    "visited": false
+  },
+  {
+    "id": "bdeb7d31-8ffa-4e7f-b005-8327c18c303b",
+    "name": "バーキャラヴァン",
+    "address": "東京都中野区中野5-36-3 タカデン中野ビルB1",
+    "lat": 35.70737703786235,
+    "lng": 139.66688948355653,
+    "tabelog_rating": 3.28,
+    "personal_rating": null,
+    "cuisine": "バー",
+    "price_tier": 3,
+    "awards": [],
+    "tabelog_url": "https://tabelog.com/tokyo/A1319/A131902/13044551/",
+    "tags": [],
+    "notes": "",
+    "visited": false
+  },
+  {
+    "id": "9d96ba8e-1a77-40c0-952f-ff9f73cd07be",
+    "name": "SLICE of LIFE",
+    "address": "東京都渋谷区神宮前4-21-13",
+    "lat": 35.668355016331326,
+    "lng": 139.7084294381929,
+    "tabelog_rating": 3.19,
+    "personal_rating": null,
+    "cuisine": "バーベキュー",
+    "price_tier": 2,
+    "awards": [],
+    "tabelog_url": "https://tabelog.com/tokyo/A1306/A130601/13292511/",
+    "tags": [],
+    "notes": "",
+    "visited": false
+  },
+  {
+    "id": "e78142e1-7a6f-464b-b922-5ca25eb79a2f",
+    "name": "エビス バインミー ベーカリー",
+    "address": "東京都渋谷区恵比寿1-8-14",
+    "lat": 35.64791488871928,
+    "lng": 139.71021983408733,
+    "tabelog_rating": 3.49,
+    "personal_rating": null,
+    "cuisine": "ベトナム料理",
+    "price_tier": 1,
+    "awards": [],
+    "tabelog_url": "https://tabelog.com/tokyo/A1303/A130302/13211869/",
+    "tags": [],
+    "notes": "",
+    "visited": false
+  },
+  {
+    "id": "50b767b8-9115-409b-ac9c-f3c0f94e3de6",
+    "name": "はせ川",
+    "address": "東京都墨田区両国3-24-1 両国尾崎ビル　１０３",
+    "lat": 35.69503673791064,
+    "lng": 139.79395088334277,
+    "tabelog_rating": 3.73,
+    "personal_rating": null,
+    "cuisine": "とんかつ",
+    "price_tier": 3,
+    "awards": [
+      {
+        "type": "hyakumeiten",
+        "year": 2026,
+        "category": "Tonkatsu"
+      },
+      {
+        "type": "hyakumeiten",
+        "year": 2024,
+        "category": "Tonkatsu"
+      },
+      {
+        "type": "hyakumeiten",
+        "year": 2022,
+        "category": "Tonkatsu"
+      },
+      {
+        "type": "hyakumeiten",
+        "year": 2021,
+        "category": "Tonkatsu"
+      },
+      {
+        "type": "hyakumeiten",
+        "year": 2019,
+        "category": "Tonkatsu"
+      },
+      {
+        "type": "hyakumeiten",
+        "year": 2018,
+        "category": "Tonkatsu"
+      },
+      {
+        "type": "hyakumeiten",
+        "year": 2017,
+        "category": "Tonkatsu"
+      }
+    ],
+    "tabelog_url": "https://tabelog.com/tokyo/A1312/A131201/13019126/",
+    "tags": [],
+    "notes": "",
+    "visited": false
+  },
+  {
+    "id": "95602384-005e-4f5f-84af-7f28cbf4ac8a",
+    "name": "THE UPPER",
+    "address": "東京都千代田区丸の内1-3-4 丸の内テラス 10F",
+    "lat": 35.684418937907886,
+    "lng": 139.76409718325647,
+    "tabelog_rating": 3.49,
+    "personal_rating": null,
+    "cuisine": "フレンチ",
+    "price_tier": 4,
+    "awards": [],
+    "tabelog_url": "https://tabelog.com/tokyo/A1302/A130201/13251516/",
+    "tags": [],
+    "notes": "",
+    "visited": false
+  },
+  {
+    "id": "f8bcaa80-6996-401b-bc90-1aa741c470f4",
+    "name": "folk burgers&beers",
+    "address": "東京都千代田区神田神保町2-8-1 レフィール神保町1F",
+    "lat": 35.69683763789729,
+    "lng": 139.7555998833879,
+    "tabelog_rating": 3.73,
+    "personal_rating": null,
+    "cuisine": "ハンバーガー",
+    "price_tier": 3,
+    "awards": [
+      {
+        "type": "hyakumeiten",
+        "year": 2026,
+        "category": "Hamburger"
+      },
+      {
+        "type": "hyakumeiten",
+        "year": 2024,
+        "category": "Hamburger"
+      },
+      {
+        "type": "hyakumeiten",
+        "year": 2022,
+        "category": "Hamburger"
+      }
+    ],
+    "tabelog_url": "https://tabelog.com/tokyo/A1310/A131003/13224811/",
+    "tags": [],
+    "notes": "",
+    "visited": false
+  },
+  {
+    "id": "065a97a0-b83f-4cae-a4cc-e8307b1775b8",
+    "name": "八雲",
+    "address": "東京都目黒区東山3-6-15 エビヤビル 1F",
+    "lat": 35.65013949871042,
+    "lng": 139.68685468412616,
+    "tabelog_rating": 3.77,
+    "personal_rating": null,
+    "cuisine": "ラーメン",
+    "price_tier": 2,
+    "awards": [
+      {
+        "type": "hyakumeiten",
+        "year": 2020,
+        "category": "Ramen"
+      },
+      {
+        "type": "hyakumeiten",
+        "year": 2019,
+        "category": "Ramen"
+      },
+      {
+        "type": "hyakumeiten",
+        "year": 2018,
+        "category": "Ramen"
+      },
+      {
+        "type": "hyakumeiten",
+        "year": 2017,
+        "category": "Ramen"
+      }
+    ],
+    "tabelog_url": "https://tabelog.com/tokyo/A1317/A131705/13204333/",
+    "tags": [],
+    "notes": "",
+    "visited": false
+  },
+  {
+    "id": "9c35cff1-d2b3-4f40-824e-1c3b4e194b54",
+    "name": "SkiD",
+    "address": "富山県富山市総曲輪3-6-15-20 1F",
+    "lat": 36.68931529742838,
+    "lng": 137.21394820883944,
+    "tabelog_rating": 3.16,
+    "personal_rating": null,
+    "cuisine": "カフェ",
+    "price_tier": 2,
+    "awards": [],
+    "tabelog_url": "https://tabelog.com/toyama/A1601/A160101/16009973/",
+    "tags": [
+      "donuts"
+    ],
+    "notes": "",
+    "visited": false
+  },
+  {
+    "id": "b9019939-9107-4399-85e2-c09ffb4dd498",
+    "name": "冨久屋",
+    "address": "富山県富山市白銀町7-7 2F",
+    "lat": 36.690519636457886,
+    "lng": 137.21753589520412,
+    "tabelog_rating": 3.76,
+    "personal_rating": null,
+    "cuisine": "日本料理",
+    "price_tier": 4,
+    "awards": [
+      {
+        "type": "hyakumeiten",
+        "year": 2025,
+        "category": "Japanese"
+      }
+    ],
+    "tabelog_url": "https://tabelog.com/toyama/A1601/A160101/16007671/",
+    "tags": [],
+    "notes": "",
+    "visited": false
+  },
+  {
+    "id": "8805d995-f088-405b-80db-7fb07765eb59",
+    "name": "肉骨茶",
+    "address": "東京都北区上十条2-30-9",
+    "lat": 35.76134113784558,
+    "lng": 139.7218722840631,
+    "tabelog_rating": 3.45,
+    "personal_rating": null,
+    "cuisine": "マレーシア料理",
+    "price_tier": 3,
+    "awards": [],
+    "tabelog_url": "https://tabelog.com/tokyo/A1323/A132304/13164457/",
+    "tags": [],
+    "notes": "",
+    "visited": false
+  },
+  {
+    "id": "358ab328-9e5b-46fa-97d7-b79bd84630fd",
+    "name": "MR.CHICKEN鶏飯店 五反田店",
+    "address": "東京都品川区東五反田2-8-5 KNビル 1F",
+    "lat": 35.624782637933436,
+    "lng": 139.72541588268123,
+    "tabelog_rating": 3.44,
+    "personal_rating": null,
+    "cuisine": "シンガポール料理",
+    "price_tier": 3,
+    "awards": [],
+    "tabelog_url": "https://tabelog.com/tokyo/A1316/A131603/13213030/",
+    "tags": [],
+    "notes": "",
+    "visited": false
+  },
+  {
+    "id": "fb41f282-6a95-491e-892b-c34573f8fb0a",
+    "name": "松記鶏飯",
+    "address": "東京都千代田区神田司町2-15-1  パレヤソジマ 1F",
+    "lat": 35.69390246926736,
+    "lng": 139.76675786221645,
+    "tabelog_rating": 3.65,
+    "personal_rating": null,
+    "cuisine": "シンガポール料理",
+    "price_tier": 4,
+    "awards": [
+      {
+        "type": "hyakumeiten",
+        "year": 2026,
+        "category": "Asia_ethnic"
+      },
+      {
+        "type": "hyakumeiten",
+        "year": 2024,
+        "category": "Asia_ethnic"
+      }
+    ],
+    "tabelog_url": "https://tabelog.com/tokyo/A1310/A131002/13160030/",
+    "tags": [],
+    "notes": "",
+    "visited": false
+  },
+  {
+    "id": "3d6e9a2f-87d8-4b1e-910e-87bc2b78fcf6",
+    "name": "シンガポール ホリック ラクサ",
+    "address": "東京都渋谷区宇田川町37-15 ARISTO渋谷 2F",
+    "lat": 35.6625569378998,
+    "lng": 139.69511808308403,
+    "tabelog_rating": 3.4,
+    "personal_rating": null,
+    "cuisine": "シンガポール料理",
+    "price_tier": 3,
+    "awards": [],
+    "tabelog_url": "https://tabelog.com/tokyo/A1303/A130301/13266181/",
+    "tags": [],
+    "notes": "",
+    "visited": false
+  },
+  {
+    "id": "b0ae92e7-09f6-44e5-8292-70246217dcdf",
+    "name": "壱番隊",
+    "address": "東京都大田区西蒲田7丁目63-4",
+    "lat": 35.562017637969355,
+    "lng": 139.71300788205593,
+    "tabelog_rating": 3.45,
+    "personal_rating": null,
+    "cuisine": "食堂",
+    "price_tier": 2,
+    "awards": [],
+    "tabelog_url": "https://tabelog.com/tokyo/A1315/A131503/13044546/",
+    "tags": [],
+    "notes": "",
+    "visited": false
+  },
+  {
+    "id": "bdccb883-9a86-4b44-aa76-a9bd17af0201",
+    "name": "ザ・フレンチトーストファクトリー ヨドバシAkiba店",
+    "address": "東京都千代田区神田花岡町1-1 ヨドバシAkiba 8F",
+    "lat": 35.698673158707585,
+    "lng": 139.77474773455478,
+    "tabelog_rating": 3.66,
+    "personal_rating": null,
+    "cuisine": "カフェ",
+    "price_tier": 2,
+    "awards": [
+      {
+        "type": "hyakumeiten",
+        "year": 2025,
+        "category": "Cafe"
+      },
+      {
+        "type": "hyakumeiten",
+        "year": 2022,
+        "category": "Cafe"
+      }
+    ],
+    "tabelog_url": "https://tabelog.com/tokyo/A1310/A131001/13189295/",
+    "tags": [
+      "french toast"
+    ],
+    "notes": "",
+    "visited": false
+  },
+  {
+    "id": "842e9747-ccc3-43de-a478-9de66816533b",
+    "name": "Bee Cheng Hiang 美珍香",
+    "address": "東京都中央区銀座5-6-9",
+    "lat": 35.67079081872179,
+    "lng": 139.76373226428086,
+    "tabelog_rating": 3.18,
+    "personal_rating": null,
+    "cuisine": "シンガポール料理",
+    "price_tier": 3,
+    "awards": [],
+    "tabelog_url": "https://tabelog.com/tokyo/A1301/A130101/13200719/",
+    "tags": [],
+    "notes": "",
+    "visited": false
+  },
+  {
+    "id": "158ab634-a6f3-410e-aea7-2349369d3b8b",
+    "name": "モンキー カフェ",
+    "address": "東京都渋谷区猿楽町12-8",
+    "lat": 35.651068637909475,
+    "lng": 139.70263588296274,
+    "tabelog_rating": 3.46,
+    "personal_rating": null,
+    "cuisine": "カフェ",
+    "price_tier": 2,
+    "awards": [],
+    "tabelog_url": "https://tabelog.com/tokyo/A1303/A130303/13175597/",
+    "tags": [],
+    "notes": "",
+    "visited": false
+  },
+  {
+    "id": "62c0be93-3570-4f65-ba1c-8d5b39db1f99",
+    "name": "みつば養蜂 あきばちさん",
+    "address": "東京都千代田区神田佐久間町2-18 森本ビル 1F",
+    "lat": 35.69863143870795,
+    "lng": 139.77578128455363,
+    "tabelog_rating": 3.35,
+    "personal_rating": null,
+    "cuisine": "カフェ",
+    "price_tier": 1,
+    "awards": [],
+    "tabelog_url": "https://tabelog.com/tokyo/A1310/A131001/13309549/",
+    "tags": [
+      "ice cream"
+    ],
+    "notes": "",
+    "visited": false
+  },
+  {
+    "id": "a5e3f70f-b1c1-44e4-9646-9ae8a55bb259",
+    "name": "さすけ食堂",
+    "address": "千葉県富津市金谷2193-5",
+    "lat": 35.16735603905983,
+    "lng": 139.8212010891554,
+    "tabelog_rating": 3.65,
+    "personal_rating": 4.5,
+    "cuisine": "食堂",
+    "price_tier": 2,
+    "awards": [
+      {
+        "type": "hyakumeiten",
+        "year": 2026,
+        "category": "Shokudo"
+      },
+      {
+        "type": "hyakumeiten",
+        "year": 2024,
+        "category": "Shokudo"
+      },
+      {
+        "type": "hyakumeiten",
+        "year": 2021,
+        "category": "Teishoku"
+      }
+    ],
+    "tabelog_url": "https://tabelog.com/chiba/A1206/A120603/12014064/",
+    "tags": [],
+    "notes": "",
+    "visited": true
+  },
+  {
+    "id": "de6b6804-116e-4c64-ae78-dc2f630fc6a8",
+    "name": "シフク食堂",
+    "address": "東京都武蔵野市吉祥寺本町2-18-2",
+    "lat": 35.70433507864053,
+    "lng": 139.57548674475166,
+    "tabelog_rating": 3.46,
+    "personal_rating": 4.5,
+    "cuisine": "食堂",
+    "price_tier": 2,
+    "awards": [],
+    "tabelog_url": "https://tabelog.com/tokyo/A1320/A132001/13264059/",
+    "tags": [],
+    "notes": "",
+    "visited": true
+  },
+  {
+    "id": "72f8108b-2165-47a1-af08-22dd998440cf",
+    "name": "funny meal",
+    "address": "東京都杉並区高円寺南3-46-2 菅野ビル 2F",
+    "lat": 35.7034379286643,
+    "lng": 139.64831744469151,
+    "tabelog_rating": 3.09,
+    "personal_rating": null,
+    "cuisine": "カフェ",
+    "price_tier": 2,
+    "awards": [],
+    "tabelog_url": "https://tabelog.com/tokyo/A1319/A131904/13302229/",
+    "tags": [],
+    "notes": "",
+    "visited": false
+  },
+  {
+    "id": "6785dbe4-f901-49d9-92cc-d64f5fd65b31",
+    "name": "CACTUS BURRITO",
+    "address": "神奈川県川崎市高津区千年1045",
+    "lat": 35.584651637927564,
+    "lng": 139.6269418823449,
+    "tabelog_rating": 3.22,
+    "personal_rating": null,
+    "cuisine": "テックス・メックス",
+    "price_tier": 3,
+    "awards": [],
+    "tabelog_url": "https://tabelog.com/kanagawa/A1405/A140504/14014406/",
+    "tags": [],
+    "notes": "",
+    "visited": false
+  },
+  {
+    "id": "f5ce6324-cbec-49d8-8377-899b2bcbbdb1",
+    "name": "かにチャーハンの店 渋谷店",
+    "address": "東京都渋谷区宇田川町31-4 篠田ビル　３Ｆ",
+    "lat": 35.66128863790148,
+    "lng": 139.69786558306927,
+    "tabelog_rating": 3.46,
+    "personal_rating": null,
+    "cuisine": "中華料理",
+    "price_tier": 1,
+    "awards": [],
+    "tabelog_url": "https://tabelog.com/tokyo/A1303/A130301/13005407/",
+    "tags": [],
+    "notes": "",
+    "visited": false
+  },
+  {
+    "id": "00390299-d41d-4433-a7c0-dc280c8a3110",
+    "name": "金陵一絶 王氏湯包",
+    "address": "東京都豊島区西池袋1-35-1 カドビル 2F",
+    "lat": 35.73219783786034,
+    "lng": 139.71006938377698,
+    "tabelog_rating": 3.26,
+    "personal_rating": null,
+    "cuisine": "飲茶",
+    "price_tier": 2,
+    "awards": [],
+    "tabelog_url": "https://tabelog.com/tokyo/A1305/A130501/13269721/",
+    "tags": [],
+    "notes": "",
+    "visited": false
+  },
+  {
+    "id": "bd518bb1-a540-4be9-823d-732576ae2ba3",
+    "name": "横濱こてがえし",
+    "address": "神奈川県横浜市西区みなとみらい3-5-1 MARK IS みなとみらい 4F",
+    "lat": 35.45703663801024,
+    "lng": 139.63205658105224,
+    "tabelog_rating": 3.37,
+    "personal_rating": 3.1,
+    "cuisine": "お好み焼き",
+    "price_tier": 2,
+    "awards": [],
+    "tabelog_url": "https://tabelog.com/kanagawa/A1401/A140103/14051185/",
+    "tags": [],
+    "notes": "",
+    "visited": true
+  },
+  {
+    "id": "e14ae826-5793-4dcd-b806-2fbcaf9816f7",
+    "name": "bills 二子玉川",
+    "address": "東京都世田谷区玉川2-27-5 玉川高島屋S・Cマロニエコート 3F",
+    "lat": 35.615276848713826,
+    "lng": 139.62799800381526,
+    "tabelog_rating": 3.4,
+    "personal_rating": 3.1,
+    "cuisine": "オーストラリア料理",
+    "price_tier": 3,
+    "awards": [],
+    "tabelog_url": "https://tabelog.com/tokyo/A1317/A131708/13186194/",
+    "tags": [],
+    "notes": "",
+    "visited": true
+  },
+  {
+    "id": "0dc79a76-137a-4122-b4af-854fb6e7f90f",
+    "name": "農家ごはん つかだ食堂 武蔵小杉店",
+    "address": "神奈川県川崎市中原区小杉町3-430-6",
+    "lat": 35.574621337943995,
+    "lng": 139.65853538222143,
+    "tabelog_rating": 3.48,
+    "personal_rating": 3.6,
+    "cuisine": "食堂",
+    "price_tier": 3,
+    "awards": [],
+    "tabelog_url": "https://tabelog.com/kanagawa/A1405/A140504/14079576/",
+    "tags": [],
+    "notes": "",
+    "visited": true
+  },
+  {
+    "id": "b768d1c9-ea5b-4e8f-a262-af4a77d8a3d3",
+    "name": "酒場トリノ 渋谷店",
+    "address": "東京都渋谷区神南1-22-10 皆川ビル B1F",
+    "lat": 35.661446459696315,
+    "lng": 139.70104925808752,
+    "tabelog_rating": 3.23,
+    "personal_rating": 3.3,
+    "cuisine": "居酒屋",
+    "price_tier": 3,
+    "awards": [],
+    "tabelog_url": "https://tabelog.com/tokyo/A1303/A130301/13292537/",
+    "tags": [],
+    "notes": "",
+    "visited": true
+  },
+  {
+    "id": "b6fb8ca8-6c9d-483e-bd5b-4a902b0f3b14",
+    "name": "デビルクラフト 自由が丘店",
+    "address": "東京都目黒区自由が丘2-12-18 ジェイパーク自由が丘",
+    "lat": 35.607038637926216,
+    "lng": 139.66737308254267,
+    "tabelog_rating": 3.34,
+    "personal_rating": null,
+    "cuisine": "バー",
+    "price_tier": 3,
+    "awards": [],
+    "tabelog_url": "https://tabelog.com/tokyo/A1317/A131703/13236459/",
+    "tags": [
+      "beer"
+    ],
+    "notes": "",
+    "visited": false
+  },
+  {
+    "id": "02dd57a2-b45e-46f3-98fd-673a74010d14",
+    "name": "民記煲仔飯",
+    "address": "東京都豊島区西池袋1-29-7 池袋大野ビル 5F",
+    "lat": 35.73237264099125,
+    "lng": 139.71103674042487,
+    "tabelog_rating": 3.32,
+    "personal_rating": null,
+    "cuisine": "中華料理",
+    "price_tier": 3,
+    "awards": [],
+    "tabelog_url": "https://tabelog.com/tokyo/A1305/A130501/13291042/",
+    "tags": [],
+    "notes": "",
+    "visited": false
+  },
+  {
+    "id": "aeb190aa-4a2d-442a-8a17-d017513929de",
+    "name": "銀座 ラサ マレーシア",
+    "address": "東京都中央区銀座3-3-6 銀座モリタビル 5F",
+    "lat": 35.673119837915515,
+    "lng": 139.76553648314132,
+    "tabelog_rating": 3.45,
+    "personal_rating": 5,
+    "cuisine": "マレーシア料理",
+    "price_tier": 3,
+    "awards": [],
+    "tabelog_url": "https://tabelog.com/tokyo/A1301/A130101/13223152/",
+    "tags": [],
+    "notes": "",
+    "visited": true
+  },
+  {
+    "id": "fd123dd5-149e-4cb9-85c4-d04e42530b27",
+    "name": "SEZANNE",
+    "address": "東京都千代田区丸の内1-11-1 パシフィックセンチュリープレイス",
+    "lat": 35.67809685871815,
+    "lng": 139.76687913435245,
+    "tabelog_rating": 4.47,
+    "personal_rating": null,
+    "cuisine": "フレンチ",
+    "price_tier": 4,
+    "awards": [
+      {
+        "type": "silver",
+        "year": 2026
+      },
+      {
+        "type": "hyakumeiten",
+        "year": 2025,
+        "category": "French"
+      },
+      {
+        "type": "silver",
+        "year": 2025
+      },
+      {
+        "type": "silver",
+        "year": 2024
+      },
+      {
+        "type": "silver",
+        "year": 2023
+      },
+      {
+        "type": "hyakumeiten",
+        "year": 2023,
+        "category": "French"
+      }
+    ],
+    "tabelog_url": "https://tabelog.com/tokyo/A1302/A130201/13256878/",
+    "tags": [],
+    "notes": "",
+    "visited": false
+  },
+  {
+    "id": "3efc6bfc-ed33-4700-b5ee-fe6372ae18e7",
+    "name": "ロス タコス アスーレス",
+    "address": "東京都世田谷区上馬1-17-9",
+    "lat": 35.63835373790658,
+    "lng": 139.66812608285846,
+    "tabelog_rating": 3.77,
+    "personal_rating": null,
+    "cuisine": "メキシコ料理",
+    "price_tier": 2,
+    "awards": [
+      {
+        "type": "hyakumeiten",
+        "year": 2026,
+        "category": "Asia_ethnic"
+      },
+      {
+        "type": "hyakumeiten",
+        "year": 2024,
+        "category": "Asia_ethnic"
+      },
+      {
+        "type": "hyakumeiten",
+        "year": 2023,
+        "category": "Asia_ethnic"
+      }
+    ],
+    "tabelog_url": "https://tabelog.com/tokyo/A1317/A131706/13227066/",
+    "tags": [],
+    "notes": "",
+    "visited": false
+  },
+  {
+    "id": "ca201955-0da8-4f77-9f95-2e8fb0fac399",
+    "name": "タコ ファナティコ",
+    "address": "東京都目黒区上目黒1-5-10 中目黒マンション 1F",
+    "lat": 35.64473483791278,
+    "lng": 139.70034248290034,
+    "tabelog_rating": 3.46,
+    "personal_rating": 3.3,
+    "cuisine": "メキシコ料理",
+    "price_tier": 3,
+    "awards": [],
+    "tabelog_url": "https://tabelog.com/tokyo/A1317/A131701/13227083/",
+    "tags": [],
+    "notes": "",
+    "visited": true
+  },
+  {
+    "id": "c32e7cea-8cc0-48b8-b7dd-04311c024200",
+    "name": "MIL TACOS",
+    "address": "東京都渋谷区笹塚3-17-4",
+    "lat": 35.67694696868728,
+    "lng": 139.6676558244104,
+    "tabelog_rating": 3.39,
+    "personal_rating": null,
+    "cuisine": "メキシコ料理",
+    "price_tier": 3,
+    "awards": [],
+    "tabelog_url": "https://tabelog.com/tokyo/A1318/A131808/13275324/",
+    "tags": [],
+    "notes": "",
+    "visited": false
+  },
+  {
+    "id": "31da3a00-e09a-40a0-8034-9320882cf48d",
+    "name": "エルカラコル",
+    "address": "東京都新宿区四谷4-10 金子ビル 1F",
+    "lat": 35.688296208695746,
+    "lng": 139.71685466449057,
+    "tabelog_rating": 3.29,
+    "personal_rating": null,
+    "cuisine": "メキシコ料理",
+    "price_tier": 4,
+    "awards": [],
+    "tabelog_url": "https://tabelog.com/tokyo/A1304/A130402/13228689/",
+    "tags": [],
+    "notes": "",
+    "visited": false
+  },
+  {
+    "id": "498c544b-4d85-4957-bff8-4a491505c9de",
+    "name": "北海道バル ラベンダーキッチン",
+    "address": "東京都目黒区自由が丘1-10-5 タイガービル 3F",
+    "lat": 35.60774473792634,
+    "lng": 139.66915468254857,
+    "tabelog_rating": 3.27,
+    "personal_rating": null,
+    "cuisine": "スープカレー",
+    "price_tier": 3,
+    "awards": [],
+    "tabelog_url": "https://tabelog.com/tokyo/A1317/A131703/13169085/",
+    "tags": [],
+    "notes": "",
+    "visited": false
+  },
+  {
+    "id": "6e6f6ea4-4f8d-472e-bbae-4110748185f7",
+    "name": "豆腐料理 空野 渋谷",
+    "address": "東京都渋谷区桜丘町4-17 チェリーガーデン 1F",
+    "lat": 35.654808608712884,
+    "lng": 139.70387014416139,
+    "tabelog_rating": 3.51,
+    "personal_rating": null,
+    "cuisine": "豆腐料理",
+    "price_tier": 3,
+    "awards": [],
+    "tabelog_url": "https://tabelog.com/tokyo/A1303/A130301/13005182/",
+    "tags": [],
+    "notes": "",
+    "visited": false
+  },
+  {
+    "id": "b7f3a309-093b-4997-958a-9c0687a91ccd",
+    "name": "鳥光國 新横浜キュービックプラザ店",
+    "address": "神奈川県横浜市港北区新横浜2-100-45 キュービックプラザ新横浜 10F",
+    "lat": 35.507828168778715,
+    "lng": 139.61745619273734,
+    "tabelog_rating": 3.4,
+    "personal_rating": 3.3,
+    "cuisine": "居酒屋",
+    "price_tier": 3,
+    "awards": [],
+    "tabelog_url": "https://tabelog.com/kanagawa/A1401/A140206/14072205/",
+    "tags": [],
+    "notes": "",
+    "visited": true
+  },
+  {
+    "id": "1fd7fc03-d1de-4427-b281-d37ace0272e2",
+    "name": "お好み焼き もり",
+    "address": "岡山県岡山市北区奉還町1-6-9",
+    "lat": 34.66966533669054,
+    "lng": 133.91788677710457,
+    "tabelog_rating": 3.66,
+    "personal_rating": null,
+    "cuisine": "お好み焼き",
+    "price_tier": 4,
+    "awards": [
+      {
+        "type": "hyakumeiten",
+        "year": 2025,
+        "category": "Okonomiyaki"
+      },
+      {
+        "type": "hyakumeiten",
+        "year": 2024,
+        "category": "Okonomiyaki"
+      },
+      {
+        "type": "hyakumeiten",
+        "year": 2019,
+        "category": "Okonomiyaki"
+      },
+      {
+        "type": "hyakumeiten",
+        "year": 2018,
+        "category": "Okonomiyaki"
+      }
+    ],
+    "tabelog_url": "https://tabelog.com/okayama/A3301/A330101/33000348/",
+    "tags": [],
+    "notes": "",
+    "visited": false
+  },
+  {
+    "id": "140cb877-8d5c-4029-bb2c-8c521fb99adc",
+    "name": "茶寮 風花",
+    "address": "神奈川県鎌倉市山ノ内291",
+    "lat": 35.33568132886666,
+    "lng": 139.55033012104553,
+    "tabelog_rating": 3.32,
+    "personal_rating": null,
+    "cuisine": "カフェ",
+    "price_tier": 2,
+    "awards": [],
+    "tabelog_url": "https://tabelog.com/kanagawa/A1404/A140401/14000264/",
+    "tags": [
+      "matcha"
+    ],
+    "notes": "",
+    "visited": false
+  },
+  {
+    "id": "84f0f183-387f-4a17-b045-01b197c70b4c",
+    "name": "茂園 台湾美食",
+    "address": "神奈川県横浜市中区山下町220",
+    "lat": 35.44223953802351,
+    "lng": 139.64420048089428,
+    "tabelog_rating": 3.36,
+    "personal_rating": 4,
+    "cuisine": "台湾料理",
+    "price_tier": 3,
+    "awards": [],
+    "tabelog_url": "https://tabelog.com/kanagawa/A1401/A140105/14080188/",
+    "tags": [],
+    "notes": "",
+    "visited": true
+  },
+  {
+    "id": "aff11442-13ab-475f-8616-f23094741ce0",
+    "name": "格安ビールと鉄鍋餃子 3・6・5酒場 渋谷本店",
+    "address": "東京都渋谷区神南1-22-10 皆川ビル 2F",
+    "lat": 35.66145563790239,
+    "lng": 139.70105828306873,
+    "tabelog_rating": 3.08,
+    "personal_rating": 3.3,
+    "cuisine": "居酒屋",
+    "price_tier": 2,
+    "awards": [],
+    "tabelog_url": "https://tabelog.com/tokyo/A1303/A130301/13218238/",
+    "tags": [],
+    "notes": "",
+    "visited": true
+  },
+  {
+    "id": "509ddeba-86c8-4e66-bff7-683d557b2eef",
+    "name": "デリリウムカフェ 銀座",
+    "address": "東京都中央区銀座5-9-5 チアーズ銀座 1F",
+    "lat": 35.67021703791738,
+    "lng": 139.76564458311194,
+    "tabelog_rating": 3.47,
+    "personal_rating": null,
+    "cuisine": "イタリアン",
+    "price_tier": 3,
+    "awards": [],
+    "tabelog_url": "https://tabelog.com/tokyo/A1301/A130101/13181042/",
+    "tags": [],
+    "notes": "",
+    "visited": false
+  },
+  {
+    "id": "a4ce9c30-6f5d-40dc-af8c-134eaa8f642c",
+    "name": "秋吉 福井駅前店",
+    "address": "福井県福井市大手2-5-16",
+    "lat": 36.06310853734501,
+    "lng": 136.2229749607256,
+    "tabelog_rating": 3.27,
+    "personal_rating": null,
+    "cuisine": "焼き鳥",
+    "price_tier": 3,
+    "awards": [],
+    "tabelog_url": "https://tabelog.com/fukui/A1801/A180101/18000735/",
+    "tags": [],
+    "notes": "",
+    "visited": false
+  },
+  {
+    "id": "efbb9e66-a63c-4414-b854-4ec9dedeb939",
+    "name": "Chillmatic Hamburger & Bistro",
+    "address": "東京都渋谷区神山町11-10 梅澤ビル 1F",
+    "lat": 35.663010079382914,
+    "lng": 139.69464307279108,
+    "tabelog_rating": 3.66,
+    "personal_rating": null,
+    "cuisine": "ハンバーガー",
+    "price_tier": 3,
+    "awards": [
+      {
+        "type": "hyakumeiten",
+        "year": 2026,
+        "category": "Hamburger"
+      }
+    ],
+    "tabelog_url": "https://tabelog.com/tokyo/A1303/A130301/13304969/",
+    "tags": [],
+    "notes": "",
+    "visited": false
+  },
+  {
+    "id": "12b74a69-3b51-4ae6-ad75-beffdda71006",
+    "name": "フリーマン食堂",
+    "address": "東京都渋谷区西原2-27-4",
+    "lat": 35.67524373788641,
+    "lng": 139.67836498322393,
+    "tabelog_rating": 3.52,
+    "personal_rating": null,
+    "cuisine": "バーベキュー",
+    "price_tier": 3,
+    "awards": [],
+    "tabelog_url": "https://tabelog.com/tokyo/A1318/A131807/13252896/",
+    "tags": [],
+    "notes": "",
+    "visited": false
+  },
+  {
+    "id": "3104818d-13d3-4398-b595-552d2cfa6195",
+    "name": "Smokemanship KARUIZAWA",
+    "address": "長野県北佐久郡軽井沢町軽井沢859-1",
+    "lat": 36.35765423792654,
+    "lng": 138.63641869200904,
+    "tabelog_rating": 3.21,
+    "personal_rating": null,
+    "cuisine": "ハンバーガー",
+    "price_tier": 2,
+    "awards": [],
+    "tabelog_url": "https://tabelog.com/nagano/A2003/A200301/20027776/",
+    "tags": [],
+    "notes": "",
+    "visited": false
+  },
+  {
+    "id": "61a87bd8-bf53-490b-ab29-6e2de6c86a4a",
+    "name": "kasiki",
+    "address": "東京都渋谷区西原1-13-2",
+    "lat": 35.67452763788747,
+    "lng": 139.6802925832153,
+    "tabelog_rating": 3.56,
+    "personal_rating": 3.4,
+    "cuisine": "カフェ",
+    "price_tier": 2,
+    "awards": [],
+    "tabelog_url": "https://tabelog.com/tokyo/A1318/A131807/13278143/",
+    "tags": [
+      "gelato"
+    ],
+    "notes": "",
+    "visited": true
+  },
+  {
+    "id": "7bac6988-fd39-42c8-8ba8-80183ed7ff7f",
+    "name": "yum",
+    "address": "東京都渋谷区幡ヶ谷1-6-5 幡ヶ谷コーエイマンション 1F",
+    "lat": 35.67625837683476,
+    "lng": 139.67428808816356,
+    "tabelog_rating": 3.57,
+    "personal_rating": null,
+    "cuisine": "中華料理",
+    "price_tier": 4,
+    "awards": [],
+    "tabelog_url": "https://tabelog.com/tokyo/A1318/A131807/13301261/",
+    "tags": [],
+    "notes": "",
+    "visited": false
+  },
+  {
+    "id": "b7d156cf-2f5d-4bbb-b727-c45d2cf42800",
+    "name": "トトト",
+    "address": "東京都中野区中野5-57-5",
+    "lat": 35.708427037861576,
+    "lng": 139.66657578356737,
+    "tabelog_rating": 3.59,
+    "personal_rating": null,
+    "cuisine": "ピザ",
+    "price_tier": 3,
+    "awards": [],
+    "tabelog_url": "https://tabelog.com/tokyo/A1319/A131902/13268651/",
+    "tags": [],
+    "notes": "",
+    "visited": false
+  },
+  {
+    "id": "b0ae1abc-e605-4c1b-8b33-d513d3af4e91",
+    "name": "かんから食堂",
+    "address": "東京都渋谷区渋谷3-18-6 MJ3.18ビル 1F",
+    "lat": 35.657240844582255,
+    "lng": 139.7036920100192,
+    "tabelog_rating": 3.44,
+    "personal_rating": null,
+    "cuisine": "沖縄そば",
+    "price_tier": 2,
+    "awards": [],
+    "tabelog_url": "https://tabelog.com/tokyo/A1303/A130301/13203062/",
+    "tags": [],
+    "notes": "",
+    "visited": false
+  },
+  {
+    "id": "08d24ec1-9949-4844-8b7c-2f6ef92f894c",
+    "name": "THE BELCOMO",
+    "address": "東京都港区北青山2-14-4 THE AOYAMA GRAND HOTEL 4F",
+    "lat": 35.669537437902,
+    "lng": 139.71595918313992,
+    "tabelog_rating": 3.58,
+    "personal_rating": null,
+    "cuisine": "洋食",
+    "price_tier": 4,
+    "awards": [],
+    "tabelog_url": "https://tabelog.com/tokyo/A1306/A130603/13249631/",
+    "tags": [
+      "pancakes"
+    ],
+    "notes": "",
+    "visited": false
+  },
+  {
+    "id": "14b0c48c-2c22-4dbc-8bf8-f0fa9557b0d5",
+    "name": "ヨゴロウ",
+    "address": "東京都渋谷区神宮前2-20-10 小松ビル 1F",
+    "lat": 35.67425898870278,
+    "lng": 139.7109559543529,
+    "tabelog_rating": 3.79,
+    "personal_rating": null,
+    "cuisine": "カレー",
+    "price_tier": 2,
+    "awards": [
+      {
+        "type": "hyakumeiten",
+        "year": 2026,
+        "category": "Curry"
+      },
+      {
+        "type": "hyakumeiten",
+        "year": 2024,
+        "category": "Curry"
+      },
+      {
+        "type": "hyakumeiten",
+        "year": 2023,
+        "category": "Curry"
+      },
+      {
+        "type": "hyakumeiten",
+        "year": 2022,
+        "category": "Curry"
+      },
+      {
+        "type": "hyakumeiten",
+        "year": 2020,
+        "category": "Curry"
+      },
+      {
+        "type": "hyakumeiten",
+        "year": 2019,
+        "category": "Curry"
+      }
+    ],
+    "tabelog_url": "https://tabelog.com/tokyo/A1306/A130601/13076645/",
+    "tags": [],
+    "notes": "",
+    "visited": false
+  },
+  {
+    "id": "04944d74-3920-42db-a733-963e4108e5ad",
+    "name": "LINA STORES",
+    "address": "東京都港区北青山3-10-5 スプリングテラス表参道 1F",
+    "lat": 35.66448963728552,
+    "lng": 139.71076775529835,
+    "tabelog_rating": 3.49,
+    "personal_rating": null,
+    "cuisine": "イタリアン",
+    "price_tier": 2,
+    "awards": [],
+    "tabelog_url": "https://tabelog.com/tokyo/A1306/A130602/13261306/",
+    "tags": [],
+    "notes": "",
+    "visited": false
+  },
+  {
+    "id": "3cdde2c1-5fed-4199-a378-c67380c1a89d",
+    "name": "GRIN",
+    "address": "東京都新宿区新宿1-6-3 新宿御苑フロント 1F",
+    "lat": 35.68817955869368,
+    "lng": 139.71015361449406,
+    "tabelog_rating": 3.61,
+    "personal_rating": null,
+    "cuisine": "イタリアン",
+    "price_tier": 4,
+    "awards": [],
+    "tabelog_url": "https://tabelog.com/tokyo/A1304/A130402/13297606/",
+    "tags": [],
+    "notes": "",
+    "visited": false
+  },
+  {
+    "id": "e9147ea2-e16d-45e0-937d-ea33241fb065",
+    "name": "手打ち蕎麦 欅",
+    "address": "東京都港区六本木6-10-1 六本木ヒルズウェストウォーク 5F",
+    "lat": 35.660669837911854,
+    "lng": 139.72921128304105,
+    "tabelog_rating": 3.44,
+    "personal_rating": null,
+    "cuisine": "そば",
+    "price_tier": 3,
+    "awards": [],
+    "tabelog_url": "https://tabelog.com/tokyo/A1307/A130701/13254246/",
+    "tags": [],
+    "notes": "",
+    "visited": false
+  },
+  {
+    "id": "6c6995c1-a8a1-418e-a204-555fdd1b48cb",
+    "name": "DRAエイトマン",
+    "address": "東京都渋谷区神宮前6-20-10 MIYASHITA PARK North 3F",
+    "lat": 35.662834668707134,
+    "lng": 139.7018395942439,
+    "tabelog_rating": 3.48,
+    "personal_rating": null,
+    "cuisine": "イタリアン",
+    "price_tier": 3,
+    "awards": [],
+    "tabelog_url": "https://tabelog.com/tokyo/A1303/A130301/13247815/",
+    "tags": [],
+    "notes": "",
+    "visited": false
+  },
+  {
+    "id": "c1ada2ea-25da-43a9-bb43-c1e95f34c935",
+    "name": "肉オムライス専門店 肉とたまご 新宿店",
+    "address": "東京都新宿区新宿3-34-3 第31東京ビル1F",
+    "lat": 35.69029643788463,
+    "lng": 139.70283018335883,
+    "tabelog_rating": 3.44,
+    "personal_rating": 3.4,
+    "cuisine": "オムライス",
+    "price_tier": 2,
+    "awards": [],
+    "tabelog_url": "https://tabelog.com/tokyo/A1304/A130401/13279721/",
+    "tags": [],
+    "notes": "",
+    "visited": true
+  },
+  {
+    "id": "a884a7a6-0cd4-445f-8248-eecbc884296b",
+    "name": "Tea＆Cake Grace",
+    "address": "東京都杉並区西荻南3-16-6",
+    "lat": 35.70345810864946,
+    "lng": 139.60176941472437,
+    "tabelog_rating": 3.64,
+    "personal_rating": null,
+    "cuisine": "カフェ",
+    "price_tier": 2,
+    "awards": [],
+    "tabelog_url": "https://tabelog.com/tokyo/A1319/A131907/13006640/",
+    "tags": [],
+    "notes": "",
+    "visited": false
+  },
+  {
+    "id": "51fe43a7-4693-4cc3-8705-20b207d06c2d",
+    "name": "西荻窪 サイコロ",
+    "address": "東京都杉並区西荻南3-24-1",
+    "lat": 35.70379809733081,
+    "lng": 139.60125592364116,
+    "tabelog_rating": 3.38,
+    "personal_rating": null,
+    "cuisine": "アジア",
+    "price_tier": 3,
+    "awards": [],
+    "tabelog_url": "https://tabelog.com/tokyo/A1319/A131907/13247236/",
+    "tags": [],
+    "notes": "",
+    "visited": false
+  },
+  {
+    "id": "9832047c-4ff4-4687-a869-72fa05d5303f",
+    "name": "東京 土山人",
+    "address": "東京都目黒区青葉台3-19-8",
+    "lat": 35.65008793790654,
+    "lng": 139.69144188296065,
+    "tabelog_rating": 3.68,
+    "personal_rating": null,
+    "cuisine": "そば",
+    "price_tier": 3,
+    "awards": [
+      {
+        "type": "hyakumeiten",
+        "year": 2025,
+        "category": "Soba"
+      },
+      {
+        "type": "hyakumeiten",
+        "year": 2024,
+        "category": "Soba"
+      },
+      {
+        "type": "hyakumeiten",
+        "year": 2021,
+        "category": "Soba"
+      }
+    ],
+    "tabelog_url": "https://tabelog.com/tokyo/A1317/A131705/13047472/",
+    "tags": [],
+    "notes": "",
+    "visited": false
+  },
+  {
+    "id": "2220928d-3956-4de0-a7c5-2802117819b3",
+    "name": "コーヒー スプリーム トウキョウ",
+    "address": "東京都渋谷区神山町42-3 1F",
+    "lat": 35.665532318702404,
+    "lng": 139.6923429542778,
+    "tabelog_rating": 3.42,
+    "personal_rating": null,
+    "cuisine": "カフェ",
+    "price_tier": 1,
+    "awards": [],
+    "tabelog_url": "https://tabelog.com/tokyo/A1318/A131810/13214675/",
+    "tags": [],
+    "notes": "",
+    "visited": false
+  },
+  {
+    "id": "fbe0f223-8e30-4ffa-9b5d-5a56951ba573",
+    "name": "鏡花",
+    "address": "東京都立川市柴崎町2-12-20",
+    "lat": 35.69622613778772,
+    "lng": 139.41032828362373,
+    "tabelog_rating": 3.7,
+    "personal_rating": 4.5,
+    "cuisine": "ラーメン",
+    "price_tier": 2,
+    "awards": [],
+    "tabelog_url": "https://tabelog.com/tokyo/A1329/A132901/13005986/",
+    "tags": [],
+    "notes": "",
+    "visited": true
+  },
+  {
+    "id": "a8181ccc-b20c-4b76-8c6a-e78939ad8c84",
+    "name": "シシリヤ",
+    "address": "神奈川県横浜市中区相生町1-7 和同ビル　１Ｆ",
+    "lat": 35.44613623801946,
+    "lng": 139.63927608093712,
+    "tabelog_rating": 3.74,
+    "personal_rating": null,
+    "cuisine": "ピザ",
+    "price_tier": 3,
+    "awards": [
+      {
+        "type": "hyakumeiten",
+        "year": 2025,
+        "category": "Pizza"
+      },
+      {
+        "type": "bronze",
+        "year": 2018
+      },
+      {
+        "type": "bronze",
+        "year": 2017
+      },
+      {
+        "type": "hyakumeiten",
+        "year": 2023,
+        "category": "Pizza"
+      },
+      {
+        "type": "hyakumeiten",
+        "year": 2021,
+        "category": "Pizza"
+      },
+      {
+        "type": "hyakumeiten",
+        "year": 2019,
+        "category": "Pizza"
+      },
+      {
+        "type": "hyakumeiten",
+        "year": 2018,
+        "category": "Pizza"
+      },
+      {
+        "type": "hyakumeiten",
+        "year": 2017,
+        "category": "Pizza"
+      }
+    ],
+    "tabelog_url": "https://tabelog.com/kanagawa/A1401/A140104/14001040/",
+    "tags": [],
+    "notes": "",
+    "visited": false
+  },
+  {
+    "id": "1628ce0d-578e-497b-9e25-7ea37b3474b8",
+    "name": "骨付鳥 一鶴 高松店",
+    "address": "香川県高松市鍛冶屋町4-11",
+    "lat": 34.34307598774498,
+    "lng": 134.04863021487583,
+    "tabelog_rating": 3.69,
+    "personal_rating": null,
+    "cuisine": "鳥料理",
+    "price_tier": 3,
+    "awards": [
+      {
+        "type": "hyakumeiten",
+        "year": 2025,
+        "category": "Toriryori"
+      }
+    ],
+    "tabelog_url": "https://tabelog.com/kagawa/A3701/A370101/37000546/",
+    "tags": [],
+    "notes": "",
+    "visited": false
+  },
+  {
+    "id": "5d715b46-60a0-4883-b4f9-a3dbe359d83a",
+    "name": "焼肉 哲 立川本店",
+    "address": "東京都立川市柴崎町2-3-3 MSTビル 1F",
+    "lat": 35.6964970377879,
+    "lng": 139.41142328362568,
+    "tabelog_rating": 3.33,
+    "personal_rating": 3.8,
+    "cuisine": "焼肉",
+    "price_tier": 3,
+    "awards": [],
+    "tabelog_url": "https://tabelog.com/tokyo/A1329/A132901/13217411/",
+    "tags": [],
+    "notes": "",
+    "visited": true
+  },
+  {
+    "id": "d766ac5f-3144-4d3a-8914-ceda4f58b97f",
+    "name": "パンク ドイリー",
+    "address": "東京都世田谷区尾山台3-28-21",
+    "lat": 35.605162278729594,
+    "lng": 139.65735404369252,
+    "tabelog_rating": 3.35,
+    "personal_rating": 4,
+    "cuisine": "オーストラリア料理",
+    "price_tier": 1,
+    "awards": [],
+    "tabelog_url": "https://tabelog.com/tokyo/A1317/A131703/13237061/",
+    "tags": [
+      "pie"
+    ],
+    "notes": "",
+    "visited": true
+  },
+  {
+    "id": "bd244582-4a2c-432f-97af-90e8cb13ec68",
+    "name": "香港 贊記茶餐廳 飯田橋店",
+    "address": "東京都千代田区飯田橋3-4-1 マンワイビル 1F",
+    "lat": 35.700832337892344,
+    "lng": 139.74805978343352,
+    "tabelog_rating": 3.49,
+    "personal_rating": null,
+    "cuisine": "飲茶",
+    "price_tier": 3,
+    "awards": [],
+    "tabelog_url": "https://tabelog.com/tokyo/A1309/A130905/13180131/",
+    "tags": [],
+    "notes": "",
+    "visited": false
+  },
+  {
+    "id": "c1bb272b-e938-4d44-b7ec-8f5952ef6616",
+    "name": "チャモロ",
+    "address": "東京都渋谷区恵比寿南1-2-8 雨宮ビル　Ｂ１Ｆ",
+    "lat": 35.64602543791432,
+    "lng": 139.7077121829082,
+    "tabelog_rating": 3.49,
+    "personal_rating": null,
+    "cuisine": "洋食",
+    "price_tier": 2,
+    "awards": [
+      {
+        "type": "hyakumeiten",
+        "year": 2022,
+        "category": "Yoshoku"
+      },
+      {
+        "type": "hyakumeiten",
+        "year": 2020,
+        "category": "Yoshoku"
+      }
+    ],
+    "tabelog_url": "https://tabelog.com/tokyo/A1303/A130302/13003160/",
+    "tags": [],
+    "notes": "",
+    "visited": false
+  },
+  {
+    "id": "f5e5a4a2-4d5f-4fb5-adf9-50b76f607240",
+    "name": "Sweet Check",
+    "address": "東京都港区南青山3-18-5 さくらアパートメント 1F",
+    "lat": 35.66489547708926,
+    "lng": 139.71362333279066,
+    "tabelog_rating": 3.48,
+    "personal_rating": null,
+    "cuisine": "オムライス",
+    "price_tier": 2,
+    "awards": [],
+    "tabelog_url": "https://tabelog.com/tokyo/A1306/A130602/13293970/",
+    "tags": [],
+    "notes": "",
+    "visited": false
+  },
+  {
+    "id": "256636d2-4837-4343-bdc4-4d1271cc9e3c",
+    "name": "はんばーぐ&おむらいすのお店 いくら 渋谷店",
+    "address": "東京都渋谷区円山町5-3 MIEUXビル 1F",
+    "lat": 35.65703905718135,
+    "lng": 139.69554436263783,
+    "tabelog_rating": 3.42,
+    "personal_rating": null,
+    "cuisine": "オムライス",
+    "price_tier": 2,
+    "awards": [],
+    "tabelog_url": "https://tabelog.com/tokyo/A1303/A130301/13297345/",
+    "tags": [],
+    "notes": "",
+    "visited": false
+  },
+  {
+    "id": "bdfeed4f-730d-43eb-97de-8ee3fa54892b",
+    "name": "ゴールド ラッシュ 新宿東口店",
+    "address": "東京都新宿区新宿3-23-1 新宿ターミナルビル B1F",
+    "lat": 35.69269316868783,
+    "lng": 139.70075979454623,
+    "tabelog_rating": 3.44,
+    "personal_rating": null,
+    "cuisine": "ハンバーグ",
+    "price_tier": 2,
+    "awards": [],
+    "tabelog_url": "https://tabelog.com/tokyo/A1304/A130401/13112706/",
+    "tags": [],
+    "notes": "",
+    "visited": false
+  },
+  {
+    "id": "1ae03140-9a4d-4e5e-8759-723651881ee6",
+    "name": "炭火焼 生ラム ジンギスカン だるまや 新宿西口本店",
+    "address": "東京都新宿区西新宿1-15-7 西口ライフビル　２Ｆ",
+    "lat": 35.688758358689185,
+    "lng": 139.697179514509,
+    "tabelog_rating": 3.63,
+    "personal_rating": null,
+    "cuisine": "ジンギスカン",
+    "price_tier": 4,
+    "awards": [],
+    "tabelog_url": "https://tabelog.com/tokyo/A1304/A130401/13011959/",
+    "tags": [],
+    "notes": "",
+    "visited": false
+  },
+  {
+    "id": "f7e9ba05-9b2e-4dfc-bf23-e7378b0d59ca",
+    "name": "極味や 渋谷パルコ店",
+    "address": "東京都渋谷区宇田川町15-1 渋谷パルコ B1F",
+    "lat": 35.66195153790137,
+    "lng": 139.69887348307526,
+    "tabelog_rating": 3.37,
+    "personal_rating": null,
+    "cuisine": "ハンバーグ",
+    "price_tier": 2,
+    "awards": [],
+    "tabelog_url": "https://tabelog.com/tokyo/A1303/A130301/13241227/",
+    "tags": [],
+    "notes": "",
+    "visited": false
+  },
+  {
+    "id": "ee241ef0-d490-490b-abef-208701283719",
+    "name": "リトル リマ",
+    "address": "東京都港区南青山5-12-2 倉沢ビル　Ｂ１Ｆ",
+    "lat": 35.66176604871134,
+    "lng": 139.7129338342253,
+    "tabelog_rating": 3.52,
+    "personal_rating": null,
+    "cuisine": "ステーキ",
+    "price_tier": 4,
+    "awards": [],
+    "tabelog_url": "https://tabelog.com/tokyo/A1306/A130602/13013627/",
+    "tags": [],
+    "notes": "",
+    "visited": false
+  },
+  {
+    "id": "edc1d447-38a0-469a-9a9d-41b8db969169",
+    "name": "ハンバーグとはんばーぐ",
+    "address": "東京都渋谷区渋谷1-24-7 渋谷宮下パークビル 1F",
+    "lat": 35.66053333790325,
+    "lng": 139.70197578305877,
+    "tabelog_rating": 3.47,
+    "personal_rating": 3.4,
+    "cuisine": "ハンバーグ",
+    "price_tier": 2,
+    "awards": [],
+    "tabelog_url": "https://tabelog.com/tokyo/A1303/A130301/13278742/",
+    "tags": [],
+    "notes": "",
+    "visited": true
+  },
+  {
+    "id": "ed399a7a-bca5-4088-9876-d190d0709686",
+    "name": "銀座 日東コーナー 1948",
+    "address": "東京都中央区銀座1-27-10 ザアソシエイトビル 1F",
+    "lat": 35.673005137917684,
+    "lng": 139.77213408313557,
+    "tabelog_rating": 3.45,
+    "personal_rating": null,
+    "cuisine": "洋食",
+    "price_tier": 4,
+    "awards": [],
+    "tabelog_url": "https://tabelog.com/tokyo/A1302/A130202/13114758/",
+    "tags": [],
+    "notes": "",
+    "visited": false
+  },
+  {
+    "id": "50ee777f-7ba8-478b-bc82-e5ae88ad04fa",
+    "name": "ソムオー 新大久保店",
+    "address": "東京都新宿区百人町1-11-24 YSビル 1F",
+    "lat": 35.70096233787689,
+    "lng": 139.69979178346867,
+    "tabelog_rating": 3.48,
+    "personal_rating": null,
+    "cuisine": "タイ料理",
+    "price_tier": 3,
+    "awards": [],
+    "tabelog_url": "https://tabelog.com/tokyo/A1304/A130404/13006857/",
+    "tags": [],
+    "notes": "",
+    "visited": false
+  },
+  {
+    "id": "e79d8f66-adb7-4e51-abd1-518ea262dc53",
+    "name": "ベトナムちゃん",
+    "address": "東京都新宿区百人町1-19-17",
+    "lat": 35.701506258680844,
+    "lng": 139.6963898346383,
+    "tabelog_rating": 3.6,
+    "personal_rating": 4,
+    "cuisine": "ベトナム料理",
+    "price_tier": 3,
+    "awards": [
+      {
+        "type": "hyakumeiten",
+        "year": 2026,
+        "category": "Asia_ethnic"
+      },
+      {
+        "type": "hyakumeiten",
+        "year": 2024,
+        "category": "Asia_ethnic"
+      },
+      {
+        "type": "hyakumeiten",
+        "year": 2023,
+        "category": "Asia_ethnic"
+      },
+      {
+        "type": "hyakumeiten",
+        "year": 2022,
+        "category": "Asia_ethnic"
+      }
+    ],
+    "tabelog_url": "https://tabelog.com/tokyo/A1304/A130404/13122530/",
+    "tags": [],
+    "notes": "",
+    "visited": true
+  },
+  {
+    "id": "5e046322-7d06-4f76-a873-3b8a1c569fad",
+    "name": "ソムタムダー トウキョウ",
+    "address": "東京都渋谷区代々木1-58-10 松井ビル 1F",
+    "lat": 35.68453863788751,
+    "lng": 139.70038288330235,
+    "tabelog_rating": 3.51,
+    "personal_rating": null,
+    "cuisine": "タイ料理",
+    "price_tier": 3,
+    "awards": [],
+    "tabelog_url": "https://tabelog.com/tokyo/A1304/A130403/13212998/",
+    "tags": [],
+    "notes": "",
+    "visited": false
+  },
+  {
+    "id": "6aa0dba4-3169-449c-bc16-7e73fee66198",
+    "name": "三宅輝",
+    "address": "東京都港区六本木3-8-12 六本木JTビル 1F",
+    "lat": 35.66326113791189,
+    "lng": 139.73449428306353,
+    "tabelog_rating": 3.69,
+    "personal_rating": 4.5,
+    "cuisine": "日本料理",
+    "price_tier": 4,
+    "awards": [],
+    "tabelog_url": "https://tabelog.com/tokyo/A1307/A130701/13247307/",
+    "tags": [],
+    "notes": "",
+    "visited": true
+  },
+  {
+    "id": "e29bdfa7-67da-4176-a5a1-7d4c6155cde0",
+    "name": "もんじゃ はざま",
+    "address": "東京都中央区月島3-17-8",
+    "lat": 35.66252198873235,
+    "lng": 139.78039479418564,
+    "tabelog_rating": 3.36,
+    "personal_rating": 3.4,
+    "cuisine": "もんじゃ焼き",
+    "price_tier": 3,
+    "awards": [],
+    "tabelog_url": "https://tabelog.com/tokyo/A1313/A131302/13007582/",
+    "tags": [],
+    "notes": "",
+    "visited": true
+  },
+  {
+    "id": "8ef409e8-eec7-4eae-9661-c7ae14850135",
+    "name": "青山フラワーマーケット グリーンハウス",
+    "address": "東京都港区南青山5-4-41 グラッセリア青山 1F",
+    "lat": 35.66225446871121,
+    "lng": 139.71348990422985,
+    "tabelog_rating": 3.49,
+    "personal_rating": null,
+    "cuisine": "カフェ",
+    "price_tier": 2,
+    "awards": [],
+    "tabelog_url": "https://tabelog.com/tokyo/A1306/A130602/13271007/",
+    "tags": [],
+    "notes": "",
+    "visited": false
+  },
+  {
+    "id": "903cc0a3-e590-4656-81c8-5f0c73425edd",
+    "name": "シグネチャー",
+    "address": "東京都中央区日本橋室町2-1-1 マンダリン オリエンタル 東京 37Ｆ",
+    "lat": 35.68706182871446,
+    "lng": 139.77315611443862,
+    "tabelog_rating": 3.75,
+    "personal_rating": null,
+    "cuisine": "フレンチ",
+    "price_tier": 4,
+    "awards": [
+      {
+        "type": "hyakumeiten",
+        "year": 2025,
+        "category": "French"
+      },
+      {
+        "type": "hyakumeiten",
+        "year": 2021,
+        "category": "French"
+      }
+    ],
+    "tabelog_url": "https://tabelog.com/tokyo/A1302/A130202/13020360/",
+    "tags": [],
+    "notes": "",
+    "visited": false
+  },
+  {
+    "id": "1ca55fed-4550-4863-b31f-57b864642eb2",
+    "name": "謝甜記 貮号店",
+    "address": "神奈川県横浜市中区山下町189-9 上海路辰ビル 1F",
+    "lat": 35.44272223802408,
+    "lng": 139.64693608089726,
+    "tabelog_rating": 3.57,
+    "personal_rating": 3,
+    "cuisine": "お粥",
+    "price_tier": 3,
+    "awards": [
+      {
+        "type": "hyakumeiten",
+        "year": 2021,
+        "category": "Chinese"
+      }
+    ],
+    "tabelog_url": "https://tabelog.com/kanagawa/A1401/A140105/14000676/",
+    "tags": [],
+    "notes": "",
+    "visited": true
+  },
+  {
+    "id": "4d2af78c-a7b2-4061-8804-ad9c2d54e0c7",
+    "name": "あずきとこおり",
+    "address": "東京都渋谷区代々木1-46-2 グランデュオ代々木 1F",
+    "lat": 35.68227003788793,
+    "lng": 139.69721468328166,
+    "tabelog_rating": 3.55,
+    "personal_rating": null,
+    "cuisine": "かき氷",
+    "price_tier": 3,
+    "awards": [],
+    "tabelog_url": "https://tabelog.com/tokyo/A1318/A131810/13267768/",
+    "tags": [],
+    "notes": "",
+    "visited": false
+  },
+  {
+    "id": "8e4311ef-6da4-4f35-aa53-da4790fb7da9",
+    "name": "ワヤン バリ 六本木店",
+    "address": "東京都港区六本木1-6-1 泉ガーデンタワー2F",
+    "lat": 35.66443043791271,
+    "lng": 139.73943208307188,
+    "tabelog_rating": 3.44,
+    "personal_rating": null,
+    "cuisine": "インドネシア料理",
+    "price_tier": 3,
+    "awards": [],
+    "tabelog_url": "https://tabelog.com/tokyo/A1307/A130701/13034759/",
+    "tags": [],
+    "notes": "",
+    "visited": false
+  },
+  {
+    "id": "21d7926a-663d-4f33-b0f7-3c3e83f67b0c",
+    "name": "萬珍樓 本店",
+    "address": "神奈川県横浜市中区山下町153",
+    "lat": 35.44334429882827,
+    "lng": 139.644488302067,
+    "tabelog_rating": 3.69,
+    "personal_rating": null,
+    "cuisine": "中華料理",
+    "price_tier": 4,
+    "awards": [
+      {
+        "type": "hyakumeiten",
+        "year": 2026,
+        "category": "Chinese"
+      },
+      {
+        "type": "hyakumeiten",
+        "year": 2024,
+        "category": "Chinese"
+      },
+      {
+        "type": "hyakumeiten",
+        "year": 2023,
+        "category": "Chinese"
+      },
+      {
+        "type": "hyakumeiten",
+        "year": 2021,
+        "category": "Chinese"
+      }
+    ],
+    "tabelog_url": "https://tabelog.com/kanagawa/A1401/A140104/14000144/",
+    "tags": [],
+    "notes": "",
+    "visited": false
+  },
+  {
+    "id": "0efc573a-5127-4598-b9cc-3262c376ece1",
+    "name": "海南チキンライス 夢飯",
+    "address": "東京都杉並区西荻北3-21-2 徳田ビル　１Ｆ",
+    "lat": 35.70465514864829,
+    "lng": 139.60048066473738,
+    "tabelog_rating": 3.49,
+    "personal_rating": 4.8,
+    "cuisine": "マレーシア料理",
+    "price_tier": 2,
+    "awards": [],
+    "tabelog_url": "https://tabelog.com/tokyo/A1319/A131907/13001121/",
+    "tags": [],
+    "notes": "",
+    "visited": true
+  },
+  {
+    "id": "72224578-41a8-4d6b-b7a4-dd8b333e7d93",
+    "name": "Trattoria pizzeria la Viola",
+    "address": "東京都文京区根津2-20-16",
+    "lat": 35.71867523788638,
+    "lng": 139.76491738360195,
+    "tabelog_rating": 3.31,
+    "personal_rating": 4.2,
+    "cuisine": "イタリアン",
+    "price_tier": 3,
+    "awards": [],
+    "tabelog_url": "https://tabelog.com/tokyo/A1311/A131106/13267269/",
+    "tags": [],
+    "notes": "",
+    "visited": true
+  },
+  {
+    "id": "b6a23bab-59cf-465d-9c19-6723d021fd06",
+    "name": "エリオ・ロカンダ・イタリアーナ",
+    "address": "東京都千代田区麹町2-5-2 半蔵門ハウス　１Ｆ",
+    "lat": 35.68351035870637,
+    "lng": 139.74067377442552,
+    "tabelog_rating": 3.72,
+    "personal_rating": null,
+    "cuisine": "イタリアン",
+    "price_tier": 4,
+    "awards": [
+      {
+        "type": "hyakumeiten",
+        "year": 2025,
+        "category": "Italian"
+      },
+      {
+        "type": "hyakumeiten",
+        "year": 2023,
+        "category": "Italian"
+      },
+      {
+        "type": "hyakumeiten",
+        "year": 2021,
+        "category": "Italian"
+      }
+    ],
+    "tabelog_url": "https://tabelog.com/tokyo/A1308/A130803/13000293/",
+    "tags": [],
+    "notes": "",
+    "visited": false
+  },
+  {
+    "id": "6c835289-2b44-4fb1-9420-1ee19a996c7a",
+    "name": "Ya Kun Kaya Toast 東京国際フォーラム店",
+    "address": "東京都千代田区丸の内3-5-1 東京国際フォーラム 1F",
+    "lat": 35.676556737890316,
+    "lng": 139.7631160056837,
+    "tabelog_rating": 3.58,
+    "personal_rating": 3.9,
+    "cuisine": "カフェ",
+    "price_tier": 1,
+    "awards": [],
+    "tabelog_url": "https://tabelog.com/tokyo/A1301/A130102/13259533/",
+    "tags": [],
+    "notes": "",
+    "visited": true
+  },
+  {
+    "id": "34de5401-9c53-48c3-b206-73a781d402b7",
+    "name": "聖林館",
+    "address": "東京都目黒区上目黒2-6-4",
+    "lat": 35.64288571871892,
+    "lng": 139.69904778404435,
+    "tabelog_rating": 3.74,
+    "personal_rating": null,
+    "cuisine": "ピザ",
+    "price_tier": 3,
+    "awards": [
+      {
+        "type": "hyakumeiten",
+        "year": 2025,
+        "category": "Pizza"
+      },
+      {
+        "type": "hyakumeiten",
+        "year": 2023,
+        "category": "Pizza"
+      },
+      {
+        "type": "hyakumeiten",
+        "year": 2021,
+        "category": "Pizza"
+      },
+      {
+        "type": "hyakumeiten",
+        "year": 2019,
+        "category": "Pizza"
+      },
+      {
+        "type": "hyakumeiten",
+        "year": 2018,
+        "category": "Pizza"
+      },
+      {
+        "type": "hyakumeiten",
+        "year": 2017,
+        "category": "Pizza"
+      }
+    ],
+    "tabelog_url": "https://tabelog.com/tokyo/A1317/A131701/13003188/",
+    "tags": [],
+    "notes": "",
+    "visited": false
+  },
+  {
+    "id": "201e5fb6-7612-4a7e-b037-30f25a05288b",
+    "name": "マクレーン オールドファッション ダイナー",
+    "address": "東京都台東区蔵前2-5-4",
+    "lat": 35.70298113790471,
+    "lng": 139.791169283425,
+    "tabelog_rating": 3.48,
+    "personal_rating": null,
+    "cuisine": "ハンバーガー",
+    "price_tier": 3,
+    "awards": [],
+    "tabelog_url": "https://tabelog.com/tokyo/A1311/A131103/13249033/",
+    "tags": [],
+    "notes": "",
+    "visited": false
+  },
+  {
+    "id": "582ea5cc-333c-4d59-b648-c1c814689a80",
+    "name": "中華食堂 だしや。 秋葉原店",
+    "address": "東京都千代田区神田佐久間町1-24 GATO秋葉原 1F",
+    "lat": 35.69836943790254,
+    "lng": 139.77518118338963,
+    "tabelog_rating": 3.49,
+    "personal_rating": null,
+    "cuisine": "中華料理",
+    "price_tier": 2,
+    "awards": [],
+    "tabelog_url": "https://tabelog.com/tokyo/A1310/A131001/13263886/",
+    "tags": [],
+    "notes": "",
+    "visited": false
+  },
+  {
+    "id": "49b19d29-6e38-4040-8656-277d112b0220",
+    "name": "ひとりしゃぶしゃぶ 七代目 松五郎",
+    "address": "東京都港区赤坂3-7-12 ベストウェスタンホテルフィーノ東京赤坂 1F",
+    "lat": 35.67476383790563,
+    "lng": 139.7377895831774,
+    "tabelog_rating": 3.47,
+    "personal_rating": null,
+    "cuisine": "しゃぶしゃぶ",
+    "price_tier": 3,
+    "awards": [],
+    "tabelog_url": "https://tabelog.com/tokyo/A1308/A130801/13247290/",
+    "tags": [],
+    "notes": "",
+    "visited": false
+  },
+  {
+    "id": "cff7bc60-663d-4211-9c42-328f8e68c943",
+    "name": "新とみ",
+    "address": "神奈川県鎌倉市鎌倉市山ノ内376 1F",
+    "lat": 35.33526565886586,
+    "lng": 139.5469471310437,
+    "tabelog_rating": 3.38,
+    "personal_rating": 3.4,
+    "cuisine": "寿司",
+    "price_tier": 2,
+    "awards": [],
+    "tabelog_url": "https://tabelog.com/kanagawa/A1404/A140401/14032566/",
+    "tags": [],
+    "notes": "",
+    "visited": true
+  },
+  {
+    "id": "d22827c8-6eb1-4ce8-a73b-5eaa199ef507",
+    "name": "北京ダックマニア",
+    "address": "東京都港区虎ノ門2-6-3 虎ノ門ヒルズステーションタワー 4F",
+    "lat": 35.66747663871872,
+    "lng": 139.7474799842588,
+    "tabelog_rating": 3.52,
+    "personal_rating": null,
+    "cuisine": "中華料理",
+    "price_tier": 4,
+    "awards": [],
+    "tabelog_url": "https://tabelog.com/tokyo/A1308/A130802/13293231/",
+    "tags": [],
+    "notes": "",
+    "visited": false
+  },
+  {
+    "id": "849516b8-e951-4dee-bfe5-5d28de25be02",
+    "name": "Pizza 4P's",
+    "address": "東京都港区虎ノ門5-10-7 麻布台ヒルズガーデンプラザD 1F",
+    "lat": 35.66155547513494,
+    "lng": 139.74358933410375,
+    "tabelog_rating": 3.75,
+    "personal_rating": 4,
+    "cuisine": "ピザ",
+    "price_tier": 4,
+    "awards": [
+      {
+        "type": "hyakumeiten",
+        "year": 2025,
+        "category": "Pizza"
+      }
+    ],
+    "tabelog_url": "https://tabelog.com/tokyo/A1307/A130704/13291318/",
+    "tags": [],
+    "notes": "",
+    "visited": true
+  },
+  {
+    "id": "79450442-47e8-4e76-9070-5ba013874a64",
+    "name": "いしはら寿司",
+    "address": "新潟県佐渡市両津夷192-2",
+    "lat": 38.08422068676508,
+    "lng": 138.43268343959178,
+    "tabelog_rating": 3.34,
+    "personal_rating": null,
+    "cuisine": "寿司",
+    "price_tier": 4,
+    "awards": [],
+    "tabelog_url": "https://tabelog.com/niigata/A1501/A150103/15020213/",
+    "tags": [],
+    "notes": "",
+    "visited": false
+  },
+  {
+    "id": "3f95d684-9e30-4657-861a-89c2171c124d",
+    "name": "Gion Duck Noodles",
+    "address": "京都府京都市東山区祇園北側329 1F D号",
+    "lat": 35.004335420581,
+    "lng": 135.77678625564835,
+    "tabelog_rating": 3.68,
+    "personal_rating": null,
+    "cuisine": "ラーメン",
+    "price_tier": 3,
+    "awards": [
+      {
+        "type": "hyakumeiten",
+        "year": 2025,
+        "category": "Ramen"
+      },
+      {
+        "type": "hyakumeiten",
+        "year": 2024,
+        "category": "Ramen"
+      },
+      {
+        "type": "hyakumeiten",
+        "year": 2023,
+        "category": "Ramen"
+      }
+    ],
+    "tabelog_url": "https://tabelog.com/kyoto/A2601/A260301/26031755/",
+    "tags": [],
+    "notes": "",
+    "visited": false
+  },
+  {
+    "id": "ce35537a-938f-4cf2-884d-4cc09cd7ebed",
+    "name": "はまべ",
+    "address": "千葉県富津市金谷3971",
+    "lat": 35.16433073825691,
+    "lng": 139.82285737796192,
+    "tabelog_rating": 3.65,
+    "personal_rating": 3.5,
+    "cuisine": "食堂",
+    "price_tier": 3,
+    "awards": [
+      {
+        "type": "hyakumeiten",
+        "year": 2026,
+        "category": "Shokudo"
+      },
+      {
+        "type": "hyakumeiten",
+        "year": 2024,
+        "category": "Shokudo"
+      }
+    ],
+    "tabelog_url": "https://tabelog.com/chiba/A1206/A120603/12035117/",
+    "tags": [],
+    "notes": "",
+    "visited": true
+  },
+  {
+    "id": "ac0b7ba3-e36d-49d8-95a2-3d724cf8a420",
+    "name": "わらやき屋 上野広小路",
+    "address": "東京都台東区上野1-19-10 上野広小路会館ビル 1F",
+    "lat": 35.7069259378962,
+    "lng": 139.77232548347806,
+    "tabelog_rating": 3.31,
+    "personal_rating": 3.3,
+    "cuisine": "居酒屋",
+    "price_tier": 3,
+    "awards": [],
+    "tabelog_url": "https://tabelog.com/tokyo/A1311/A131101/13191848/",
+    "tags": [],
+    "notes": "",
+    "visited": true
+  },
+  {
+    "id": "22e35cb2-d257-497d-bb96-b07fdd8ca564",
+    "name": "みますや",
+    "address": "東京都千代田区神田司町2-15-2",
+    "lat": 35.694052198708015,
+    "lng": 139.76685782451364,
+    "tabelog_rating": 3.49,
+    "personal_rating": 2,
+    "cuisine": "居酒屋",
+    "price_tier": 3,
+    "awards": [
+      {
+        "type": "hyakumeiten",
+        "year": 2024,
+        "category": "Izakaya"
+      },
+      {
+        "type": "hyakumeiten",
+        "year": 2021,
+        "category": "Izakaya"
+      }
+    ],
+    "tabelog_url": "https://tabelog.com/tokyo/A1310/A131002/13000630/",
+    "tags": [],
+    "notes": "",
+    "visited": true
+  },
+  {
+    "id": "149dbc05-c340-4c34-8eb3-8ff2384ae2da",
+    "name": "えびすの安兵衛",
+    "address": "東京都渋谷区恵比寿4-9-15 荻原ビル5 1F",
+    "lat": 35.6456140379168,
+    "lng": 139.71470138289914,
+    "tabelog_rating": 3.6,
+    "personal_rating": null,
+    "cuisine": "餃子",
+    "price_tier": 2,
+    "awards": [
+      {
+        "type": "hyakumeiten",
+        "year": 2024,
+        "category": "Gyoza"
+      },
+      {
+        "type": "hyakumeiten",
+        "year": 2021,
+        "category": "Gyoza"
+      },
+      {
+        "type": "hyakumeiten",
+        "year": 2019,
+        "category": "Gyoza"
+      }
+    ],
+    "tabelog_url": "https://tabelog.com/tokyo/A1303/A130302/13117106/",
+    "tags": [],
+    "notes": "",
+    "visited": false
+  },
+  {
+    "id": "00c9798b-77aa-49e6-a8e4-e98425a9776d",
+    "name": "バードランド 虎ノ門",
+    "address": "東京都港区虎ノ門1-17-1 虎ノ門ヒルズ ビジネスタワー 3F",
+    "lat": 35.66765483791409,
+    "lng": 139.75015888309693,
+    "tabelog_rating": 3.4,
+    "personal_rating": null,
+    "cuisine": "焼き鳥",
+    "price_tier": 3,
+    "awards": [],
+    "tabelog_url": "https://tabelog.com/tokyo/A1308/A130802/13247790/",
+    "tags": [],
+    "notes": "",
+    "visited": false
+  },
+  {
+    "id": "e18d8f83-ba24-4967-b351-dac4e6bec4a6",
+    "name": "Viva la Burger",
+    "address": "東京都豊島区池袋2-59-5 1F",
+    "lat": 35.73468393785823,
+    "lng": 139.7084460838032,
+    "tabelog_rating": 3.59,
+    "personal_rating": null,
+    "cuisine": "ハンバーガー",
+    "price_tier": 3,
+    "awards": [
+      {
+        "type": "hyakumeiten",
+        "year": 2026,
+        "category": "Hamburger"
+      },
+      {
+        "type": "hyakumeiten",
+        "year": 2024,
+        "category": "Hamburger"
+      },
+      {
+        "type": "hyakumeiten",
+        "year": 2022,
+        "category": "Hamburger"
+      }
+    ],
+    "tabelog_url": "https://tabelog.com/tokyo/A1305/A130501/13233786/",
+    "tags": [],
+    "notes": "",
+    "visited": false
+  },
+  {
+    "id": "4304a542-a035-4617-a772-72e5a99ee9ec",
+    "name": "デリショップ うちむら",
+    "address": "東京都世田谷区北沢3-2-11",
+    "lat": 35.66709648869517,
+    "lng": 139.67279806430727,
+    "tabelog_rating": 3.32,
+    "personal_rating": null,
+    "cuisine": "エジプト料理",
+    "price_tier": 3,
+    "awards": [],
+    "tabelog_url": "https://tabelog.com/tokyo/A1318/A131811/13095642/",
+    "tags": [],
+    "notes": "",
+    "visited": false
+  },
+  {
+    "id": "ee61a480-7a71-4a71-8299-95714438fef8",
+    "name": "TRUNK(KUSHI)",
+    "address": "東京都渋谷区神宮前5-31 トランクホテル 1F",
+    "lat": 35.66405467870699,
+    "lng": 139.7038120342548,
+    "tabelog_rating": 3.42,
+    "personal_rating": null,
+    "cuisine": "焼き鳥",
+    "price_tier": 3,
+    "awards": [],
+    "tabelog_url": "https://tabelog.com/tokyo/A1303/A130301/13210334/",
+    "tags": [],
+    "notes": "",
+    "visited": false
+  },
+  {
+    "id": "faed1a2d-ffbe-463c-9676-e77b52a21efa",
+    "name": "鳥しき",
+    "address": "東京都品川区上大崎2-14-12",
+    "lat": 35.63428698873006,
+    "lng": 139.71689778394497,
+    "tabelog_rating": 4.42,
+    "personal_rating": null,
+    "cuisine": "焼き鳥",
+    "price_tier": 4,
+    "awards": [
+      {
+        "type": "silver",
+        "year": 2026
+      },
+      {
+        "type": "hyakumeiten",
+        "year": 2025,
+        "category": "Yakitori"
+      },
+      {
+        "type": "silver",
+        "year": 2025
+      },
+      {
+        "type": "silver",
+        "year": 2024
+      },
+      {
+        "type": "silver",
+        "year": 2023
+      },
+      {
+        "type": "gold",
+        "year": 2022
+      },
+      {
+        "type": "gold",
+        "year": 2021
+      },
+      {
+        "type": "gold",
+        "year": 2020
+      },
+      {
+        "type": "gold",
+        "year": 2019
+      },
+      {
+        "type": "hyakumeiten",
+        "year": 2024,
+        "category": "Yakitori"
+      },
+      {
+        "type": "hyakumeiten",
+        "year": 2023,
+        "category": "Yakitori"
+      },
+      {
+        "type": "hyakumeiten",
+        "year": 2022,
+        "category": "Yakitori"
+      },
+      {
+        "type": "hyakumeiten",
+        "year": 2021,
+        "category": "Yakitori"
+      },
+      {
+        "type": "hyakumeiten",
+        "year": 2019,
+        "category": "Yakitori"
+      },
+      {
+        "type": "hyakumeiten",
+        "year": 2018,
+        "category": "Yakitori"
+      },
+      {
+        "type": "gold",
+        "year": 2018
+      },
+      {
+        "type": "gold",
+        "year": 2017
+      }
+    ],
+    "tabelog_url": "https://tabelog.com/tokyo/A1316/A131601/13041029/",
+    "tags": [],
+    "notes": "",
+    "visited": false
+  },
+  {
+    "id": "4f220479-4b90-4e0f-aba0-1ecee1f6faae",
+    "name": "とんかつ とんき 目黒本店",
+    "address": "東京都目黒区下目黒1-1-2",
+    "lat": 35.63361521872966,
+    "lng": 139.71430310394,
+    "tabelog_rating": 3.52,
+    "personal_rating": 4,
+    "cuisine": "とんかつ",
+    "price_tier": 3,
+    "awards": [
+      {
+        "type": "hyakumeiten",
+        "year": 2021,
+        "category": "Tonkatsu"
+      },
+      {
+        "type": "hyakumeiten",
+        "year": 2019,
+        "category": "Tonkatsu"
+      },
+      {
+        "type": "hyakumeiten",
+        "year": 2018,
+        "category": "Tonkatsu"
+      },
+      {
+        "type": "hyakumeiten",
+        "year": 2017,
+        "category": "Tonkatsu"
+      }
+    ],
+    "tabelog_url": "https://tabelog.com/tokyo/A1316/A131601/13002040/",
+    "tags": [],
+    "notes": "",
+    "visited": true
+  },
+  {
+    "id": "ec69416a-b2ff-4a03-9d49-fd83c5df585c",
+    "name": "とん太",
+    "address": "東京都豊島区高田3-17-8",
+    "lat": 35.71549343867522,
+    "lng": 139.70662268477244,
+    "tabelog_rating": 3.79,
+    "personal_rating": null,
+    "cuisine": "とんかつ",
+    "price_tier": 3,
+    "awards": [
+      {
+        "type": "hyakumeiten",
+        "year": 2026,
+        "category": "Tonkatsu"
+      },
+      {
+        "type": "bronze",
+        "year": 2020
+      },
+      {
+        "type": "bronze",
+        "year": 2019
+      },
+      {
+        "type": "bronze",
+        "year": 2018
+      },
+      {
+        "type": "bronze",
+        "year": 2017
+      },
+      {
+        "type": "hyakumeiten",
+        "year": 2024,
+        "category": "Tonkatsu"
+      },
+      {
+        "type": "hyakumeiten",
+        "year": 2022,
+        "category": "Tonkatsu"
+      },
+      {
+        "type": "hyakumeiten",
+        "year": 2021,
+        "category": "Tonkatsu"
+      },
+      {
+        "type": "hyakumeiten",
+        "year": 2019,
+        "category": "Tonkatsu"
+      },
+      {
+        "type": "hyakumeiten",
+        "year": 2018,
+        "category": "Tonkatsu"
+      },
+      {
+        "type": "hyakumeiten",
+        "year": 2017,
+        "category": "Tonkatsu"
+      }
+    ],
+    "tabelog_url": "https://tabelog.com/tokyo/A1305/A130503/13003984/",
+    "tags": [],
+    "notes": "",
+    "visited": false
+  },
+  {
+    "id": "bcfd0236-e6f0-4550-93f9-f8c3c72ac47c",
+    "name": "とんかつ武信 代々木上原店",
+    "address": "東京都渋谷区西原3-1-7 ティーズプレイス 1F",
+    "lat": 35.67030698869631,
+    "lng": 139.6827839443327,
+    "tabelog_rating": 3.67,
+    "personal_rating": null,
+    "cuisine": "とんかつ",
+    "price_tier": 2,
+    "awards": [
+      {
+        "type": "hyakumeiten",
+        "year": 2026,
+        "category": "Tonkatsu"
+      },
+      {
+        "type": "hyakumeiten",
+        "year": 2024,
+        "category": "Tonkatsu"
+      },
+      {
+        "type": "hyakumeiten",
+        "year": 2021,
+        "category": "Tonkatsu"
+      },
+      {
+        "type": "hyakumeiten",
+        "year": 2019,
+        "category": "Tonkatsu"
+      },
+      {
+        "type": "hyakumeiten",
+        "year": 2017,
+        "category": "Tonkatsu"
+      }
+    ],
+    "tabelog_url": "https://tabelog.com/tokyo/A1318/A131811/13024248/",
+    "tags": [],
+    "notes": "",
+    "visited": false
+  },
+  {
+    "id": "baa79d7a-e15a-4672-b1fe-70d680d77f80",
+    "name": "とんかつ 大宝",
+    "address": "東京都目黒区目黒1-6-15 1F",
+    "lat": 35.63444733792296,
+    "lng": 139.71177838278842,
+    "tabelog_rating": 3.65,
+    "personal_rating": null,
+    "cuisine": "とんかつ",
+    "price_tier": 3,
+    "awards": [
+      {
+        "type": "hyakumeiten",
+        "year": 2024,
+        "category": "Tonkatsu"
+      },
+      {
+        "type": "hyakumeiten",
+        "year": 2021,
+        "category": "Tonkatsu"
+      },
+      {
+        "type": "hyakumeiten",
+        "year": 2019,
+        "category": "Tonkatsu"
+      },
+      {
+        "type": "hyakumeiten",
+        "year": 2018,
+        "category": "Tonkatsu"
+      },
+      {
+        "type": "hyakumeiten",
+        "year": 2017,
+        "category": "Tonkatsu"
+      }
+    ],
+    "tabelog_url": "https://tabelog.com/tokyo/A1316/A131601/13007463/",
+    "tags": [],
+    "notes": "",
+    "visited": false
+  },
+  {
+    "id": "3c02c87c-cd29-4f20-96a6-d0533d3cfaa6",
+    "name": "鈴新",
+    "address": "東京都新宿区荒木町10-28 十番館ビル 1F",
+    "lat": 35.6893969006635,
+    "lng": 139.72251841040938,
+    "tabelog_rating": 3.53,
+    "personal_rating": null,
+    "cuisine": "とんかつ",
+    "price_tier": 2,
+    "awards": [
+      {
+        "type": "hyakumeiten",
+        "year": 2024,
+        "category": "Tonkatsu"
+      },
+      {
+        "type": "hyakumeiten",
+        "year": 2021,
+        "category": "Tonkatsu"
+      }
+    ],
+    "tabelog_url": "https://tabelog.com/tokyo/A1309/A130903/13027073/",
+    "tags": [],
+    "notes": "",
+    "visited": false
+  },
+  {
+    "id": "fc11c9f1-667c-4181-a030-47f5e5ba26ed",
+    "name": "とんかつ成蔵",
+    "address": "東京都杉並区成田東4-33-9",
+    "lat": 35.69771383785951,
+    "lng": 139.63875358347863,
+    "tabelog_rating": 4.27,
+    "personal_rating": null,
+    "cuisine": "とんかつ",
+    "price_tier": 4,
+    "awards": [
+      {
+        "type": "bronze",
+        "year": 2026
+      },
+      {
+        "type": "hyakumeiten",
+        "year": 2026,
+        "category": "Tonkatsu"
+      },
+      {
+        "type": "bronze",
+        "year": 2025
+      },
+      {
+        "type": "bronze",
+        "year": 2024
+      },
+      {
+        "type": "bronze",
+        "year": 2023
+      },
+      {
+        "type": "bronze",
+        "year": 2022
+      },
+      {
+        "type": "bronze",
+        "year": 2021
+      },
+      {
+        "type": "hyakumeiten",
+        "year": 2024,
+        "category": "Tonkatsu"
+      },
+      {
+        "type": "hyakumeiten",
+        "year": 2022,
+        "category": "Tonkatsu"
+      },
+      {
+        "type": "hyakumeiten",
+        "year": 2021,
+        "category": "Tonkatsu"
+      }
+    ],
+    "tabelog_url": "https://tabelog.com/tokyo/A1319/A131905/13236380/",
+    "tags": [],
+    "notes": "",
+    "visited": false
+  },
+  {
+    "id": "46495f19-b151-44fc-9194-82f2d2cd94f7",
+    "name": "日本橋とんかつ 一 日本橋本店",
+    "address": "東京都中央区日本橋室町1-13-9 池田ビル 1F",
+    "lat": 35.68645388304813,
+    "lng": 139.7754613830135,
+    "tabelog_rating": 3.53,
+    "personal_rating": null,
+    "cuisine": "とんかつ",
+    "price_tier": 2,
+    "awards": [],
+    "tabelog_url": "https://tabelog.com/tokyo/A1302/A130202/13272021/",
+    "tags": [],
+    "notes": "",
+    "visited": false
+  },
+  {
+    "id": "612930d1-2713-4cca-b4ee-b01feb0f86b3",
+    "name": "とんかつ燕楽",
+    "address": "東京都大田区池上6-1-4",
+    "lat": 35.57294660876497,
+    "lng": 139.70419550333426,
+    "tabelog_rating": 3.74,
+    "personal_rating": null,
+    "cuisine": "とんかつ",
+    "price_tier": 3,
+    "awards": [
+      {
+        "type": "hyakumeiten",
+        "year": 2026,
+        "category": "Tonkatsu"
+      },
+      {
+        "type": "hyakumeiten",
+        "year": 2024,
+        "category": "Tonkatsu"
+      },
+      {
+        "type": "hyakumeiten",
+        "year": 2022,
+        "category": "Tonkatsu"
+      },
+      {
+        "type": "hyakumeiten",
+        "year": 2021,
+        "category": "Tonkatsu"
+      },
+      {
+        "type": "hyakumeiten",
+        "year": 2019,
+        "category": "Tonkatsu"
+      },
+      {
+        "type": "hyakumeiten",
+        "year": 2018,
+        "category": "Tonkatsu"
+      },
+      {
+        "type": "hyakumeiten",
+        "year": 2017,
+        "category": "Tonkatsu"
+      }
+    ],
+    "tabelog_url": "https://tabelog.com/tokyo/A1317/A131714/13034183/",
+    "tags": [],
+    "notes": "",
+    "visited": false
+  },
+  {
+    "id": "83a3911c-5348-429d-86bf-8018a581e2e2",
+    "name": "とんかつ檍 蒲田本店",
+    "address": "東京都大田区蒲田5-43-7 ロイヤルハイツ蒲田１０２",
+    "lat": 35.560456788776996,
+    "lng": 139.7170438931991,
+    "tabelog_rating": 3.72,
+    "personal_rating": null,
+    "cuisine": "とんかつ",
+    "price_tier": 3,
+    "awards": [
+      {
+        "type": "hyakumeiten",
+        "year": 2026,
+        "category": "Tonkatsu"
+      },
+      {
+        "type": "hyakumeiten",
+        "year": 2024,
+        "category": "Tonkatsu"
+      },
+      {
+        "type": "hyakumeiten",
+        "year": 2022,
+        "category": "Tonkatsu"
+      },
+      {
+        "type": "hyakumeiten",
+        "year": 2021,
+        "category": "Tonkatsu"
+      },
+      {
+        "type": "hyakumeiten",
+        "year": 2019,
+        "category": "Tonkatsu"
+      },
+      {
+        "type": "hyakumeiten",
+        "year": 2018,
+        "category": "Tonkatsu"
+      },
+      {
+        "type": "hyakumeiten",
+        "year": 2017,
+        "category": "Tonkatsu"
+      }
+    ],
+    "tabelog_url": "https://tabelog.com/tokyo/A1315/A131503/13114843/",
+    "tags": [],
+    "notes": "",
+    "visited": false
+  },
+  {
+    "id": "b4936d2f-128f-462c-a180-b9e4ab096760",
+    "name": "THE GREAT BURGER",
+    "address": "東京都渋谷区神宮前6-12-5 1Ｆ",
+    "lat": 35.66623063790052,
+    "lng": 139.7046968831144,
+    "tabelog_rating": 3.69,
+    "personal_rating": 3.4,
+    "cuisine": "ハンバーガー",
+    "price_tier": 3,
+    "awards": [
+      {
+        "type": "hyakumeiten",
+        "year": 2026,
+        "category": "Hamburger"
+      },
+      {
+        "type": "hyakumeiten",
+        "year": 2024,
+        "category": "Hamburger"
+      },
+      {
+        "type": "hyakumeiten",
+        "year": 2022,
+        "category": "Hamburger"
+      },
+      {
+        "type": "hyakumeiten",
+        "year": 2021,
+        "category": "Hamburger"
+      },
+      {
+        "type": "hyakumeiten",
+        "year": 2019,
+        "category": "Hamburger"
+      },
+      {
+        "type": "hyakumeiten",
+        "year": 2018,
+        "category": "Hamburger"
+      },
+      {
+        "type": "hyakumeiten",
+        "year": 2017,
+        "category": "Hamburger"
+      }
+    ],
+    "tabelog_url": "https://tabelog.com/tokyo/A1306/A130601/13042654/",
+    "tags": [],
+    "notes": "",
+    "visited": true
+  },
+  {
+    "id": "66c8b0b9-790c-4b84-bb45-03f856272ea1",
+    "name": "teal",
+    "address": "東京都中央区日本橋兜町1-10 日証館 1F",
+    "lat": 35.68342515871851,
+    "lng": 139.77860753439808,
+    "tabelog_rating": 3.65,
+    "personal_rating": null,
+    "cuisine": "カフェ",
+    "price_tier": 2,
+    "awards": [],
+    "tabelog_url": "https://tabelog.com/tokyo/A1302/A130202/13264147/",
+    "tags": [
+      "dessert"
+    ],
+    "notes": "",
+    "visited": false
+  },
+  {
+    "id": "597f92e8-cd69-4818-a4df-9d531378fd46",
+    "name": "タカカラ あきば店",
+    "address": "東京都千代田区神田佐久間町3-21-7 熊谷ビル 1F",
+    "lat": 35.698363348708966,
+    "lng": 139.77845096454905,
+    "tabelog_rating": 3.41,
+    "personal_rating": null,
+    "cuisine": "鳥料理",
+    "price_tier": 3,
+    "awards": [],
+    "tabelog_url": "https://tabelog.com/tokyo/A1310/A131001/13218216/",
+    "tags": [],
+    "notes": "",
+    "visited": false
+  },
+  {
+    "id": "37ce6d5f-b7c3-4476-9fd5-94f1f8147828",
+    "name": "恵比寿餃子 大豊記 本館",
+    "address": "東京都渋谷区東3-25-3 ライオンズプラザ恵比寿 1Ｆ",
+    "lat": 35.6485394379134,
+    "lng": 139.70984638293214,
+    "tabelog_rating": 3.37,
+    "personal_rating": null,
+    "cuisine": "餃子",
+    "price_tier": 3,
+    "awards": [],
+    "tabelog_url": "https://tabelog.com/tokyo/A1303/A130302/13111426/",
+    "tags": [],
+    "notes": "",
+    "visited": false
+  },
+  {
+    "id": "c4a9dbad-5d0e-480f-80b7-6eba71bf90c1",
+    "name": "カレーの店 SPICE",
+    "address": "東京都渋谷区西原2-28-2",
+    "lat": 35.67552956869148,
+    "lng": 139.67801086438882,
+    "tabelog_rating": 3.58,
+    "personal_rating": null,
+    "cuisine": "カレー",
+    "price_tier": 1,
+    "awards": [],
+    "tabelog_url": "https://tabelog.com/tokyo/A1318/A131807/13013263/",
+    "tags": [],
+    "notes": "",
+    "visited": false
+  },
+  {
+    "id": "e391e74f-de4f-42c0-bbd0-8a79a7381e6b",
+    "name": "蕎麦前 山都",
+    "address": "東京都港区六本木6-12-2 六本木ヒルズ六本木けやき坂通り 1F",
+    "lat": 35.658849808718365,
+    "lng": 139.72916617418448,
+    "tabelog_rating": 3.52,
+    "personal_rating": null,
+    "cuisine": "そば",
+    "price_tier": 4,
+    "awards": [],
+    "tabelog_url": "https://tabelog.com/tokyo/A1307/A130701/13219872/",
+    "tags": [],
+    "notes": "",
+    "visited": false
+  },
+  {
+    "id": "25daa866-443f-4bd4-a59a-73cd0293c2fe",
+    "name": "サイアム・タラート",
+    "address": "東京都世田谷区三軒茶屋2-14-19",
+    "lat": 35.642874037904114,
+    "lng": 139.6694310829032,
+    "tabelog_rating": 3.45,
+    "personal_rating": null,
+    "cuisine": "タイ料理",
+    "price_tier": 3,
+    "awards": [],
+    "tabelog_url": "https://tabelog.com/tokyo/A1317/A131706/13070118/",
+    "tags": [],
+    "notes": "",
+    "visited": false
+  },
+  {
+    "id": "e25c28f0-bdab-4e38-b559-42c40d2aded7",
+    "name": "SHOGUN BURGER 新宿店",
+    "address": "東京都新宿区歌舞伎町1-15-12 ピアットビル 1F",
+    "lat": 35.69408403788212,
+    "lng": 139.7024787833973,
+    "tabelog_rating": 3.68,
+    "personal_rating": null,
+    "cuisine": "ハンバーガー",
+    "price_tier": 2,
+    "awards": [
+      {
+        "type": "hyakumeiten",
+        "year": 2026,
+        "category": "Hamburger"
+      },
+      {
+        "type": "hyakumeiten",
+        "year": 2024,
+        "category": "Hamburger"
+      },
+      {
+        "type": "hyakumeiten",
+        "year": 2022,
+        "category": "Hamburger"
+      },
+      {
+        "type": "hyakumeiten",
+        "year": 2021,
+        "category": "Hamburger"
+      },
+      {
+        "type": "hyakumeiten",
+        "year": 2019,
+        "category": "Hamburger"
+      }
+    ],
+    "tabelog_url": "https://tabelog.com/tokyo/A1304/A130401/13227776/",
+    "tags": [],
+    "notes": "",
+    "visited": false
+  },
+  {
+    "id": "08225030-d6c9-41bc-b720-299a00bc2c7f",
+    "name": "七兵衛 高田馬場店",
+    "address": "東京都新宿区高田馬場3-4-13 日鉄ビル 1F",
+    "lat": 35.714713737868976,
+    "lng": 139.70237468360577,
+    "tabelog_rating": 3.48,
+    "personal_rating": null,
+    "cuisine": "かつ丼",
+    "price_tier": 1,
+    "awards": [],
+    "tabelog_url": "https://tabelog.com/tokyo/A1305/A130503/13271467/",
+    "tags": [],
+    "notes": "",
+    "visited": false
+  },
+  {
+    "id": "c8d052df-81c6-4240-b092-4cb52a561807",
+    "name": "シェイク ツリー ダイナー",
+    "address": "東京都墨田区向島1-23-11 東京ミズマチ E06",
+    "lat": 35.71028716871022,
+    "lng": 139.80614839465008,
+    "tabelog_rating": 3.56,
+    "personal_rating": 3.4,
+    "cuisine": "ハンバーガー",
+    "price_tier": 3,
+    "awards": [],
+    "tabelog_url": "https://tabelog.com/tokyo/A1311/A131102/13252561/",
+    "tags": [],
+    "notes": "",
+    "visited": true
+  },
+  {
+    "id": "4182d87f-b54f-4c12-a4d7-b059a3be0656",
+    "name": "銀座 佐藤養助",
+    "address": "東京都中央区銀座6-4-17 出井本館　１Ｆ",
+    "lat": 35.67146102872068,
+    "lng": 139.76156226428915,
+    "tabelog_rating": 3.55,
+    "personal_rating": null,
+    "cuisine": "うどん",
+    "price_tier": 4,
+    "awards": [
+      {
+        "type": "hyakumeiten",
+        "year": 2020,
+        "category": "Udon"
+      },
+      {
+        "type": "hyakumeiten",
+        "year": 2019,
+        "category": "Udon"
+      },
+      {
+        "type": "hyakumeiten",
+        "year": 2018,
+        "category": "Udon"
+      },
+      {
+        "type": "hyakumeiten",
+        "year": 2017,
+        "category": "Udon"
+      }
+    ],
+    "tabelog_url": "https://tabelog.com/tokyo/A1301/A130101/13033146/",
+    "tags": [],
+    "notes": "",
+    "visited": false
+  },
+  {
+    "id": "a5cc2816-f72e-418a-a587-d3e536cbfe76",
+    "name": "自家製さぬきうどんと肉 甚三 大門店",
+    "address": "東京都港区芝大門2-6-10 コンフォート芝大門 1F",
+    "lat": 35.65486803792331,
+    "lng": 139.75361768296534,
+    "tabelog_rating": 3.68,
+    "personal_rating": 3.6,
+    "cuisine": "うどん",
+    "price_tier": 1,
+    "awards": [
+      {
+        "type": "hyakumeiten",
+        "year": 2024,
+        "category": "Udon"
+      },
+      {
+        "type": "hyakumeiten",
+        "year": 2022,
+        "category": "Udon"
+      },
+      {
+        "type": "hyakumeiten",
+        "year": 2020,
+        "category": "Udon"
+      },
+      {
+        "type": "hyakumeiten",
+        "year": 2019,
+        "category": "Udon"
+      },
+      {
+        "type": "hyakumeiten",
+        "year": 2018,
+        "category": "Udon"
+      }
+    ],
+    "tabelog_url": "https://tabelog.com/tokyo/A1314/A131401/13188754/",
+    "tags": [],
+    "notes": "",
+    "visited": true
+  },
+  {
+    "id": "f270d6d8-5ef6-456d-9022-646681dc67f7",
+    "name": "Rojiura Curry SAMURAI.  下北沢店",
+    "address": "東京都世田谷区北沢3-31-14",
+    "lat": 35.66470013869486,
+    "lng": 139.66703383428714,
+    "tabelog_rating": 3.4,
+    "personal_rating": 4.1,
+    "cuisine": "スープカレー",
+    "price_tier": 2,
+    "awards": [
+      {
+        "type": "hyakumeiten",
+        "year": 2018,
+        "category": "Curry"
+      },
+      {
+        "type": "hyakumeiten",
+        "year": 2017,
+        "category": "Curry"
+      }
+    ],
+    "tabelog_url": "https://tabelog.com/tokyo/A1318/A131802/13165636/",
+    "tags": [],
+    "notes": "",
+    "visited": true
+  },
+  {
+    "id": "5cf72cfe-d9c3-40a2-a0ce-c5920e3448e4",
+    "name": "ラッコズ ニューヨークスタイルピザ",
+    "address": "東京都北区王子本町1-1-24 １Ｆ",
+    "lat": 35.75398216750485,
+    "lng": 139.73571322984662,
+    "tabelog_rating": 3.42,
+    "personal_rating": null,
+    "cuisine": "ピザ",
+    "price_tier": 2,
+    "awards": [],
+    "tabelog_url": "https://tabelog.com/tokyo/A1323/A132303/13117809/",
+    "tags": [],
+    "notes": "",
+    "visited": false
+  },
+  {
+    "id": "749630a9-b537-48e0-ba01-452d4c313f40",
+    "name": "らぁ麺やまぐち",
+    "address": "東京都新宿区西早稲田3-13-4 1F",
+    "lat": 35.70998286868104,
+    "lng": 139.71391624471167,
+    "tabelog_rating": 3.78,
+    "personal_rating": null,
+    "cuisine": "ラーメン",
+    "price_tier": 2,
+    "awards": [
+      {
+        "type": "hyakumeiten",
+        "year": 2025,
+        "category": "Ramen"
+      },
+      {
+        "type": "hyakumeiten",
+        "year": 2024,
+        "category": "Ramen"
+      },
+      {
+        "type": "hyakumeiten",
+        "year": 2023,
+        "category": "Ramen"
+      },
+      {
+        "type": "hyakumeiten",
+        "year": 2022,
+        "category": "Ramen"
+      },
+      {
+        "type": "hyakumeiten",
+        "year": 2021,
+        "category": "Ramen"
+      },
+      {
+        "type": "hyakumeiten",
+        "year": 2020,
+        "category": "Ramen"
+      },
+      {
+        "type": "hyakumeiten",
+        "year": 2019,
+        "category": "Ramen"
+      },
+      {
+        "type": "hyakumeiten",
+        "year": 2018,
+        "category": "Ramen"
+      },
+      {
+        "type": "hyakumeiten",
+        "year": 2017,
+        "category": "Ramen"
+      }
+    ],
+    "tabelog_url": "https://tabelog.com/tokyo/A1305/A130504/13151200/",
+    "tags": [],
+    "notes": "",
+    "visited": false
+  },
+  {
+    "id": "34531212-71e0-42f7-8858-d2addbfe706d",
+    "name": "らーめん 鴨to葱",
+    "address": "東京都台東区上野6-4-15",
+    "lat": 35.7083652345893,
+    "lng": 139.77527888224816,
+    "tabelog_rating": 3.73,
+    "personal_rating": 3.9,
+    "cuisine": "ラーメン",
+    "price_tier": 2,
+    "awards": [],
+    "tabelog_url": "https://tabelog.com/tokyo/A1311/A131101/13210392/",
+    "tags": [],
+    "notes": "",
+    "visited": true
+  },
+  {
+    "id": "80334469-33db-4a9f-b8ca-7b5dda40afe3",
+    "name": "麺屋海神 新宿店",
+    "address": "東京都新宿区新宿3-35-7 さんらくビル　２Ｆ",
+    "lat": 35.68975193788478,
+    "lng": 139.70220458335376,
+    "tabelog_rating": 3.73,
+    "personal_rating": null,
+    "cuisine": "ラーメン",
+    "price_tier": 1,
+    "awards": [
+      {
+        "type": "hyakumeiten",
+        "year": 2020,
+        "category": "Ramen"
+      }
+    ],
+    "tabelog_url": "https://tabelog.com/tokyo/A1304/A130401/13045287/",
+    "tags": [],
+    "notes": "",
+    "visited": false
+  },
+  {
+    "id": "45c3848b-5c19-44c4-a98c-4a91791b0f37",
+    "name": "らーめん改",
+    "address": "東京都台東区蔵前4-20-10 宮内ビル 1F",
+    "lat": 35.70444863790346,
+    "lng": 139.79016498344055,
+    "tabelog_rating": 3.78,
+    "personal_rating": null,
+    "cuisine": "ラーメン",
+    "price_tier": 2,
+    "awards": [
+      {
+        "type": "hyakumeiten",
+        "year": 2025,
+        "category": "Ramen"
+      },
+      {
+        "type": "hyakumeiten",
+        "year": 2024,
+        "category": "Ramen"
+      },
+      {
+        "type": "hyakumeiten",
+        "year": 2023,
+        "category": "Ramen"
+      },
+      {
+        "type": "hyakumeiten",
+        "year": 2022,
+        "category": "Ramen"
+      },
+      {
+        "type": "hyakumeiten",
+        "year": 2020,
+        "category": "Ramen"
+      },
+      {
+        "type": "hyakumeiten",
+        "year": 2019,
+        "category": "Ramen"
+      },
+      {
+        "type": "hyakumeiten",
+        "year": 2018,
+        "category": "Ramen"
+      }
+    ],
+    "tabelog_url": "https://tabelog.com/tokyo/A1311/A131103/13191776/",
+    "tags": [],
+    "notes": "",
+    "visited": false
+  },
+  {
+    "id": "1793905f-68b2-4495-828a-12c607268244",
+    "name": "らぁ麺 鳳仙花",
+    "address": "東京都新宿区歌舞伎町1-24-6",
+    "lat": 35.69443653788133,
+    "lng": 139.70069928340212,
+    "tabelog_rating": 3.69,
+    "personal_rating": null,
+    "cuisine": "ラーメン",
+    "price_tier": 2,
+    "awards": [],
+    "tabelog_url": "https://tabelog.com/tokyo/A1304/A130401/13224521/",
+    "tags": [],
+    "notes": "",
+    "visited": false
+  },
+  {
+    "id": "5c1bc5e5-8f8f-40d7-91ca-de9c95cb1bb8",
+    "name": "はやし",
+    "address": "東京都渋谷区道玄坂1-14-9 ソシアル道玄坂 1F",
+    "lat": 35.657333737904025,
+    "lng": 139.69799148302923,
+    "tabelog_rating": 3.77,
+    "personal_rating": null,
+    "cuisine": "ラーメン",
+    "price_tier": 2,
+    "awards": [
+      {
+        "type": "hyakumeiten",
+        "year": 2025,
+        "category": "Ramen"
+      },
+      {
+        "type": "hyakumeiten",
+        "year": 2024,
+        "category": "Ramen"
+      },
+      {
+        "type": "hyakumeiten",
+        "year": 2023,
+        "category": "Ramen"
+      },
+      {
+        "type": "hyakumeiten",
+        "year": 2022,
+        "category": "Ramen"
+      },
+      {
+        "type": "hyakumeiten",
+        "year": 2021,
+        "category": "Ramen"
+      },
+      {
+        "type": "hyakumeiten",
+        "year": 2020,
+        "category": "Ramen"
+      },
+      {
+        "type": "hyakumeiten",
+        "year": 2019,
+        "category": "Ramen"
+      },
+      {
+        "type": "hyakumeiten",
+        "year": 2018,
+        "category": "Ramen"
+      },
+      {
+        "type": "hyakumeiten",
+        "year": 2017,
+        "category": "Ramen"
+      }
+    ],
+    "tabelog_url": "https://tabelog.com/tokyo/A1303/A130301/13003367/",
+    "tags": [],
+    "notes": "",
+    "visited": false
+  },
+  {
+    "id": "0b59dc45-be04-4ab0-82e1-045fd7452ec8",
+    "name": "Ramen Break Beats",
+    "address": "東京都目黒区目黒4-21-19 アイビーハイツ 1F",
+    "lat": 35.63352413791941,
+    "lng": 139.6987766827882,
+    "tabelog_rating": 3.84,
+    "personal_rating": null,
+    "cuisine": "ラーメン",
+    "price_tier": 2,
+    "awards": [
+      {
+        "type": "hyakumeiten",
+        "year": 2025,
+        "category": "Ramen"
+      },
+      {
+        "type": "hyakumeiten",
+        "year": 2023,
+        "category": "Ramen"
+      },
+      {
+        "type": "hyakumeiten",
+        "year": 2022,
+        "category": "Ramen"
+      }
+    ],
+    "tabelog_url": "https://tabelog.com/tokyo/A1317/A131701/13267329/",
+    "tags": [],
+    "notes": "",
+    "visited": false
+  },
+  {
+    "id": "e4684fcd-dff7-43e7-bb9e-b62cc0e7d6b2",
+    "name": "ラルフズ コーヒー 表参道",
+    "address": "東京都渋谷区神宮前4-25-15",
+    "lat": 35.66794573790026,
+    "lng": 139.7073066831299,
+    "tabelog_rating": 3.57,
+    "personal_rating": null,
+    "cuisine": "カフェ",
+    "price_tier": 1,
+    "awards": [],
+    "tabelog_url": "https://tabelog.com/tokyo/A1306/A130601/13227420/",
+    "tags": [],
+    "notes": "",
+    "visited": false
+  },
+  {
+    "id": "37f119c7-1c8e-479a-9b35-ae87df6a3b70",
+    "name": "pizza marumo",
+    "address": "東京都渋谷区恵比寿南1-11-13 恵比寿ヴェルソービル 1F",
+    "lat": 35.645301637915026,
+    "lng": 139.70851828290034,
+    "tabelog_rating": 3.69,
+    "personal_rating": null,
+    "cuisine": "ピザ",
+    "price_tier": 4,
+    "awards": [
+      {
+        "type": "hyakumeiten",
+        "year": 2025,
+        "category": "Pizza"
+      }
+    ],
+    "tabelog_url": "https://tabelog.com/tokyo/A1303/A130302/13276584/",
+    "tags": [],
+    "notes": "",
+    "visited": false
+  },
+  {
+    "id": "009f1232-dd2a-48c0-bf9b-8fe88bbe9d26",
+    "name": "ピルニーピヤーク",
+    "address": "東京都港区高輪2-16-47 エスセナーリオ高輪 1F",
+    "lat": 35.63870483873416,
+    "lng": 139.73856767397442,
+    "tabelog_rating": 3.37,
+    "personal_rating": null,
+    "cuisine": "チェコ料理",
+    "price_tier": 3,
+    "awards": [],
+    "tabelog_url": "https://tabelog.com/tokyo/A1314/A131403/13282149/",
+    "tags": [],
+    "notes": "",
+    "visited": false
+  },
+  {
+    "id": "d49e739a-85ba-43ed-9603-ae1d6079d9aa",
+    "name": "フォーティントーキョー",
+    "address": "東京都豊島区東池袋1-12-14 ハヤカワビル B1F",
+    "lat": 35.72941220866892,
+    "lng": 139.71461785490743,
+    "tabelog_rating": 3.67,
+    "personal_rating": 2.8,
+    "cuisine": "ベトナム料理",
+    "price_tier": 2,
+    "awards": [
+      {
+        "type": "hyakumeiten",
+        "year": 2026,
+        "category": "Asia_ethnic"
+      },
+      {
+        "type": "hyakumeiten",
+        "year": 2024,
+        "category": "Asia_ethnic"
+      },
+      {
+        "type": "hyakumeiten",
+        "year": 2023,
+        "category": "Asia_ethnic"
+      },
+      {
+        "type": "hyakumeiten",
+        "year": 2022,
+        "category": "Asia_ethnic"
+      }
+    ],
+    "tabelog_url": "https://tabelog.com/tokyo/A1305/A130501/13232077/",
+    "tags": [],
+    "notes": "",
+    "visited": true
+  },
+  {
+    "id": "93a6b946-b28e-4337-8985-98d98f1ce08d",
+    "name": "カフェ ザ サン リブズ ヒア",
+    "address": "東京都世田谷区三軒茶屋1-27-33",
+    "lat": 35.640700458711756,
+    "lng": 139.6721948240411,
+    "tabelog_rating": 3.57,
+    "personal_rating": null,
+    "cuisine": "カフェ",
+    "price_tier": 1,
+    "awards": [],
+    "tabelog_url": "https://tabelog.com/tokyo/A1317/A131706/13145455/",
+    "tags": [
+      "cheesecake"
+    ],
+    "notes": "",
+    "visited": false
+  },
+  {
+    "id": "ce3fddef-195d-4f1c-b513-4bd226089f58",
+    "name": "オムの細道",
+    "address": "東京都墨田区立花3-2-1 光うさぎcafe",
+    "lat": 35.706235742256524,
+    "lng": 139.83233218296397,
+    "tabelog_rating": 3.45,
+    "personal_rating": null,
+    "cuisine": "オムライス",
+    "price_tier": 3,
+    "awards": [],
+    "tabelog_url": "https://tabelog.com/tokyo/A1312/A131203/13291320/",
+    "tags": [],
+    "notes": "",
+    "visited": false
+  },
+  {
+    "id": "f2224122-8cf7-444a-aa33-d85a8df705d6",
+    "name": "日本橋海鮮丼 つじ半 日本橋本店",
+    "address": "東京都中央区日本橋3-1-15 久栄ビル 1F",
+    "lat": 35.68072574871798,
+    "lng": 139.77158657437573,
+    "tabelog_rating": 3.59,
+    "personal_rating": null,
+    "cuisine": "海鮮丼",
+    "price_tier": 2,
+    "awards": [],
+    "tabelog_url": "https://tabelog.com/tokyo/A1302/A130202/13146590/",
+    "tags": [],
+    "notes": "",
+    "visited": false
+  },
+  {
+    "id": "b376e337-0bba-466f-a0c0-eb26953966fd",
+    "name": "ノーティバイバーガー",
+    "address": "東京都文京区大塚3-8-5 パレドール文京第3 1F",
+    "lat": 35.720770938680175,
+    "lng": 139.73272730480744,
+    "tabelog_rating": 3.42,
+    "personal_rating": null,
+    "cuisine": "ハンバーガー",
+    "price_tier": 2,
+    "awards": [],
+    "tabelog_url": "https://tabelog.com/tokyo/A1323/A132302/13274499/",
+    "tags": [],
+    "notes": "",
+    "visited": false
+  },
+  {
+    "id": "c6a27f4e-2b22-4c83-9033-c094d3b1de90",
+    "name": "ななや 青山店",
+    "address": "東京都渋谷区渋谷2-7-12 1F",
+    "lat": 35.660346988710536,
+    "lng": 139.70756689421475,
+    "tabelog_rating": 3.35,
+    "personal_rating": null,
+    "cuisine": "カフェ",
+    "price_tier": 1,
+    "awards": [],
+    "tabelog_url": "https://tabelog.com/tokyo/A1303/A130301/13199165/",
+    "tags": [
+      "ice cream"
+    ],
+    "notes": "",
+    "visited": false
+  },
+  {
+    "id": "4959f8fc-5e03-4aef-99f0-dd069feab250",
+    "name": "マンチズ バーガー シャック",
+    "address": "東京都港区芝2-26-1 i・smartビル 1F・2F",
+    "lat": 35.651020237925195,
+    "lng": 139.75183958292774,
+    "tabelog_rating": 3.77,
+    "personal_rating": null,
+    "cuisine": "ハンバーガー",
+    "price_tier": 3,
+    "awards": [
+      {
+        "type": "hyakumeiten",
+        "year": 2026,
+        "category": "Hamburger"
+      },
+      {
+        "type": "hyakumeiten",
+        "year": 2024,
+        "category": "Hamburger"
+      },
+      {
+        "type": "hyakumeiten",
+        "year": 2022,
+        "category": "Hamburger"
+      },
+      {
+        "type": "hyakumeiten",
+        "year": 2021,
+        "category": "Hamburger"
+      },
+      {
+        "type": "hyakumeiten",
+        "year": 2019,
+        "category": "Hamburger"
+      },
+      {
+        "type": "hyakumeiten",
+        "year": 2018,
+        "category": "Hamburger"
+      },
+      {
+        "type": "hyakumeiten",
+        "year": 2017,
+        "category": "Hamburger"
+      }
+    ],
+    "tabelog_url": "https://tabelog.com/tokyo/A1314/A131401/13121856/",
+    "tags": [],
+    "notes": "",
+    "visited": false
+  },
+  {
+    "id": "b25c1586-2c0e-45fe-8449-34438d999c6f",
+    "name": "酒と味噌煮込み 味噌煮込罠",
+    "address": "東京都文京区本郷3-31-15 菅谷ビル",
+    "lat": 35.70640461869844,
+    "lng": 139.7614435446422,
+    "tabelog_rating": 3.67,
+    "personal_rating": null,
+    "cuisine": "うどん",
+    "price_tier": 3,
+    "awards": [
+      {
+        "type": "hyakumeiten",
+        "year": 2024,
+        "category": "Udon"
+      },
+      {
+        "type": "hyakumeiten",
+        "year": 2022,
+        "category": "Udon"
+      },
+      {
+        "type": "hyakumeiten",
+        "year": 2020,
+        "category": "Udon"
+      },
+      {
+        "type": "hyakumeiten",
+        "year": 2019,
+        "category": "Udon"
+      },
+      {
+        "type": "hyakumeiten",
+        "year": 2018,
+        "category": "Udon"
+      },
+      {
+        "type": "hyakumeiten",
+        "year": 2017,
+        "category": "Udon"
+      }
+    ],
+    "tabelog_url": "https://tabelog.com/tokyo/A1310/A131004/13036030/",
+    "tags": [],
+    "notes": "",
+    "visited": false
+  },
+  {
+    "id": "99c390d8-2707-4174-b345-dc33febbbfaa",
+    "name": "赤坂珉珉",
+    "address": "東京都港区赤坂8-7-4",
+    "lat": 35.67078475871095,
+    "lng": 139.7296757543047,
+    "tabelog_rating": 3.66,
+    "personal_rating": null,
+    "cuisine": "中華料理",
+    "price_tier": 4,
+    "awards": [
+      {
+        "type": "hyakumeiten",
+        "year": 2026,
+        "category": "Chinese"
+      },
+      {
+        "type": "hyakumeiten",
+        "year": 2024,
+        "category": "Chinese"
+      },
+      {
+        "type": "hyakumeiten",
+        "year": 2021,
+        "category": "Chinese"
+      }
+    ],
+    "tabelog_url": "https://tabelog.com/tokyo/A1307/A130701/13001342/",
+    "tags": [],
+    "notes": "",
+    "visited": false
+  },
+  {
+    "id": "3553b9ba-e218-4828-bf40-1b3c481d7715",
+    "name": "ミルクランドホッカイドウ→トウキョウ",
+    "address": "東京都目黒区自由が丘1-26-16 山川ビル1F～2F",
+    "lat": 35.609228137925236,
+    "lng": 139.6686497825639,
+    "tabelog_rating": 3.58,
+    "personal_rating": null,
+    "cuisine": "カフェ",
+    "price_tier": 2,
+    "awards": [],
+    "tabelog_url": "https://tabelog.com/tokyo/A1317/A131703/13232018/",
+    "tags": [],
+    "notes": "",
+    "visited": false
+  },
+  {
+    "id": "efd5d46c-a1bd-49b6-aad5-3a04f0333503",
+    "name": "MENクライ",
+    "address": "東京都港区芝1-3-4 山谷ビル 1F",
+    "lat": 35.65249083792527,
+    "lng": 139.75503878294035,
+    "tabelog_rating": 3.74,
+    "personal_rating": null,
+    "cuisine": "ラーメン",
+    "price_tier": 2,
+    "awards": [
+      {
+        "type": "hyakumeiten",
+        "year": 2021,
+        "category": "Ramen"
+      }
+    ],
+    "tabelog_url": "https://tabelog.com/tokyo/A1314/A131401/13255714/",
+    "tags": [],
+    "notes": "",
+    "visited": false
+  },
+  {
+    "id": "0feeb720-102b-41f2-8462-0cbfcb9524ae",
+    "name": "麺散",
+    "address": "東京都渋谷区神宮前6-13-7",
+    "lat": 35.666508038705835,
+    "lng": 139.7051008842787,
+    "tabelog_rating": 3.58,
+    "personal_rating": null,
+    "cuisine": "うどん",
+    "price_tier": 3,
+    "awards": [],
+    "tabelog_url": "https://tabelog.com/tokyo/A1306/A130601/13225567/",
+    "tags": [],
+    "notes": "",
+    "visited": false
+  },
+  {
+    "id": "7163a88e-1ecc-4073-98f7-eec186a15079",
+    "name": "麗江",
+    "address": "東京都中央区佃1-6-7 大栄マンション　１Ｆ",
+    "lat": 35.667406838730145,
+    "lng": 139.78320805423306,
+    "tabelog_rating": 3.43,
+    "personal_rating": 3.5,
+    "cuisine": "中華料理",
+    "price_tier": 4,
+    "awards": [],
+    "tabelog_url": "https://tabelog.com/tokyo/A1313/A131302/13007574/",
+    "tags": [],
+    "notes": "",
+    "visited": true
+  },
+  {
+    "id": "883892f6-cfc7-46d9-b292-2b729bcf8036",
+    "name": "旧ヤム邸  シモキタ荘",
+    "address": "東京都世田谷区代沢5-29-9 ナイスビル 1F",
+    "lat": 35.65842642869886,
+    "lng": 139.66707356422376,
+    "tabelog_rating": 3.81,
+    "personal_rating": null,
+    "cuisine": "カレー",
+    "price_tier": 2,
+    "awards": [
+      {
+        "type": "hyakumeiten",
+        "year": 2026,
+        "category": "Curry"
+      },
+      {
+        "type": "hyakumeiten",
+        "year": 2024,
+        "category": "Curry"
+      },
+      {
+        "type": "hyakumeiten",
+        "year": 2023,
+        "category": "Curry"
+      },
+      {
+        "type": "hyakumeiten",
+        "year": 2022,
+        "category": "Curry"
+      },
+      {
+        "type": "hyakumeiten",
+        "year": 2020,
+        "category": "Curry"
+      },
+      {
+        "type": "hyakumeiten",
+        "year": 2019,
+        "category": "Curry"
+      },
+      {
+        "type": "hyakumeiten",
+        "year": 2018,
+        "category": "Curry"
+      }
+    ],
+    "tabelog_url": "https://tabelog.com/tokyo/A1318/A131802/13211142/",
+    "tags": [],
+    "notes": "",
+    "visited": false
+  },
+  {
+    "id": "c9a90190-cd15-44ba-95fc-1c3bff782fe2",
+    "name": "タイの食卓 クルン・サイアム 自由が丘店",
+    "address": "東京都目黒区自由が丘2-11-16 エクセレンスビル　２Ｆ",
+    "lat": 35.6077013087312,
+    "lng": 139.6674634537111,
+    "tabelog_rating": 3.52,
+    "personal_rating": 3,
+    "cuisine": "タイ料理",
+    "price_tier": 3,
+    "awards": [],
+    "tabelog_url": "https://tabelog.com/tokyo/A1317/A131703/13009673/",
+    "tags": [],
+    "notes": "",
+    "visited": true
+  },
+  {
+    "id": "680af61e-a860-4e86-b036-446391be0079",
+    "name": "麻布笄軒 中目黒店",
+    "address": "東京都目黒区上目黒1-8-29",
+    "lat": 35.646113837911855,
+    "lng": 139.70018068291438,
+    "tabelog_rating": 3.53,
+    "personal_rating": null,
+    "cuisine": "洋食",
+    "price_tier": 3,
+    "awards": [],
+    "tabelog_url": "https://tabelog.com/tokyo/A1317/A131701/13253403/",
+    "tags": [],
+    "notes": "",
+    "visited": false
+  },
+  {
+    "id": "25274d25-ee62-49ba-9ca1-4d42cdbca283",
+    "name": "キッチン ハセガワ",
+    "address": "東京都渋谷区円山町22-16 1F",
+    "lat": 35.65678863790322,
+    "lng": 139.6943651830263,
+    "tabelog_rating": 3.49,
+    "personal_rating": null,
+    "cuisine": "ハンバーグ",
+    "price_tier": 3,
+    "awards": [],
+    "tabelog_url": "https://tabelog.com/tokyo/A1303/A130301/13158274/",
+    "tags": [],
+    "notes": "",
+    "visited": false
+  },
+  {
+    "id": "0733053e-66fd-447c-a226-b09bff944012",
+    "name": "切麦や 甚六",
+    "address": "東京都新宿区新宿1-17-1 LAND・DEN 1F",
+    "lat": 35.689166628693606,
+    "lng": 139.71186989450283,
+    "tabelog_rating": 3.64,
+    "personal_rating": null,
+    "cuisine": "うどん",
+    "price_tier": 3,
+    "awards": [
+      {
+        "type": "hyakumeiten",
+        "year": 2024,
+        "category": "Udon"
+      },
+      {
+        "type": "hyakumeiten",
+        "year": 2022,
+        "category": "Udon"
+      },
+      {
+        "type": "hyakumeiten",
+        "year": 2020,
+        "category": "Udon"
+      },
+      {
+        "type": "hyakumeiten",
+        "year": 2019,
+        "category": "Udon"
+      }
+    ],
+    "tabelog_url": "https://tabelog.com/tokyo/A1304/A130402/13182646/",
+    "tags": [],
+    "notes": "",
+    "visited": false
+  },
+  {
+    "id": "8e6914ce-f3dd-498e-ab80-e38e2f6fd627",
+    "name": "生粋 花のれん",
+    "address": "東京都文京区大塚3-5-4 茗荷谷ハイツ 1Ｆ",
+    "lat": 35.7196053986814,
+    "lng": 139.7342577447946,
+    "tabelog_rating": 3.69,
+    "personal_rating": null,
+    "cuisine": "ラーメン",
+    "price_tier": 2,
+    "awards": [],
+    "tabelog_url": "https://tabelog.com/tokyo/A1323/A132302/13184374/",
+    "tags": [],
+    "notes": "",
+    "visited": false
+  },
+  {
+    "id": "b02c76d5-1779-45ff-8820-5a786c33447a",
+    "name": "川善",
+    "address": "東京都世田谷区太子堂4-24-15 川善ビル ２Ｆ",
+    "lat": 35.644944634457936,
+    "lng": 139.67043617138646,
+    "tabelog_rating": 3.48,
+    "personal_rating": 3.8,
+    "cuisine": "とんかつ",
+    "price_tier": 2,
+    "awards": [],
+    "tabelog_url": "https://tabelog.com/tokyo/A1317/A131706/13013102/",
+    "tags": [],
+    "notes": "",
+    "visited": true
+  },
+  {
+    "id": "1e9e9155-8c92-4b91-8908-a2da41e95b5d",
+    "name": "瑞兆",
+    "address": "東京都渋谷区宇田川町41-26 パピエビル 1F",
+    "lat": 35.66267456247353,
+    "lng": 139.69537022874226,
+    "tabelog_rating": 3.54,
+    "personal_rating": null,
+    "cuisine": "かつ丼",
+    "price_tier": 2,
+    "awards": [
+      {
+        "type": "hyakumeiten",
+        "year": 2021,
+        "category": "Tonkatsu"
+      },
+      {
+        "type": "hyakumeiten",
+        "year": 2019,
+        "category": "Tonkatsu"
+      }
+    ],
+    "tabelog_url": "https://tabelog.com/tokyo/A1303/A130301/13161530/",
+    "tags": [],
+    "notes": "",
+    "visited": false
+  },
+  {
+    "id": "b5e074d5-180a-454f-a990-20c0bbbc660d",
+    "name": "亀戸ぎょうざ 錦糸町店",
+    "address": "東京都墨田区江東橋3-9-1",
+    "lat": 35.69463618872239,
+    "lng": 139.81318109448708,
+    "tabelog_rating": 3.49,
+    "personal_rating": null,
+    "cuisine": "餃子",
+    "price_tier": 2,
+    "awards": [
+      {
+        "type": "hyakumeiten",
+        "year": 2024,
+        "category": "Gyoza"
+      },
+      {
+        "type": "hyakumeiten",
+        "year": 2021,
+        "category": "Gyoza"
+      },
+      {
+        "type": "hyakumeiten",
+        "year": 2019,
+        "category": "Gyoza"
+      }
+    ],
+    "tabelog_url": "https://tabelog.com/tokyo/A1312/A131201/13041091/",
+    "tags": [],
+    "notes": "",
+    "visited": false
+  },
+  {
+    "id": "7dced9f1-2dc3-4553-a692-d50c14d99774",
+    "name": "釜めし なかい",
+    "address": "東京都西多摩郡奥多摩町大丹波175",
+    "lat": 35.826998958431496,
+    "lng": 139.16373989627928,
+    "tabelog_rating": 3.48,
+    "personal_rating": null,
+    "cuisine": "釜飯",
+    "price_tier": 3,
+    "awards": [],
+    "tabelog_url": "https://tabelog.com/tokyo/A1330/A133004/13016478/",
+    "tags": [],
+    "notes": "",
+    "visited": false
+  },
+  {
+    "id": "25b56e9b-7c83-40f1-8b34-e32e6b289638",
+    "name": "カフィアライム",
+    "address": "東京都渋谷区神宮前6-6-2 原宿ベルピアビル 2F",
+    "lat": 35.667570028705384,
+    "lng": 139.70578288428896,
+    "tabelog_rating": 3.44,
+    "personal_rating": 2.9,
+    "cuisine": "タイ料理",
+    "price_tier": 3,
+    "awards": [],
+    "tabelog_url": "https://tabelog.com/tokyo/A1306/A130601/13258319/",
+    "tags": [],
+    "notes": "",
+    "visited": true
+  },
+  {
+    "id": "4a122741-17e8-4547-b3df-d4d5316d83d7",
+    "name": "ジュウニブンベーカリーカフェ",
+    "address": "東京都世田谷区三軒茶屋1-30-9 三軒茶屋ターミナルビル 2F",
+    "lat": 35.641631637905036,
+    "lng": 139.66983538289034,
+    "tabelog_rating": 3.57,
+    "personal_rating": null,
+    "cuisine": "カフェ",
+    "price_tier": 2,
+    "awards": [],
+    "tabelog_url": "https://tabelog.com/tokyo/A1317/A131706/13246758/",
+    "tags": [],
+    "notes": "",
+    "visited": false
+  },
+  {
+    "id": "1bc27340-979b-486d-845b-7e1d08e79b33",
+    "name": "BAKERY & BURGER JB'S TOKYO",
+    "address": "東京都渋谷区代々木1-33-3",
+    "lat": 35.68280783788919,
+    "lng": 139.70219118328362,
+    "tabelog_rating": 3.61,
+    "personal_rating": null,
+    "cuisine": "ハンバーガー",
+    "price_tier": 2,
+    "awards": [
+      {
+        "type": "hyakumeiten",
+        "year": 2026,
+        "category": "Hamburger"
+      },
+      {
+        "type": "hyakumeiten",
+        "year": 2024,
+        "category": "Hamburger"
+      }
+    ],
+    "tabelog_url": "https://tabelog.com/tokyo/A1304/A130403/13260771/",
+    "tags": [],
+    "notes": "",
+    "visited": false
+  },
+  {
+    "id": "6592d19d-c86a-4065-b760-e8db53a8c276",
+    "name": "ジャパニーズ ラーメン 五感",
+    "address": "東京都豊島区東池袋2-57-2 コスモ東池袋 101",
+    "lat": 35.73308813786226,
+    "lng": 139.71791438378045,
+    "tabelog_rating": 3.96,
+    "personal_rating": null,
+    "cuisine": "ラーメン",
+    "price_tier": 2,
+    "awards": [
+      {
+        "type": "hyakumeiten",
+        "year": 2025,
+        "category": "Ramen"
+      },
+      {
+        "type": "hyakumeiten",
+        "year": 2024,
+        "category": "Ramen"
+      },
+      {
+        "type": "hyakumeiten",
+        "year": 2023,
+        "category": "Ramen"
+      }
+    ],
+    "tabelog_url": "https://tabelog.com/tokyo/A1305/A130501/13284009/",
+    "tags": [],
+    "notes": "",
+    "visited": false
+  },
+  {
+    "id": "ae3d9858-7ddd-4d81-ac87-f3666c597ae1",
+    "name": "ごはんや一芯 代官山",
+    "address": "東京都渋谷区猿楽町30-3 ツインビル代官山A棟 B1F",
+    "lat": 35.64719799871705,
+    "lng": 139.701787974086,
+    "tabelog_rating": 3.63,
+    "personal_rating": null,
+    "cuisine": "居酒屋",
+    "price_tier": 4,
+    "awards": [],
+    "tabelog_url": "https://tabelog.com/tokyo/A1303/A130303/13163239/",
+    "tags": [],
+    "notes": "",
+    "visited": false
+  },
+  {
+    "id": "5f4cd9f4-309e-4d3e-8bce-87ff8f5e5f7b",
+    "name": "伊勢屋食堂",
+    "address": "東京都新宿区北新宿4-2-1 淀橋市場",
+    "lat": 35.70487126867792,
+    "lng": 139.693955624674,
+    "tabelog_rating": 3.49,
+    "personal_rating": null,
+    "cuisine": "食堂",
+    "price_tier": 2,
+    "awards": [],
+    "tabelog_url": "https://tabelog.com/tokyo/A1304/A130404/13081288/",
+    "tags": [],
+    "notes": "",
+    "visited": false
+  },
+  {
+    "id": "7e33ca1f-4e32-4713-a501-139882be6ea8",
+    "name": "入鹿TOKYO",
+    "address": "東京都東久留米市本町1-4-28",
+    "lat": 35.75922187859187,
+    "lng": 139.53215582533645,
+    "tabelog_rating": 3.88,
+    "personal_rating": null,
+    "cuisine": "ラーメン",
+    "price_tier": 1,
+    "awards": [
+      {
+        "type": "hyakumeiten",
+        "year": 2025,
+        "category": "Ramen"
+      },
+      {
+        "type": "hyakumeiten",
+        "year": 2024,
+        "category": "Ramen"
+      },
+      {
+        "type": "hyakumeiten",
+        "year": 2023,
+        "category": "Ramen"
+      },
+      {
+        "type": "hyakumeiten",
+        "year": 2022,
+        "category": "Ramen"
+      },
+      {
+        "type": "hyakumeiten",
+        "year": 2021,
+        "category": "Ramen"
+      }
+    ],
+    "tabelog_url": "https://tabelog.com/tokyo/A1328/A132802/13234223/",
+    "tags": [],
+    "notes": "",
+    "visited": false
+  },
+  {
+    "id": "a443c526-a468-4f96-9251-8d5eb295d5d4",
+    "name": "イリヤプラスカフェ カスタム倉庫",
+    "address": "東京都台東区寿4-7-11",
+    "lat": 35.70866768870669,
+    "lng": 139.7918627046437,
+    "tabelog_rating": 3.53,
+    "personal_rating": null,
+    "cuisine": "カフェ",
+    "price_tier": 2,
+    "awards": [],
+    "tabelog_url": "https://tabelog.com/tokyo/A1311/A131102/13237318/",
+    "tags": [
+      "pancakes"
+    ],
+    "notes": "",
+    "visited": false
+  },
+  {
+    "id": "da407a46-e19e-40b6-b7ff-2520c9aa387f",
+    "name": "イップクアンドマッチャ 日本橋店",
+    "address": "東京都中央区日本橋室町2-1-1 日本橋三井タワー 1F",
+    "lat": 35.68734589871423,
+    "lng": 139.77298595444162,
+    "tabelog_rating": 3.54,
+    "personal_rating": null,
+    "cuisine": "カフェ",
+    "price_tier": 2,
+    "awards": [],
+    "tabelog_url": "https://tabelog.com/tokyo/A1302/A130202/13241871/",
+    "tags": [
+      "matcha"
+    ],
+    "notes": "",
+    "visited": false
+  },
+  {
+    "id": "155d3b8f-78e5-40b0-b637-1826d6f95902",
+    "name": "麺処 ほん田 秋葉原本店",
+    "address": "東京都千代田区神田花岡町1-19",
+    "lat": 35.69820971870771,
+    "lng": 139.7742129045505,
+    "tabelog_rating": 3.83,
+    "personal_rating": null,
+    "cuisine": "ラーメン",
+    "price_tier": 2,
+    "awards": [
+      {
+        "type": "hyakumeiten",
+        "year": 2025,
+        "category": "Ramen"
+      },
+      {
+        "type": "hyakumeiten",
+        "year": 2023,
+        "category": "Ramen"
+      },
+      {
+        "type": "hyakumeiten",
+        "year": 2022,
+        "category": "Ramen"
+      },
+      {
+        "type": "hyakumeiten",
+        "year": 2021,
+        "category": "Ramen"
+      },
+      {
+        "type": "hyakumeiten",
+        "year": 2020,
+        "category": "Ramen"
+      }
+    ],
+    "tabelog_url": "https://tabelog.com/tokyo/A1310/A131001/13246285/",
+    "tags": [],
+    "notes": "",
+    "visited": false
+  },
+  {
+    "id": "30d92604-8d9e-4e75-82a8-624c8e3219ac",
+    "name": "挽肉と米 渋谷",
+    "address": "東京都渋谷区道玄坂2-28-1 椎津ビル 3F",
+    "lat": 35.659318548708,
+    "lng": 139.69756299421138,
+    "tabelog_rating": 3.7,
+    "personal_rating": null,
+    "cuisine": "ハンバーグ",
+    "price_tier": 2,
+    "awards": [
+      {
+        "type": "hyakumeiten",
+        "year": 2025,
+        "category": "Yoshoku"
+      },
+      {
+        "type": "hyakumeiten",
+        "year": 2023,
+        "category": "Yoshoku"
+      }
+    ],
+    "tabelog_url": "https://tabelog.com/tokyo/A1303/A130301/13257261/",
+    "tags": [],
+    "notes": "",
+    "visited": false
+  },
+  {
+    "id": "33bbc62b-f0a9-4c8a-9488-192e482ea15d",
+    "name": "ヘンリーズ バーガー 代官山",
+    "address": "東京都渋谷区恵比寿西1-36-6",
+    "lat": 35.647410278717025,
+    "lng": 139.70213836408786,
+    "tabelog_rating": 3.59,
+    "personal_rating": null,
+    "cuisine": "ハンバーガー",
+    "price_tier": 2,
+    "awards": [
+      {
+        "type": "hyakumeiten",
+        "year": 2026,
+        "category": "Hamburger"
+      },
+      {
+        "type": "hyakumeiten",
+        "year": 2024,
+        "category": "Hamburger"
+      },
+      {
+        "type": "hyakumeiten",
+        "year": 2022,
+        "category": "Hamburger"
+      },
+      {
+        "type": "hyakumeiten",
+        "year": 2021,
+        "category": "Hamburger"
+      },
+      {
+        "type": "hyakumeiten",
+        "year": 2019,
+        "category": "Hamburger"
+      },
+      {
+        "type": "hyakumeiten",
+        "year": 2018,
+        "category": "Hamburger"
+      },
+      {
+        "type": "hyakumeiten",
+        "year": 2017,
+        "category": "Hamburger"
+      }
+    ],
+    "tabelog_url": "https://tabelog.com/tokyo/A1303/A130303/13190156/",
+    "tags": [],
+    "notes": "",
+    "visited": false
+  },
+  {
+    "id": "78f2e5c0-cb78-40f5-afe4-b62e17716990",
+    "name": "讃岐のおうどん 花は咲く 新中野本店",
+    "address": "東京都中野区中央4-6-12 新中野マンション 1F",
+    "lat": 35.69919153786782,
+    "lng": 139.66774898347325,
+    "tabelog_rating": 3.65,
+    "personal_rating": null,
+    "cuisine": "うどん",
+    "price_tier": 2,
+    "awards": [
+      {
+        "type": "hyakumeiten",
+        "year": 2024,
+        "category": "Udon"
+      },
+      {
+        "type": "hyakumeiten",
+        "year": 2022,
+        "category": "Udon"
+      },
+      {
+        "type": "hyakumeiten",
+        "year": 2020,
+        "category": "Udon"
+      },
+      {
+        "type": "hyakumeiten",
+        "year": 2019,
+        "category": "Udon"
+      },
+      {
+        "type": "hyakumeiten",
+        "year": 2018,
+        "category": "Udon"
+      }
+    ],
+    "tabelog_url": "https://tabelog.com/tokyo/A1319/A131902/13156851/",
+    "tags": [],
+    "notes": "",
+    "visited": false
+  },
+  {
+    "id": "88ef4998-2497-403c-8718-1d6f82c2dc22",
+    "name": "ハンバーグ嘉 表参道店",
+    "address": "東京都港区南青山5-9-3 第一南青山ビル 1F",
+    "lat": 35.66326509093512,
+    "lng": 139.7114822859808,
+    "tabelog_rating": 3.49,
+    "personal_rating": null,
+    "cuisine": "ハンバーグ",
+    "price_tier": 2,
+    "awards": [],
+    "tabelog_url": "https://tabelog.com/tokyo/A1306/A130602/13281690/",
+    "tags": [],
+    "notes": "",
+    "visited": false
+  },
+  {
+    "id": "b041f8fc-78e5-4a22-9d54-7520452050b6",
+    "name": "餃子の王さま",
+    "address": "東京都台東区浅草1-30-8",
+    "lat": 35.7121413387057,
+    "lng": 139.79565646467617,
+    "tabelog_rating": 3.49,
+    "personal_rating": 3.1,
+    "cuisine": "餃子",
+    "price_tier": 2,
+    "awards": [
+      {
+        "type": "hyakumeiten",
+        "year": 2024,
+        "category": "Gyoza"
+      },
+      {
+        "type": "hyakumeiten",
+        "year": 2021,
+        "category": "Gyoza"
+      },
+      {
+        "type": "hyakumeiten",
+        "year": 2019,
+        "category": "Gyoza"
+      }
+    ],
+    "tabelog_url": "https://tabelog.com/tokyo/A1311/A131102/13016814/",
+    "tags": [],
+    "notes": "",
+    "visited": true
+  },
+  {
+    "id": "653fb9cf-d197-4cd4-9d23-1bd381e70ff8",
+    "name": "餃子マニア 品川本店",
+    "address": "東京都港区高輪4-11-16 京急第11ビル 2F",
+    "lat": 35.6268761379359,
+    "lng": 139.737342382694,
+    "tabelog_rating": 3.57,
+    "personal_rating": null,
+    "cuisine": "餃子",
+    "price_tier": 3,
+    "awards": [
+      {
+        "type": "hyakumeiten",
+        "year": 2024,
+        "category": "Gyoza"
+      }
+    ],
+    "tabelog_url": "https://tabelog.com/tokyo/A1314/A131403/13247755/",
+    "tags": [],
+    "notes": "",
+    "visited": false
+  },
+  {
+    "id": "eebdb0cb-5530-40bf-9f2c-44f332569393",
+    "name": "グリルK 駒込本店",
+    "address": "東京都豊島区駒込1-2-6",
+    "lat": 35.73382732867695,
+    "lng": 139.7486268849282,
+    "tabelog_rating": 3.61,
+    "personal_rating": null,
+    "cuisine": "ハンバーグ",
+    "price_tier": 3,
+    "awards": [
+      {
+        "type": "hyakumeiten",
+        "year": 2025,
+        "category": "Yoshoku"
+      }
+    ],
+    "tabelog_url": "https://tabelog.com/tokyo/A1323/A132301/13283187/",
+    "tags": [],
+    "notes": "",
+    "visited": false
+  },
+  {
+    "id": "a4339f34-864f-41a7-9c81-7636f7109dd8",
+    "name": "銀座 月や",
+    "address": "東京都中央区銀座6-10-1 GINZA SIX 6F",
+    "lat": 35.66945150872265,
+    "lng": 139.76376880426733,
+    "tabelog_rating": 3.55,
+    "personal_rating": null,
+    "cuisine": "ラーメン",
+    "price_tier": 3,
+    "awards": [],
+    "tabelog_url": "https://tabelog.com/tokyo/A1301/A130101/13284308/",
+    "tags": [],
+    "notes": "",
+    "visited": false
+  },
+  {
+    "id": "d7935e4c-cf93-4ac6-829b-2d355f52b453",
+    "name": "五代目 花山うどん 銀座店",
+    "address": "東京都中央区銀座3-14-13",
+    "lat": 35.669908837918705,
+    "lng": 139.7691464831064,
+    "tabelog_rating": 3.64,
+    "personal_rating": null,
+    "cuisine": "うどん",
+    "price_tier": 3,
+    "awards": [
+      {
+        "type": "hyakumeiten",
+        "year": 2024,
+        "category": "Udon"
+      },
+      {
+        "type": "hyakumeiten",
+        "year": 2022,
+        "category": "Udon"
+      },
+      {
+        "type": "hyakumeiten",
+        "year": 2020,
+        "category": "Udon"
+      }
+    ],
+    "tabelog_url": "https://tabelog.com/tokyo/A1301/A130101/13200630/",
+    "tags": [],
+    "notes": "",
+    "visited": false
+  },
+  {
+    "id": "633c247d-5316-476a-8b99-4871f352e108",
+    "name": "銀座 天龍 本店",
+    "address": "東京都中央区銀座2-5-19 ヒューリック銀座二丁目柳通ビル 4F",
+    "lat": 35.67414923791531,
+    "lng": 139.76696358315075,
+    "tabelog_rating": 3.67,
+    "personal_rating": null,
+    "cuisine": "中華料理",
+    "price_tier": 3,
+    "awards": [
+      {
+        "type": "hyakumeiten",
+        "year": 2021,
+        "category": "Gyoza"
+      },
+      {
+        "type": "hyakumeiten",
+        "year": 2019,
+        "category": "Gyoza"
+      }
+    ],
+    "tabelog_url": "https://tabelog.com/tokyo/A1301/A130101/13193356/",
+    "tags": [],
+    "notes": "",
+    "visited": false
+  },
+  {
+    "id": "d6c50872-396f-4844-bd20-7f6e62ef2789",
+    "name": "銀座 梅林 本店",
+    "address": "東京都中央区銀座7-8-1 銀座梅林ビル B1F",
+    "lat": 35.66957723791685,
+    "lng": 139.76268108310757,
+    "tabelog_rating": 3.54,
+    "personal_rating": null,
+    "cuisine": "とんかつ",
+    "price_tier": 3,
+    "awards": [],
+    "tabelog_url": "https://tabelog.com/tokyo/A1301/A130101/13261638/",
+    "tags": [],
+    "notes": "",
+    "visited": false
+  },
+  {
+    "id": "33a21e72-4240-42e3-be32-13d7ee99a5c9",
+    "name": "FUGLEN TOKYO",
+    "address": "東京都渋谷区富ヶ谷1-16-11 1F",
+    "lat": 35.6666488387017,
+    "lng": 139.69242358428903,
+    "tabelog_rating": 3.7,
+    "personal_rating": null,
+    "cuisine": "カフェ",
+    "price_tier": 3,
+    "awards": [
+      {
+        "type": "hyakumeiten",
+        "year": 2025,
+        "category": "Cafe"
+      },
+      {
+        "type": "hyakumeiten",
+        "year": 2022,
+        "category": "Cafe"
+      },
+      {
+        "type": "hyakumeiten",
+        "year": 2021,
+        "category": "Cafe"
+      }
+    ],
+    "tabelog_url": "https://tabelog.com/tokyo/A1318/A131810/13141002/",
+    "tags": [
+      "coffee"
+    ],
+    "notes": "",
+    "visited": false
+  },
+  {
+    "id": "422c5ded-0b3d-49e2-b048-a684987d1240",
+    "name": "ファイヤーハウス",
+    "address": "東京都文京区本郷4-5-10",
+    "lat": 35.707598737891274,
+    "lng": 139.75817278349479,
+    "tabelog_rating": 3.67,
+    "personal_rating": null,
+    "cuisine": "ハンバーガー",
+    "price_tier": 2,
+    "awards": [
+      {
+        "type": "hyakumeiten",
+        "year": 2026,
+        "category": "Hamburger"
+      },
+      {
+        "type": "hyakumeiten",
+        "year": 2024,
+        "category": "Hamburger"
+      },
+      {
+        "type": "hyakumeiten",
+        "year": 2022,
+        "category": "Hamburger"
+      },
+      {
+        "type": "hyakumeiten",
+        "year": 2021,
+        "category": "Hamburger"
+      },
+      {
+        "type": "hyakumeiten",
+        "year": 2019,
+        "category": "Hamburger"
+      },
+      {
+        "type": "hyakumeiten",
+        "year": 2018,
+        "category": "Hamburger"
+      },
+      {
+        "type": "hyakumeiten",
+        "year": 2017,
+        "category": "Hamburger"
+      }
+    ],
+    "tabelog_url": "https://tabelog.com/tokyo/A1310/A131004/13003538/",
+    "tags": [],
+    "notes": "",
+    "visited": false
+  },
+  {
+    "id": "c2ccbb5a-0935-449b-a440-f426bce7fd7e",
+    "name": "エイトカリー",
+    "address": "東京都世田谷区北沢2-9-17",
+    "lat": 35.66274854869686,
+    "lng": 139.66940032426572,
+    "tabelog_rating": 3.53,
+    "personal_rating": null,
+    "cuisine": "カレー",
+    "price_tier": 3,
+    "awards": [],
+    "tabelog_url": "https://tabelog.com/tokyo/A1318/A131802/13243116/",
+    "tags": [],
+    "notes": "",
+    "visited": false
+  },
+  {
+    "id": "cd2c58df-8d30-41a8-8360-bdad9fc60b9b",
+    "name": "ダンデライオン・チョコレート ファクトリー&カフェ蔵前",
+    "address": "東京都台東区蔵前4-14-6",
+    "lat": 35.703669198709164,
+    "lng": 139.7896332945948,
+    "tabelog_rating": 3.74,
+    "personal_rating": 3.4,
+    "cuisine": "カフェ",
+    "price_tier": 2,
+    "awards": [
+      {
+        "type": "hyakumeiten",
+        "year": 2023,
+        "category": "Sweets"
+      }
+    ],
+    "tabelog_url": "https://tabelog.com/tokyo/A1311/A131103/13191976/",
+    "tags": [
+      "chocolate"
+    ],
+    "notes": "",
+    "visited": true
+  },
+  {
+    "id": "7510ca0d-3c8d-46d5-95e8-756ea04caa9f",
+    "name": "駄目な隣人 人形町店",
+    "address": "東京都中央区日本橋人形町3–7-13 日本橋センチュリープラザ 1F",
+    "lat": 35.68627670199136,
+    "lng": 139.78180999443077,
+    "tabelog_rating": 3.72,
+    "personal_rating": null,
+    "cuisine": "ラーメン",
+    "price_tier": 2,
+    "awards": [],
+    "tabelog_url": "https://tabelog.com/tokyo/A1302/A130204/13255889/",
+    "tags": [],
+    "notes": "",
+    "visited": false
+  },
+  {
+    "id": "2465fcfa-0932-4910-9c8f-fb444f752645",
+    "name": "crisscross",
+    "address": "東京都港区南青山5-7-28",
+    "lat": 35.662949637905115,
+    "lng": 139.71260588307572,
+    "tabelog_rating": 3.7,
+    "personal_rating": null,
+    "cuisine": "カフェ",
+    "price_tier": 3,
+    "awards": [
+      {
+        "type": "hyakumeiten",
+        "year": 2025,
+        "category": "Cafe"
+      },
+      {
+        "type": "hyakumeiten",
+        "year": 2022,
+        "category": "Cafe"
+      },
+      {
+        "type": "hyakumeiten",
+        "year": 2021,
+        "category": "Cafe"
+      }
+    ],
+    "tabelog_url": "https://tabelog.com/tokyo/A1306/A130602/13148003/",
+    "tags": [
+      "pancakes"
+    ],
+    "notes": "",
+    "visited": false
+  },
+  {
+    "id": "9348fec4-f293-4df8-b925-a70c007be6d4",
+    "name": "BURGER&MILKSHAKE CRANE",
+    "address": "東京都千代田区外神田6-16-3",
+    "lat": 35.70498335870253,
+    "lng": 139.77143507462083,
+    "tabelog_rating": 3.59,
+    "personal_rating": 4.1,
+    "cuisine": "ハンバーガー",
+    "price_tier": 2,
+    "awards": [
+      {
+        "type": "hyakumeiten",
+        "year": 2026,
+        "category": "Hamburger"
+      },
+      {
+        "type": "hyakumeiten",
+        "year": 2024,
+        "category": "Hamburger"
+      },
+      {
+        "type": "hyakumeiten",
+        "year": 2022,
+        "category": "Hamburger"
+      },
+      {
+        "type": "hyakumeiten",
+        "year": 2021,
+        "category": "Hamburger"
+      },
+      {
+        "type": "hyakumeiten",
+        "year": 2019,
+        "category": "Hamburger"
+      },
+      {
+        "type": "hyakumeiten",
+        "year": 2018,
+        "category": "Hamburger"
+      },
+      {
+        "type": "hyakumeiten",
+        "year": 2017,
+        "category": "Hamburger"
+      }
+    ],
+    "tabelog_url": "https://tabelog.com/tokyo/A1311/A131101/13202745/",
+    "tags": [],
+    "notes": "",
+    "visited": true
+  },
+  {
+    "id": "5dc77659-0a3f-4d1f-893e-1bbd5db0264c",
+    "name": "中華蕎麦 無冠",
+    "address": "東京都品川区西五反田2-6-1 石塚ビル 1F",
+    "lat": 35.62688903793102,
+    "lng": 139.72205498270486,
+    "tabelog_rating": 3.75,
+    "personal_rating": null,
+    "cuisine": "ラーメン",
+    "price_tier": 2,
+    "awards": [],
+    "tabelog_url": "https://tabelog.com/tokyo/A1316/A131603/13279264/",
+    "tags": [],
+    "notes": "",
+    "visited": false
+  },
+  {
+    "id": "d1d25f33-f076-4cc3-98e3-7cf940fd7b0a",
+    "name": "陳家私菜 新宿店",
+    "address": "東京都渋谷区代々木2-15-9 加瀬ビル1F",
+    "lat": 35.686862737884766,
+    "lng": 139.69639128332864,
+    "tabelog_rating": 3.43,
+    "personal_rating": null,
+    "cuisine": "中華料理",
+    "price_tier": 3,
+    "awards": [],
+    "tabelog_url": "https://tabelog.com/tokyo/A1304/A130401/13093350/",
+    "tags": [],
+    "notes": "",
+    "visited": false
+  },
+  {
+    "id": "e5d08fbb-606b-41d3-ad0b-fb23bd79f81b",
+    "name": "TaiKouRou Tokyo",
+    "address": "東京都中央区八重洲1-5-15 荘栄建物ビル 1F",
+    "lat": 35.68164923791177,
+    "lng": 139.77077738322384,
+    "tabelog_rating": 3.51,
+    "personal_rating": null,
+    "cuisine": "中華料理",
+    "price_tier": 3,
+    "awards": [],
+    "tabelog_url": "https://tabelog.com/tokyo/A1302/A130202/13251353/",
+    "tags": [],
+    "notes": "",
+    "visited": false
+  },
+  {
+    "id": "5952497a-beab-41b5-ad78-c99caf1c0e44",
+    "name": "Chanoma",
+    "address": "東京都豊島区西池袋5-12-3 ニシイケバレイ",
+    "lat": 35.73238328866367,
+    "lng": 139.70405934494485,
+    "tabelog_rating": 3.54,
+    "personal_rating": null,
+    "cuisine": "カフェ",
+    "price_tier": 2,
+    "awards": [],
+    "tabelog_url": "https://tabelog.com/tokyo/A1322/A132202/13266446/",
+    "tags": [
+      "matcha terrine"
+    ],
+    "notes": "",
+    "visited": false
+  },
+  {
+    "id": "18d15d9e-757e-45a0-a0fe-69482ffb53c8",
+    "name": "Cafe 1 Part",
+    "address": "東京都新宿区水道町2-3 星川ビル 1F",
+    "lat": 35.70774563788399,
+    "lng": 139.7355863835121,
+    "tabelog_rating": 3.59,
+    "personal_rating": null,
+    "cuisine": "カフェ",
+    "price_tier": 2,
+    "awards": [],
+    "tabelog_url": "https://tabelog.com/tokyo/A1309/A130905/13283988/",
+    "tags": [
+      "coffee",
+      "matcha terrine"
+    ],
+    "notes": "",
+    "visited": false
+  },
+  {
+    "id": "5fde3e37-20e5-4c95-a6be-e4083cff49c7",
+    "name": "ブッチャーズテーブル 大泉学園店",
+    "address": "東京都練馬区東大泉2-9-18",
+    "lat": 35.751736837810896,
+    "lng": 139.5938252840558,
+    "tabelog_rating": 3.6,
+    "personal_rating": null,
+    "cuisine": "ハンバーガー",
+    "price_tier": 3,
+    "awards": [
+      {
+        "type": "hyakumeiten",
+        "year": 2026,
+        "category": "Hamburger"
+      },
+      {
+        "type": "hyakumeiten",
+        "year": 2024,
+        "category": "Hamburger"
+      },
+      {
+        "type": "hyakumeiten",
+        "year": 2022,
+        "category": "Hamburger"
+      },
+      {
+        "type": "hyakumeiten",
+        "year": 2021,
+        "category": "Hamburger"
+      },
+      {
+        "type": "hyakumeiten",
+        "year": 2019,
+        "category": "Hamburger"
+      },
+      {
+        "type": "hyakumeiten",
+        "year": 2018,
+        "category": "Hamburger"
+      },
+      {
+        "type": "hyakumeiten",
+        "year": 2017,
+        "category": "Hamburger"
+      }
+    ],
+    "tabelog_url": "https://tabelog.com/tokyo/A1321/A132103/13091061/",
+    "tags": [],
+    "notes": "",
+    "visited": false
+  },
+  {
+    "id": "ff022b8a-e254-42d0-af2f-72ed000980d7",
+    "name": "豚組食堂",
+    "address": "東京都港区六本木6-4-1 六本木ヒルズ メトロハット B2F",
+    "lat": 35.661430508716805,
+    "lng": 139.72941193421036,
+    "tabelog_rating": 3.53,
+    "personal_rating": null,
+    "cuisine": "とんかつ",
+    "price_tier": 3,
+    "awards": [],
+    "tabelog_url": "https://tabelog.com/tokyo/A1307/A130701/13240721/",
+    "tags": [],
+    "notes": "",
+    "visited": false
+  },
+  {
+    "id": "70bbb93b-5008-493b-bdcc-aebabbf989b5",
+    "name": "西麻布 豚組",
+    "address": "東京都港区西麻布2-24-9",
+    "lat": 35.66097458871477,
+    "lng": 139.72213814421087,
+    "tabelog_rating": 3.65,
+    "personal_rating": null,
+    "cuisine": "とんかつ",
+    "price_tier": 3,
+    "awards": [
+      {
+        "type": "hyakumeiten",
+        "year": 2026,
+        "category": "Tonkatsu"
+      },
+      {
+        "type": "hyakumeiten",
+        "year": 2024,
+        "category": "Tonkatsu"
+      },
+      {
+        "type": "hyakumeiten",
+        "year": 2021,
+        "category": "Tonkatsu"
+      },
+      {
+        "type": "hyakumeiten",
+        "year": 2019,
+        "category": "Tonkatsu"
+      },
+      {
+        "type": "hyakumeiten",
+        "year": 2018,
+        "category": "Tonkatsu"
+      },
+      {
+        "type": "hyakumeiten",
+        "year": 2017,
+        "category": "Tonkatsu"
+      }
+    ],
+    "tabelog_url": "https://tabelog.com/tokyo/A1307/A130701/13004791/",
+    "tags": [],
+    "notes": "",
+    "visited": false
+  },
+  {
+    "id": "fb27f1bb-d5ef-4814-92cc-648a66cd9aca",
+    "name": "バーガーマニア 恵比寿店",
+    "address": "東京都渋谷区恵比寿4-9-5 マンションニュー恵比寿 1F",
+    "lat": 35.64600313791604,
+    "lng": 139.7130796829042,
+    "tabelog_rating": 3.6,
+    "personal_rating": null,
+    "cuisine": "ハンバーガー",
+    "price_tier": 3,
+    "awards": [
+      {
+        "type": "hyakumeiten",
+        "year": 2026,
+        "category": "Hamburger"
+      },
+      {
+        "type": "hyakumeiten",
+        "year": 2024,
+        "category": "Hamburger"
+      },
+      {
+        "type": "hyakumeiten",
+        "year": 2022,
+        "category": "Hamburger"
+      },
+      {
+        "type": "hyakumeiten",
+        "year": 2021,
+        "category": "Hamburger"
+      },
+      {
+        "type": "hyakumeiten",
+        "year": 2019,
+        "category": "Hamburger"
+      },
+      {
+        "type": "hyakumeiten",
+        "year": 2018,
+        "category": "Hamburger"
+      },
+      {
+        "type": "hyakumeiten",
+        "year": 2017,
+        "category": "Hamburger"
+      }
+    ],
+    "tabelog_url": "https://tabelog.com/tokyo/A1303/A130302/13166437/",
+    "tags": [],
+    "notes": "",
+    "visited": false
+  },
+  {
+    "id": "37be6743-bddd-4b1a-bb6a-174b19301f18",
+    "name": "中目黒 Burger Factory",
+    "address": "東京都目黒区上目黒2-43-11 小川ビル 1F",
+    "lat": 35.6408388379134,
+    "lng": 139.69453598286506,
+    "tabelog_rating": 3.45,
+    "personal_rating": null,
+    "cuisine": "ハンバーガー",
+    "price_tier": 3,
+    "awards": [],
+    "tabelog_url": "https://tabelog.com/tokyo/A1317/A131701/13231244/",
+    "tags": [],
+    "notes": "",
+    "visited": false
+  },
+  {
+    "id": "62e872b9-0afb-4f98-9504-7f027fa1a7fa",
+    "name": "バインセオ サイゴン 新宿店",
+    "address": "東京都新宿区新宿3-36-14 カワノアネックス 6・7F",
+    "lat": 35.69045953788429,
+    "lng": 139.70208008336098,
+    "tabelog_rating": 3.47,
+    "personal_rating": 3,
+    "cuisine": "ベトナム料理",
+    "price_tier": 3,
+    "awards": [],
+    "tabelog_url": "https://tabelog.com/tokyo/A1304/A130401/13050196/",
+    "tags": [],
+    "notes": "",
+    "visited": true
+  },
+  {
+    "id": "2b491d23-ebd1-4d38-a5b9-215c44ffd36d",
+    "name": "鉄板和食とワイン 萬鉄",
+    "address": "東京都港区東新橋1-8-2 カレッタ汐留 46F",
+    "lat": 35.66489533791978,
+    "lng": 139.7625014830604,
+    "tabelog_rating": 3.49,
+    "personal_rating": null,
+    "cuisine": "鉄板焼き",
+    "price_tier": 4,
+    "awards": [],
+    "tabelog_url": "https://tabelog.com/tokyo/A1301/A130103/13216976/",
+    "tags": [],
+    "notes": "",
+    "visited": false
+  },
+  {
+    "id": "555565ab-08f2-4c71-8097-ca6d79a223dc",
+    "name": "本格タイ料理バル プアン 渋谷店",
+    "address": "東京都渋谷区道玄坂1-5-9 ザ・レンガビル 2F",
+    "lat": 35.658128937903946,
+    "lng": 139.69929548303637,
+    "tabelog_rating": 3.45,
+    "personal_rating": 2.9,
+    "cuisine": "タイ料理",
+    "price_tier": 3,
+    "awards": [],
+    "tabelog_url": "https://tabelog.com/tokyo/A1303/A130301/13232848/",
+    "tags": [],
+    "notes": "",
+    "visited": true
+  },
+  {
+    "id": "3d30c72b-4df3-40f5-bef3-a4ce8002d2c9",
+    "name": "青島食堂 秋葉原店",
+    "address": "東京都千代田区神田佐久間町3-20-1",
+    "lat": 35.69746616870967,
+    "lng": 139.7788522345397,
+    "tabelog_rating": 3.74,
+    "personal_rating": null,
+    "cuisine": "ラーメン",
+    "price_tier": 1,
+    "awards": [
+      {
+        "type": "hyakumeiten",
+        "year": 2023,
+        "category": "Ramen"
+      },
+      {
+        "type": "hyakumeiten",
+        "year": 2022,
+        "category": "Ramen"
+      },
+      {
+        "type": "hyakumeiten",
+        "year": 2021,
+        "category": "Ramen"
+      },
+      {
+        "type": "hyakumeiten",
+        "year": 2020,
+        "category": "Ramen"
+      },
+      {
+        "type": "hyakumeiten",
+        "year": 2019,
+        "category": "Ramen"
+      }
+    ],
+    "tabelog_url": "https://tabelog.com/tokyo/A1310/A131001/13094776/",
+    "tags": [],
+    "notes": "",
+    "visited": false
+  },
+  {
+    "id": "aff49fd8-fdc3-40e4-8954-ba74fa93aa0f",
+    "name": "鬼貝 エキュートエディション横浜店",
+    "address": "神奈川県横浜市西区高島2-16-1 JR横浜駅",
+    "lat": 35.46513985038549,
+    "lng": 139.62163000418735,
+    "tabelog_rating": 3.48,
+    "personal_rating": 4.1,
+    "cuisine": "お粥",
+    "price_tier": 2,
+    "awards": [],
+    "tabelog_url": "https://tabelog.com/kanagawa/A1401/A140101/14094889/",
+    "tags": [],
+    "notes": "",
+    "visited": true
+  },
+  {
+    "id": "0d89fc4d-3740-4be4-a8a2-a9d8dd6c911e",
+    "name": "孫ちゃん上海焼き小籠包酒場 阿佐ヶ谷店",
+    "address": "東京都杉並区阿佐谷南1-36-10",
+    "lat": 35.70275682866103,
+    "lng": 139.6366955846928,
+    "tabelog_rating": 3.41,
+    "personal_rating": null,
+    "cuisine": "飲茶",
+    "price_tier": 3,
+    "awards": [],
+    "tabelog_url": "https://tabelog.com/tokyo/A1319/A131905/13243503/",
+    "tags": [],
+    "notes": "",
+    "visited": false
+  },
+  {
+    "id": "c4103b1e-8a8b-4027-b90d-4a36567a0dcc",
+    "name": "上海小籠包厨房 阿杏 本店",
+    "address": "東京都新宿区新宿3-28-2 ルナージュビル5F",
+    "lat": 35.69078563788438,
+    "lng": 139.70299788336365,
+    "tabelog_rating": 3.49,
+    "personal_rating": null,
+    "cuisine": "飲茶",
+    "price_tier": 3,
+    "awards": [],
+    "tabelog_url": "https://tabelog.com/tokyo/A1304/A130401/13103626/",
+    "tags": [],
+    "notes": "",
+    "visited": false
+  },
+  {
+    "id": "76992a47-5fe3-4ac3-9234-224d6dbe66ec",
+    "name": "出汁林",
+    "address": "東京都渋谷区道玄坂1-2-3 東急プラザ渋谷 6F",
+    "lat": 35.657705734531795,
+    "lng": 139.70023838654902,
+    "tabelog_rating": 3.49,
+    "personal_rating": null,
+    "cuisine": "食堂",
+    "price_tier": 4,
+    "awards": [],
+    "tabelog_url": "https://tabelog.com/tokyo/A1303/A130301/13298889/",
+    "tags": [],
+    "notes": "",
+    "visited": false
+  }
+]

@@ -1,0 +1,18 @@
+{
+  "name": "食べマップ",
+  "short_name": "食べマップ",
+  "description": "Your personal Tabelog restaurant map",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#2563eb",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}

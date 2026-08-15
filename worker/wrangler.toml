@@ -1,0 +1,9 @@
+name = "tabemap-api"
+main = "src/index.ts"
+compatibility_date = "2024-01-01"
+
+# After running `wrangler kv:namespace create RESTAURANTS`,
+# paste the returned id below.
+[[kv_namespaces]]
+binding = "RESTAURANTS"
+id = "55160f593e354bf0bdc630784242ef87"
