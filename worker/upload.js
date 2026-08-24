@@ -1,31 +1,35 @@
 // Usage: node upload.js <worker-url> <token>
 // Example: node upload.js https://tabemap-api.xxx.workers.dev YOUR_TOKEN
 
-const [, , workerUrl, token] = process.argv
+import { readFileSync } from 'fs';
+
+const [, , workerUrl, token] = process.argv;
 
 if (!workerUrl || !token) {
-  console.error('Usage: node upload.js <worker-url> <token>')
-  process.exit(1)
+  console.error('Usage: node upload.js <worker-url> <token>');
+  process.exit(1);
 }
 
-import('fs').then(({ readFileSync }) => {
-  const data = readFileSync('../scraper/restaurants.json', 'utf-8')
-  // validate first
-  JSON.parse(data)
-  console.log(`Uploading to ${workerUrl}...`)
+async function main() {
+  const data = readFileSync('../scraper/restaurants.json', 'utf-8');
+  JSON.parse(data); // validate JSON before sending
+  console.log(`Uploading to ${workerUrl}...`);
 
-  fetch(`${workerUrl}/api/restaurants`, {
+  const r = await fetch(`${workerUrl}/api/restaurants`, {
     method: 'PUT',
     headers: {
-      'Authorization': `Bearer ${token}`,
+      Authorization: `Bearer ${token}`,
       'Content-Type': 'application/json',
     },
     body: data,
-  })
-    .then(async r => {
-      const text = await r.text()
-      console.log(`Status: ${r.status}`)
-      console.log(`Body: ${text}`)
-    })
-    .catch(err => console.error('Error:', err))
-})
+  });
+  const text = await r.text();
+  console.log(`Status: ${r.status}`);
+  console.log(`Body: ${text}`);
+  if (!r.ok) throw new Error(`Upload failed with status ${r.status}`);
+}
+
+main().catch((err) => {
+  console.error('Error:', err.message);
+  process.exit(1);
+});

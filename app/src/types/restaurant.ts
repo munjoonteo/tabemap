@@ -23,8 +23,6 @@ export interface Restaurant {
   tags: string[]; // manual tags only
   notes: string;
   visited: boolean;
-  scraped_at: string;
-  added_at: string;
 }
 
 // Extract ward/city from a Japanese address e.g. "東京都渋谷区..." → "渋谷区"
@@ -47,7 +45,7 @@ export function extractPrefecture(address: string): string {
   return CITY_TO_PREF[m[1]] ?? m[1];
 }
 
-export type SortKey = 'name' | 'rating' | 'personal_rating' | 'added';
+export type SortKey = 'name' | 'rating' | 'personal_rating';
 export type VisitedFilter = 'all' | 'visited' | 'unvisited';
 
 export interface FilterState {
@@ -55,7 +53,6 @@ export interface FilterState {
   cuisines: string[];
   price_tiers: PriceTier[];
   tabelog_rating_min: number;
-  tabelog_rating_max: number;
   award_types: AwardType[];
   tags: string[];
   areas: string[];
@@ -83,7 +80,6 @@ export const DEFAULT_FILTERS: FilterState = {
   cuisines: [],
   price_tiers: [],
   tabelog_rating_min: 3,
-  tabelog_rating_max: 5,
   award_types: [],
   tags: [],
   areas: [],

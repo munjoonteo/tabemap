@@ -10,17 +10,31 @@
 //   3. Only visits detail pages for restaurants not already in restaurants.json
 //   4. Updates personal_rating for existing restaurants from the list page (no detail visit needed)
 
-import { chromium } from 'playwright';
-import { writeFileSync, readFileSync, existsSync, copyFileSync } from 'fs';
+import { writeFileSync, readFileSync, existsSync, copyFileSync, readdirSync, unlinkSync } from 'fs';
+import { dirname } from 'path';
+import { fileURLToPath } from 'url';
 import { createInterface } from 'readline';
 import { randomUUID } from 'crypto';
+import { launchBrowser, collectRestaurantUrls } from './utils.js';
+
+const SCRIPT_DIR = dirname(fileURLToPath(import.meta.url));
+
+const KEEP_BACKUPS = 5;
 
 function backupData() {
-  if (existsSync(OUT_PATH)) {
-    const ts = new Date().toISOString().replace(/[:.]/g, '-').slice(0, 19);
-    const backupPath = OUT_PATH.replace('.json', `.backup-${ts}.json`);
-    copyFileSync(OUT_PATH, backupPath);
-    console.log(`Backed up to ${backupPath}`);
+  if (!existsSync(OUT_PATH)) return;
+  const ts = new Date().toISOString().replace(/[:.]/g, '-').slice(0, 19);
+  const backupPath = OUT_PATH.replace('.json', `.backup-${ts}.json`);
+  copyFileSync(OUT_PATH, backupPath);
+  console.log(`Backed up to ${backupPath}`);
+  const stale = readdirSync(SCRIPT_DIR)
+    .filter((f) => /^restaurants\.backup-.*\.json$/.test(f))
+    .sort()
+    .reverse()
+    .slice(KEEP_BACKUPS);
+  for (const f of stale) {
+    unlinkSync(`${SCRIPT_DIR}/${f}`);
+    console.log(`Pruned old backup: ${f}`);
   }
 }
 
@@ -28,8 +42,7 @@ const rl = createInterface({ input: process.stdin, output: process.stdout });
 const waitForEnter = (prompt) => new Promise((resolve) => rl.question(prompt, resolve));
 
 const SAVED_LIST_URL = 'https://tabelog.com/rvwr/teomunjoon/hozon_restaurants/list';
-const OUT_PATH = './restaurants.json';
-const RST_URL_RE = /tabelog\.com\/[a-z]+\/[A-Z]\d+\/[A-Z]\d+\/\d+\/$/;
+const OUT_PATH = `${SCRIPT_DIR}/restaurants.json`;
 
 // ── helpers ───────────────────────────────────────────────────────────────────
 
@@ -46,71 +59,6 @@ function yenToTier(maxYen) {
   if (maxYen < 2000) return 2;
   if (maxYen < 5000) return 3;
   return 4;
-}
-
-function normalizeUrl(url) {
-  return url.replace(/\/$/, '');
-}
-
-// ── browser setup ─────────────────────────────────────────────────────────────
-
-async function launchBrowser() {
-  const browser = await chromium.launch({
-    headless: false,
-    args: [
-      '--disable-blink-features=AutomationControlled',
-      '--no-first-run',
-      '--no-default-browser-check',
-    ],
-  });
-  const context = await browser.newContext({
-    locale: 'ja-JP',
-    userAgent:
-      'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36',
-  });
-  await context.addInitScript(() => {
-    Object.defineProperty(navigator, 'webdriver', { get: () => undefined });
-  });
-  const page = await context.newPage();
-  return { browser, page };
-}
-
-// ── collect URLs from list pages ──────────────────────────────────────────────
-// Returns Set<normalizedUrl>
-
-async function collectListData(page) {
-  const result = new Set();
-  let nextUrl = SAVED_LIST_URL;
-  let pageNum = 1;
-
-  while (nextUrl) {
-    await page.goto(nextUrl, { waitUntil: 'domcontentloaded', timeout: 30000 });
-
-    const urls = await page.evaluate((re) => {
-      return [
-        ...new Set(
-          Array.from(document.querySelectorAll('a[href]'))
-            .map((a) => a.href)
-            .filter((h) => new RegExp(re).test(h)),
-        ),
-      ];
-    }, RST_URL_RE.source);
-
-    if (urls.length === 0) break;
-
-    for (const url of urls) result.add(normalizeUrl(url));
-
-    console.log(`Page ${pageNum}: found ${urls.length} restaurants (total: ${result.size})`);
-
-    nextUrl = await page.evaluate(
-      () =>
-        document.querySelector('.c-pagination__arrow--next:not([disabled]), a[rel="next"]')?.href ??
-        null,
-    );
-    pageNum++;
-  }
-
-  return result;
 }
 
 // ── scrape a single restaurant detail page ────────────────────────────────────
@@ -264,7 +212,7 @@ async function fullScrape() {
   await waitForEnter('Press Enter when ready > ');
 
   console.log('Collecting saved restaurant URLs...');
-  const currentUrls = await collectListData(page);
+  const currentUrls = await collectRestaurantUrls(page, SAVED_LIST_URL);
   const urls = [...currentUrls];
   console.log(`\nFound ${urls.length} restaurants. Scraping details...\n`);
 
@@ -308,7 +256,7 @@ async function sync() {
   }
   backupData();
   const existing = JSON.parse(readFileSync(OUT_PATH, 'utf-8'));
-  const existingByUrl = new Map(existing.map((r) => [normalizeUrl(r.tabelog_url), r]));
+  const existingByUrl = new Map(existing.map((r) => [r.tabelog_url.replace(/\/$/, ''), r]));
   console.log(`Loaded ${existing.length} restaurants from ${OUT_PATH}\n`);
 
   const { browser, page } = await launchBrowser();
@@ -318,7 +266,7 @@ async function sync() {
   await waitForEnter('Press Enter when ready > ');
 
   console.log('Collecting current saved list...');
-  const currentUrls = await collectListData(page);
+  const currentUrls = await collectRestaurantUrls(page, SAVED_LIST_URL);
   const existingUrls = new Set(existingByUrl.keys());
 
   const newUrls = [...currentUrls].filter((u) => !existingUrls.has(u));

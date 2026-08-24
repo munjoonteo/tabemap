@@ -12,7 +12,6 @@ export interface SharedLayoutProps {
   allCuisines: string[];
   allTags: string[];
   allAreas: string[];
-  allRestaurants: Restaurant[];
   forCuisineCounts: Restaurant[];
   forAwardCounts: Restaurant[];
   forTagCounts: Restaurant[];
@@ -26,7 +25,7 @@ export interface SharedLayoutProps {
   setFilters: (f: FilterState) => void;
   setSelectedId: (id: string | null) => void;
   saveRestaurant: (r: Restaurant) => void;
-  addRestaurant: (data: Omit<Restaurant, 'id' | 'added_at'>) => void;
+  addRestaurant: (data: Omit<Restaurant, 'id'>) => void;
   importRestaurants: (data: Restaurant[]) => void;
   exportRestaurants: () => void;
   setColor: (cuisine: string, color: string) => void;

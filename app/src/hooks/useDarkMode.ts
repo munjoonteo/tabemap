@@ -5,7 +5,8 @@ const KEY = 'tabemap-dark-mode';
 export function useDarkMode() {
   const [isDark, setIsDark] = useState(() => {
     const stored = localStorage.getItem(KEY);
-    return stored === 'true';
+    if (stored !== null) return stored === 'true';
+    return window.matchMedia('(prefers-color-scheme: dark)').matches;
   });
 
   useEffect(() => {

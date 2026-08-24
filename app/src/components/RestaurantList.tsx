@@ -71,13 +71,7 @@ function SwipeableRow({
             className={`text-xs font-medium ${triggered ? (r.visited ? 'text-red-500 dark:text-red-400' : 'text-green-600 dark:text-green-400') : 'text-gray-400 dark:text-gray-500'}`}
             style={{ opacity: progress }}
           >
-            {isRight
-              ? r.visited
-                ? 'Unmark visited'
-                : '✓ Mark visited'
-              : r.visited
-                ? 'Unmark visited'
-                : '✓ Mark visited'}
+            {r.visited ? 'Unmark visited' : '✓ Mark visited'}
           </span>
         </div>
       )}

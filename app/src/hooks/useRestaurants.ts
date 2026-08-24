@@ -1,6 +1,6 @@
-import { useCallback, useEffect, useMemo, useRef, useState } from 'react';
+import { useCallback, useEffect, useMemo, useState } from 'react';
 import { v4 as uuidv4 } from 'uuid';
-import { bulkImport, clearAll, deleteRestaurant, getAllRestaurants, putRestaurant } from '../db';
+import { bulkImport, getAllRestaurants, putRestaurant } from '../db';
 import { CUISINE_EN, AREA_EN } from '../lib/translations';
 import {
   DEFAULT_FILTERS,
@@ -25,11 +25,7 @@ function applyFilters(restaurants: Restaurant[], filters: FilterState): Restaura
     }
     if (filters.cuisines.length > 0 && !filters.cuisines.includes(r.cuisine)) return false;
     if (filters.price_tiers.length > 0 && !filters.price_tiers.includes(r.price_tier)) return false;
-    if (
-      r.tabelog_rating < filters.tabelog_rating_min ||
-      r.tabelog_rating > filters.tabelog_rating_max
-    )
-      return false;
+    if (r.tabelog_rating < filters.tabelog_rating_min) return false;
     if (
       filters.award_types.length > 0 &&
       !filters.award_types.some((t) => r.awards?.some((a) => a.type === t))
@@ -47,7 +43,6 @@ function applyFilters(restaurants: Restaurant[], filters: FilterState): Restaura
     if (filters.sort === 'personal_rating')
       return (b.personal_rating ?? 0) - (a.personal_rating ?? 0);
     if (filters.sort === 'name') return a.name.localeCompare(b.name, 'ja');
-    if (filters.sort === 'added') return b.added_at.localeCompare(a.added_at);
     return 0;
   });
 }
@@ -65,16 +60,18 @@ export function useRestaurants() {
   const [filters, setFilters] = useState<FilterState>(DEFAULT_FILTERS);
   const [selectedId, setSelectedId] = useState<string | null>(null);
   const [loading, setLoading] = useState(true);
-  const selectedIdRef = useRef<string | null>(null);
-  useEffect(() => {
-    selectedIdRef.current = selectedId;
-  }, [selectedId]);
+  const [error, setError] = useState<string | null>(null);
 
   useEffect(() => {
-    getAllRestaurants().then((data) => {
-      setRestaurants(data);
-      setLoading(false);
-    });
+    getAllRestaurants()
+      .then((data) => {
+        setRestaurants(data);
+        setLoading(false);
+      })
+      .catch((err: unknown) => {
+        setError(err instanceof Error ? err.message : 'Failed to load restaurants');
+        setLoading(false);
+      });
   }, []);
 
   const filtered = useMemo(() => applyFilters(restaurants, filters), [restaurants, filters]);
@@ -119,19 +116,13 @@ export function useRestaurants() {
   }, []);
 
   const addRestaurant = useCallback(
-    async (data: Omit<Restaurant, 'id' | 'added_at'>) => {
-      const restaurant: Restaurant = { ...data, id: uuidv4(), added_at: new Date().toISOString() };
+    async (data: Omit<Restaurant, 'id'>) => {
+      const restaurant: Restaurant = { ...data, id: uuidv4() };
       await saveRestaurant(restaurant);
       return restaurant;
     },
     [saveRestaurant],
   );
-
-  const removeRestaurant = useCallback(async (id: string) => {
-    await deleteRestaurant(id);
-    setRestaurants((prev) => prev.filter((r) => r.id !== id));
-    if (selectedIdRef.current === id) setSelectedId(null);
-  }, []);
 
   const importRestaurants = useCallback(async (data: Restaurant[]) => {
     await bulkImport(data);
@@ -148,12 +139,6 @@ export function useRestaurants() {
     URL.revokeObjectURL(url);
   }, [restaurants]);
 
-  const clearData = useCallback(async () => {
-    await clearAll();
-    setRestaurants([]);
-    setSelectedId(null);
-  }, []);
-
   return {
     restaurants,
     filtered,
@@ -162,6 +147,7 @@ export function useRestaurants() {
     selectedId,
     setSelectedId,
     loading,
+    error,
     allCuisines,
     allTags,
     allAreas,
@@ -171,9 +157,7 @@ export function useRestaurants() {
     forAreaCounts,
     saveRestaurant,
     addRestaurant,
-    removeRestaurant,
     importRestaurants,
     exportRestaurants,
-    clearData,
   };
 }

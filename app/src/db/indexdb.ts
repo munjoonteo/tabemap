@@ -20,12 +20,15 @@ function getDb() {
   return dbPromise;
 }
 
+export async function validateToken(_token: string): Promise<boolean> {
+  return true;
+}
+
 export async function getAllRestaurants(): Promise<Restaurant[]> {
   const db = await getDb();
   const raw = await db.getAll(STORE);
   return raw.map((r: any) => ({
     personal_rating: null,
-    scraped_at: r.added_at ?? new Date().toISOString(),
     ...r,
   })) as Restaurant[];
 }
@@ -35,18 +38,12 @@ export async function putRestaurant(restaurant: Restaurant): Promise<void> {
   await db.put(STORE, restaurant);
 }
 
-export async function deleteRestaurant(id: string): Promise<void> {
-  const db = await getDb();
-  await db.delete(STORE, id);
-}
-
 export async function bulkImport(restaurants: Restaurant[]): Promise<void> {
   const db = await getDb();
   const tx = db.transaction(STORE, 'readwrite');
-  await Promise.all([...restaurants.map((r) => tx.store.put(r)), tx.done]);
+  // Queue all requests synchronously before awaiting any — prevents the engine
+  // from auto-committing the transaction when the clear() request completes
+  // and the queue momentarily appears empty.
+  await Promise.all([tx.store.clear(), ...restaurants.map((r) => tx.store.put(r)), tx.done]);
 }
 
-export async function clearAll(): Promise<void> {
-  const db = await getDb();
-  await db.clear(STORE);
-}

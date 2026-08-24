@@ -16,7 +16,6 @@ export function MobileLayout({
   allCuisines,
   allTags,
   allAreas,
-  allRestaurants,
   forCuisineCounts,
   forAwardCounts,
   forTagCounts,
@@ -38,8 +37,7 @@ export function MobileLayout({
   setMobileTab,
   handleMobileSelect,
 }: SharedLayoutProps) {
-  const { isDark, isEnglish, isAuthenticated, toggleDark, toggleLang, handleLockToggle } =
-    useAppContext();
+  const { isDark, isEnglish, isAuthenticated, toggleDark, toggleLang, handleLockToggle } = useAppContext();
 
   return (
     <div className="relative w-full h-full">
@@ -93,6 +91,12 @@ export function MobileLayout({
         >
           🗺
         </button>
+        <button
+          onClick={handleLockToggle}
+          className="px-2.5 py-1.5 bg-white/90 dark:bg-gray-900/90 backdrop-blur-sm rounded-lg shadow-md text-xs text-gray-600 dark:text-gray-300 border border-gray-200 dark:border-gray-700 hover:bg-white dark:hover:bg-gray-800"
+        >
+          {isAuthenticated ? 'Logout' : 'Login'}
+        </button>
       </div>
 
       <BottomSheet snap={bottomSnap} onSnapChange={setBottomSnap ?? (() => {})}>
@@ -100,9 +104,6 @@ export function MobileLayout({
           <DetailPanel
             restaurant={selectedRestaurant}
             allTags={allTags}
-            isAuthenticated={isAuthenticated}
-            isDark={isDark}
-            isEnglish={isEnglish}
             onSave={saveRestaurant}
             onClose={() => setSelectedId(null)}
           />
@@ -134,7 +135,7 @@ export function MobileLayout({
                   allCuisines={allCuisines}
                   allTags={allTags}
                   allAreas={allAreas}
-                  allRestaurants={allRestaurants}
+                  allRestaurants={restaurants}
                   forCuisineCounts={forCuisineCounts}
                   forAwardCounts={forAwardCounts}
                   forTagCounts={forTagCounts}
@@ -143,15 +144,9 @@ export function MobileLayout({
                   filteredCount={filtered.length}
                   totalCount={restaurants.length}
                   showTitle={false}
-                  isAuthenticated={isAuthenticated}
-                  isDark={isDark}
-                  isEnglish={isEnglish}
                   onAddNew={() => setShowAddForm(true)}
                   onImport={() => importRef.current?.click()}
                   onExport={exportRestaurants}
-                  onLockToggle={handleLockToggle}
-                  onDarkToggle={toggleDark}
-                  onLangToggle={toggleLang}
                 />
               ) : (
                 <RestaurantList

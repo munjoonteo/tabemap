@@ -1,4 +1,5 @@
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
+import { useAppContext } from '../contexts/AppContext';
 import { tagColor } from '../lib/tags';
 import { tCuisine } from '../lib/translations';
 import { PRICE_TIER_LABELS } from '../types/restaurant';
@@ -8,25 +9,21 @@ import { AwardBadges } from './AwardBadge';
 interface Props {
   restaurant: Restaurant;
   allTags: string[];
-  isAuthenticated: boolean;
-  isDark: boolean;
-  isEnglish: boolean;
   onSave: (r: Restaurant) => void;
   onClose: () => void;
 }
 
-export function DetailPanel({
-  restaurant,
-  allTags,
-  isAuthenticated,
-  isDark,
-  isEnglish,
-  onSave,
-  onClose,
-}: Props) {
+export function DetailPanel({ restaurant, allTags, onSave, onClose }: Props) {
+  const { isDark, isEnglish, isAuthenticated } = useAppContext();
   const [editing, setEditing] = useState(false);
   const [draft, setDraft] = useState(restaurant);
   const [tagInput, setTagInput] = useState('');
+
+  useEffect(() => {
+    setDraft(restaurant);
+    setEditing(false);
+    setTagInput('');
+  }, [restaurant.id]);
 
   function addTag(tag: string) {
     const t = tag.trim();

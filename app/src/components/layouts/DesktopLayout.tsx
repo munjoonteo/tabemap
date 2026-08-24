@@ -15,7 +15,6 @@ export function DesktopLayout({
   allCuisines,
   allTags,
   allAreas,
-  allRestaurants,
   forCuisineCounts,
   forAwardCounts,
   forTagCounts,
@@ -35,8 +34,7 @@ export function DesktopLayout({
   importRef,
   searchRef,
 }: SharedLayoutProps) {
-  const { isDark, isEnglish, isAuthenticated, toggleDark, toggleLang, handleLockToggle } =
-    useAppContext();
+  const { isAuthenticated, isEnglish } = useAppContext();
 
   return (
     <>
@@ -47,7 +45,7 @@ export function DesktopLayout({
           allCuisines={allCuisines}
           allTags={allTags}
           allAreas={allAreas}
-          allRestaurants={allRestaurants}
+          allRestaurants={restaurants}
           forCuisineCounts={forCuisineCounts}
           forAwardCounts={forAwardCounts}
           forTagCounts={forTagCounts}
@@ -56,15 +54,9 @@ export function DesktopLayout({
           filteredCount={filtered.length}
           totalCount={restaurants.length}
           searchRef={searchRef}
-          isAuthenticated={isAuthenticated}
-          isDark={isDark}
-          isEnglish={isEnglish}
           onAddNew={() => setShowAddForm(true)}
           onImport={() => importRef.current?.click()}
           onExport={exportRestaurants}
-          onLockToggle={handleLockToggle}
-          onDarkToggle={toggleDark}
-          onLangToggle={toggleLang}
         />
       </div>
 
@@ -116,9 +108,6 @@ export function DesktopLayout({
           <DetailPanel
             restaurant={selectedRestaurant}
             allTags={allTags}
-            isAuthenticated={isAuthenticated}
-            isDark={isDark}
-            isEnglish={isEnglish}
             onSave={saveRestaurant}
             onClose={() => setSelectedId(null)}
           />

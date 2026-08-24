@@ -34,6 +34,7 @@ export default function App() {
     selectedId,
     setSelectedId,
     loading,
+    error,
     allCuisines,
     allTags,
     allAreas,
@@ -121,7 +122,7 @@ export default function App() {
     e.target.value = '';
   }
 
-  async function handleAdd(data: Omit<Restaurant, 'id' | 'added_at'>) {
+  async function handleAdd(data: Omit<Restaurant, 'id'>) {
     await addRestaurant(data);
     setShowAddForm(false);
   }
@@ -130,6 +131,15 @@ export default function App() {
     return (
       <div className="flex items-center justify-center h-full text-gray-500 dark:text-gray-400 text-sm">
         Loading...
+      </div>
+    );
+  }
+
+  if (error) {
+    return (
+      <div className="flex flex-col items-center justify-center h-full gap-2 text-gray-500 dark:text-gray-400 p-8">
+        <p className="text-sm font-medium">Failed to load restaurants</p>
+        <p className="text-xs">{error}</p>
       </div>
     );
   }
@@ -144,7 +154,6 @@ export default function App() {
     allCuisines,
     allTags,
     allAreas,
-    allRestaurants: restaurants,
     forCuisineCounts,
     forAwardCounts,
     forTagCounts,

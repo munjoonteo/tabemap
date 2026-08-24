@@ -5,24 +5,25 @@ import { Tooltip } from './Tooltip';
 
 const PRICE_TIERS: PriceTier[] = [1, 2, 3, 4];
 
-type FormData = Omit<Restaurant, 'id' | 'added_at'>;
+type FormData = Omit<Restaurant, 'id'>;
 
-const EMPTY: FormData = {
-  name: '',
-  address: '',
-  lat: 0,
-  lng: 0,
-  cuisine: '',
-  price_tier: 2,
-  tabelog_rating: 0,
-  personal_rating: null,
-  tabelog_url: '',
-  awards: [],
-  tags: [],
-  notes: '',
-  visited: false,
-  scraped_at: new Date().toISOString(),
-};
+function emptyForm(): FormData {
+  return {
+    name: '',
+    address: '',
+    lat: 0,
+    lng: 0,
+    cuisine: '',
+    price_tier: 2,
+    tabelog_rating: 0,
+    personal_rating: null,
+    tabelog_url: '',
+    awards: [],
+    tags: [],
+    notes: '',
+    visited: false,
+  };
+}
 
 interface Props {
   allCuisines: string[];
@@ -32,7 +33,7 @@ interface Props {
 }
 
 export function AddRestaurantForm({ allCuisines, allTags, onSubmit, onClose }: Props) {
-  const [form, setForm] = useState<FormData>(EMPTY);
+  const [form, setForm] = useState<FormData>(emptyForm);
   const [tagInput, setTagInput] = useState('');
   const [errors, setErrors] = useState<Partial<Record<keyof FormData | 'address_lookup', string>>>(
     {},

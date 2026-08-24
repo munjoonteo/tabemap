@@ -41,6 +41,8 @@ VITE_API_URL=https://tabemap-api.tabemap.workers.dev
 
 Without `VITE_API_URL` the app falls back to browser IndexedDB (fully offline).
 
+**Authentication** — the API token is entered at runtime via the Login button (🔒). It is kept in memory only and is not stored anywhere; you will need to re-enter it after a page refresh. This is intentional — it avoids storing the token in localStorage or sessionStorage where it would be readable by any JS on the page.
+
 ---
 
 ## Scraper
@@ -56,7 +58,7 @@ npx playwright install chromium
 | Command | Description |
 |---|---|
 | `npm run scrape` | Full scrape — visits every saved restaurant page, writes `restaurants.json` |
-| `npm run sync` | Incremental sync — scrapes list pages to diff URLs, only visits detail pages for new restaurants. Preserves tags/notes/visited on existing entries. Creates a timestamped backup before writing. |
+| `npm run sync` | Incremental sync — scrapes list pages to diff URLs, only visits detail pages for new restaurants. Preserves tags/notes/visited on existing entries. Creates a timestamped backup before writing (keeps last 5). |
 | `npm run sync-visited` | Scrapes the visited-restaurants list and marks matching entries `visited: true` in `restaurants.json` |
 | `npm run format` | Run Prettier over scraper scripts |
 
@@ -66,7 +68,7 @@ npx playwright install chromium
 
 **Typical workflow after scraping:**
 1. Run `npm run sync` — logs in, diffs list, scrapes new restaurants only
-2. Verify output: `node -e "const d=require('fs').readFileSync('./restaurants.json'); console.log(JSON.parse(d).length, 'restaurants')"`
+2. Verify output: `python3 -c "import json; d=json.load(open('restaurants.json')); print(len(d), 'restaurants')"`
 3. Upload to Cloudflare (see below)
 
 ---
@@ -100,18 +102,13 @@ TOKEN=your-token-here npm run upload-data
 
 **Health check:**
 ```bash
-node -e "fetch('https://tabemap-api.tabemap.workers.dev/health').then(r=>r.json()).then(console.log)"
+curl https://tabemap-api.tabemap.workers.dev/health
 # → { ok: true, hasToken: true, hasKV: true }
 ```
 
 **Quick KV backup:**
 ```bash
-node -e "
-const fs = require('fs')
-fetch('https://tabemap-api.tabemap.workers.dev/api/restaurants')
-  .then(r => r.json())
-  .then(d => { fs.writeFileSync('./kv-backup.json', JSON.stringify(d,null,2)); console.log('Saved', d.length, 'restaurants') })
-"
+curl https://tabemap-api.tabemap.workers.dev/api/restaurants > kv-backup.json
 ```
 
 ---

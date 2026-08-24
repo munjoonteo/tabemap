@@ -10,7 +10,6 @@ const SNAP: Record<SnapPoint, number> = {
 
 interface Props {
   children: ReactNode;
-  defaultSnap?: SnapPoint;
   snap: SnapPoint;
   onSnapChange: (s: SnapPoint) => void;
 }

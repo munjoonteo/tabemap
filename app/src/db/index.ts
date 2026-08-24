@@ -6,8 +6,7 @@ const adapter = import.meta.env.VITE_API_URL
   ? await import('./cloudflare')
   : await import('./indexdb');
 
+export const validateToken = (token: string): Promise<boolean> => adapter.validateToken(token);
 export const getAllRestaurants = (): Promise<Restaurant[]> => adapter.getAllRestaurants();
 export const putRestaurant = (r: Restaurant): Promise<void> => adapter.putRestaurant(r);
-export const deleteRestaurant = (id: string): Promise<void> => adapter.deleteRestaurant(id);
 export const bulkImport = (rs: Restaurant[]): Promise<void> => adapter.bulkImport(rs);
-export const clearAll = (): Promise<void> => adapter.clearAll();

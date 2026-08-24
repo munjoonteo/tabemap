@@ -1,18 +1,22 @@
 import { useState } from 'react';
-import { SESSION_KEY, getSessionToken } from '../lib/auth';
+import { clearSessionToken, getSessionToken, setSessionToken } from '../lib/auth';
+import { validateToken } from '../db';
 
 export { getSessionToken, NotAuthenticatedError } from '../lib/auth';
 
 export function useAuth() {
   const [isAuthenticated, setIsAuthenticated] = useState(() => !!getSessionToken());
 
-  function login(password: string) {
-    sessionStorage.setItem(SESSION_KEY, password);
+  async function login(password: string): Promise<boolean> {
+    const valid = await validateToken(password);
+    if (!valid) return false;
+    setSessionToken(password);
     setIsAuthenticated(true);
+    return true;
   }
 
   function logout() {
-    sessionStorage.removeItem(SESSION_KEY);
+    clearSessionToken();
     setIsAuthenticated(false);
   }
 

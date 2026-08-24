@@ -1,5 +1,5 @@
 import type { Restaurant } from '../types/restaurant';
-import { getSessionToken, NotAuthenticatedError } from '../lib/auth';
+import { clearSessionToken, getSessionToken, NotAuthenticatedError } from '../lib/auth';
 
 const API_URL = import.meta.env.VITE_API_URL as string;
 
@@ -13,7 +13,6 @@ async function fetchAll(): Promise<Restaurant[]> {
   const data = (await res.json()) as any[];
   cache = data.map((r: any) => ({
     personal_rating: null,
-    scraped_at: r.added_at ?? new Date().toISOString(),
     ...r,
   })) as Restaurant[];
   return cache;
@@ -22,7 +21,6 @@ async function fetchAll(): Promise<Restaurant[]> {
 async function pushAll(restaurants: Restaurant[]): Promise<void> {
   const token = getSessionToken();
   if (!token) throw new NotAuthenticatedError();
-  cache = restaurants;
   const res = await fetch(`${API_URL}/api/restaurants`, {
     method: 'PUT',
     headers: {
@@ -32,11 +30,22 @@ async function pushAll(restaurants: Restaurant[]): Promise<void> {
     body: JSON.stringify(restaurants),
   });
   if (res.status === 401) {
-    // Token is wrong — clear it so the auth gate re-prompts
-    sessionStorage.removeItem('tabemap_token');
+    clearSessionToken();
     throw new NotAuthenticatedError();
   }
   if (!res.ok) throw new Error(`Failed to save restaurants: ${res.status}`);
+  cache = restaurants;
+}
+
+export async function validateToken(token: string): Promise<boolean> {
+  try {
+    const res = await fetch(`${API_URL}/api/validate`, {
+      headers: { Authorization: `Bearer ${token}` },
+    });
+    return res.ok;
+  } catch {
+    return false;
+  }
 }
 
 export async function getAllRestaurants(): Promise<Restaurant[]> {
@@ -49,15 +58,7 @@ export async function putRestaurant(restaurant: Restaurant): Promise<void> {
   await pushAll(idx >= 0 ? all.with(idx, restaurant) : [...all, restaurant]);
 }
 
-export async function deleteRestaurant(id: string): Promise<void> {
-  const all = await fetchAll();
-  await pushAll(all.filter((r) => r.id !== id));
-}
-
 export async function bulkImport(restaurants: Restaurant[]): Promise<void> {
   await pushAll(restaurants);
 }
 
-export async function clearAll(): Promise<void> {
-  await pushAll([]);
-}

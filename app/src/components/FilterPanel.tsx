@@ -15,6 +15,7 @@ import type {
   VisitedFilter,
 } from '../types/restaurant';
 import { tagColor } from '../lib/tags';
+import { useAppContext } from '../contexts/AppContext';
 import { ExpandableList } from './ExpandableList';
 import { Tooltip } from './Tooltip';
 
@@ -36,15 +37,9 @@ interface Props {
   totalCount: number;
   showTitle?: boolean;
   searchRef?: React.RefObject<HTMLInputElement | null>;
-  isAuthenticated: boolean;
-  isDark: boolean;
-  isEnglish: boolean;
   onAddNew: () => void;
   onImport: () => void;
   onExport: () => void;
-  onLockToggle: () => void;
-  onDarkToggle: () => void;
-  onLangToggle: () => void;
 }
 
 export function FilterPanel({
@@ -63,16 +58,12 @@ export function FilterPanel({
   totalCount,
   showTitle = true,
   searchRef,
-  isAuthenticated,
-  isDark,
-  isEnglish,
   onAddNew,
   onImport,
   onExport,
-  onLockToggle,
-  onDarkToggle,
-  onLangToggle,
 }: Props) {
+  const { isDark, isEnglish, isAuthenticated, toggleDark, toggleLang, handleLockToggle } =
+    useAppContext();
   function toggle<T>(arr: T[], val: T): T[] {
     return arr.includes(val) ? arr.filter((x) => x !== val) : [...arr, val];
   }
@@ -120,7 +111,7 @@ export function FilterPanel({
             <h1 className="text-lg font-semibold text-gray-900 dark:text-gray-100">食べマップ</h1>
             <div className="flex items-center gap-2">
               <button
-                onClick={onLangToggle}
+                onClick={toggleLang}
                 className="text-xs border border-gray-200 dark:border-gray-600 rounded-lg px-2 py-1 hover:bg-gray-50 dark:hover:bg-gray-700 transition-colors"
                 title={isEnglish ? 'Switch to Japanese' : 'Switch to English'}
               >
@@ -145,14 +136,14 @@ export function FilterPanel({
                 </span>
               </button>
               <button
-                onClick={onDarkToggle}
+                onClick={toggleDark}
                 className="text-xs text-gray-500 hover:text-gray-800 dark:text-gray-400 dark:hover:text-gray-100 border border-gray-200 dark:border-gray-600 rounded-lg px-2 py-1 hover:bg-gray-50 dark:hover:bg-gray-700 transition-colors"
                 title={isDark ? 'Light mode' : 'Dark mode'}
               >
                 {isDark ? '☀️' : '🌙'}
               </button>
               <button
-                onClick={onLockToggle}
+                onClick={handleLockToggle}
                 className="text-xs text-gray-600 hover:text-gray-900 dark:text-gray-300 dark:hover:text-white border border-gray-300 dark:border-gray-600 rounded-lg px-2 py-1 hover:bg-gray-50 dark:hover:bg-gray-700 transition-colors"
               >
                 {isAuthenticated ? 'Logout' : 'Login'}
@@ -185,7 +176,6 @@ export function FilterPanel({
               <option value="rating">★ Tabelog rating</option>
               <option value="personal_rating">♥ My rating</option>
               <option value="name">Name</option>
-              <option value="added">Recently added</option>
             </select>
           </div>
           <div className="flex-1">

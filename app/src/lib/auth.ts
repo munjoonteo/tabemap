@@ -1,5 +1,3 @@
-export const SESSION_KEY = 'tabemap_token';
-
 export class NotAuthenticatedError extends Error {
   constructor() {
     super('Not authenticated');
@@ -7,10 +5,16 @@ export class NotAuthenticatedError extends Error {
   }
 }
 
+let _token: string | null = null;
+
 export function getSessionToken(): string | null {
-  try {
-    return sessionStorage.getItem(SESSION_KEY);
-  } catch {
-    return null;
-  }
+  return _token;
+}
+
+export function setSessionToken(token: string): void {
+  _token = token;
+}
+
+export function clearSessionToken(): void {
+  _token = null;
 }

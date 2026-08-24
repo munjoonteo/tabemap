@@ -1,18 +1,28 @@
 import { useState } from 'react';
 
 interface Props {
-  onLogin: (password: string) => void;
+  onLogin: (password: string) => Promise<boolean>;
   onClose: () => void;
 }
 
 export function AuthGate({ onLogin, onClose }: Props) {
   const [password, setPassword] = useState('');
+  const [error, setError] = useState('');
+  const [loading, setLoading] = useState(false);
 
-  function handleSubmit(e: React.FormEvent) {
+  async function handleSubmit(e: React.FormEvent) {
     e.preventDefault();
-    if (password.trim()) {
-      onLogin(password.trim());
-      onClose();
+    if (!password.trim()) return;
+    setLoading(true);
+    setError('');
+    try {
+      const ok = await onLogin(password.trim());
+      if (ok) onClose();
+      else setError('Incorrect password');
+    } catch {
+      setError('Could not reach server — check connection');
+    } finally {
+      setLoading(false);
     }
   }
 
@@ -40,11 +50,13 @@ export function AuthGate({ onLogin, onClose }: Props) {
           />
           <button
             type="submit"
-            className="px-4 py-2 bg-blue-600 text-white text-sm font-medium rounded-lg hover:bg-blue-700 transition-colors"
+            disabled={loading}
+            className="px-4 py-2 bg-blue-600 text-white text-sm font-medium rounded-lg hover:bg-blue-700 transition-colors disabled:opacity-50"
           >
-            Unlock
+            {loading ? '…' : 'Unlock'}
           </button>
         </form>
+        {error && <p className="text-xs text-red-500 mt-2">{error}</p>}
       </div>
     </div>
   );

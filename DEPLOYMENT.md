@@ -48,9 +48,9 @@ This prints something like:
 { binding = "RESTAURANTS", id = "abc123def456..." }
 ```
 
-Open `worker/wrangler.toml` and replace `REPLACE_WITH_KV_NAMESPACE_ID` with that `id` value.
+Open `worker/wrangler.toml` and replace the existing `id` value with the one printed above.
 
-Set your secret API token (choose any strong password — you'll use it in step 4):
+Set your secret API token (choose any strong password — this becomes your app login password):
 
 ```bash
 wrangler secret put API_TOKEN
@@ -67,16 +67,21 @@ Note the URL it prints, e.g. `https://tabemap-api.YOUR_SUBDOMAIN.workers.dev`.
 Test it works:
 
 ```bash
-curl https://tabemap-api.YOUR_SUBDOMAIN.workers.dev/api/restaurants \
-  -H "Authorization: Bearer YOUR_TOKEN"
-# Should return []
+curl https://tabemap-api.YOUR_SUBDOMAIN.workers.dev/health
+# Should return {"ok":true,"hasToken":true,"hasKV":true}
 ```
 
 ---
 
 ## Step 3 — Upload your existing data
 
-From the `scraper/` directory, upload `restaurants.json` to the worker:
+From the `worker/` directory, upload `restaurants.json` to the worker:
+
+```bash
+TOKEN=YOUR_TOKEN npm run upload-data
+```
+
+Or using curl directly from the `scraper/` directory:
 
 ```bash
 curl -X PUT https://tabemap-api.YOUR_SUBDOMAIN.workers.dev/api/restaurants \
@@ -84,12 +89,6 @@ curl -X PUT https://tabemap-api.YOUR_SUBDOMAIN.workers.dev/api/restaurants \
   -H "Content-Type: application/json" \
   -d @restaurants.json
 # Should return {"ok":true}
-```
-
-Verify:
-```bash
-curl https://tabemap-api.YOUR_SUBDOMAIN.workers.dev/api/restaurants \
-  -H "Authorization: Bearer YOUR_TOKEN" | python3 -m json.tool | head -20
 ```
 
 ---
@@ -101,47 +100,40 @@ cd app
 cp .env.local.example .env.local
 ```
 
-Edit `.env.local` and fill in your values:
+Edit `.env.local` and set your worker URL:
 
 ```
 VITE_API_URL=https://tabemap-api.YOUR_SUBDOMAIN.workers.dev
-VITE_API_TOKEN=your-secret-token-here
 ```
 
 Test locally:
 ```bash
 npm run dev
 # Open http://localhost:5173 — your restaurants should load from Cloudflare
+# Click the Login button (🔒) and enter your API_TOKEN to unlock editing
 ```
 
 ---
 
 ## Step 5 — Deploy the frontend to Cloudflare Pages
 
-Build the app:
 ```bash
-npm run build
+npm run deploy
 ```
 
-Deploy to Pages:
-```bash
-wrangler pages deploy dist --project-name tabemap
-```
-
-The first deploy creates the project. Subsequent deploys use the same command.
-You'll get a URL like `https://tabemap.pages.dev`.
+This builds and deploys in one step. The first deploy creates the project. You'll get a URL like `https://tabemap.pages.dev`.
 
 ### Set environment variables in Pages dashboard
 
-The `.env.local` file is not deployed — you need to add the vars in Cloudflare's dashboard
-so the production build can reach the worker:
+The `.env.local` file is not deployed — you need to add the variable in Cloudflare's dashboard so the production build can reach the worker:
 
 1. Go to https://dash.cloudflare.com → **Workers & Pages** → **tabemap**
 2. Click **Settings** → **Environment variables**
 3. Add under **Production**:
    - `VITE_API_URL` = `https://tabemap-api.YOUR_SUBDOMAIN.workers.dev`
-   - `VITE_API_TOKEN` = your token
-4. Click **Save and deploy** (triggers a rebuild with the vars baked in)
+4. Click **Save and deploy** (triggers a rebuild with the variable baked in)
+
+> The API token is **not** an environment variable — it is entered at runtime via the Login button and kept in memory only. You do not need to store it in the Pages dashboard.
 
 ---
 
@@ -168,18 +160,16 @@ If you want `tabemap.yourdomain.com` instead of `*.pages.dev`:
 
 ## Re-scraping after deployment
 
-When you run `npm run rescrape` in the future, it still writes to `restaurants.json` locally.
+When you run the scraper in the future, it writes to `restaurants.json` locally.
 After it completes, re-upload:
 
 ```bash
 cd scraper
-node scrape.js rescrape
+npm run sync
 # ... wait for it to finish ...
 
-curl -X PUT https://tabemap-api.YOUR_SUBDOMAIN.workers.dev/api/restaurants \
-  -H "Authorization: Bearer YOUR_TOKEN" \
-  -H "Content-Type: application/json" \
-  -d @restaurants.json
+cd ../worker
+TOKEN=your-token-here npm run upload-data
 ```
 
 ---
@@ -193,29 +183,29 @@ iPhone / Mac browser
         ▼
 Cloudflare Pages          (static React app, global CDN)
         │
-        │  fetch() with Bearer token
+        │  fetch() — reads public, writes with Bearer token
         ▼
-Cloudflare Worker         (tabemap-api, ~25 lines of Hono)
+Cloudflare Worker         (tabemap-api, ~40 lines of Hono)
         │
         │  KV read/write
         ▼
-Cloudflare KV             (restaurants JSON blob)
+Cloudflare KV             (restaurants JSON blob, max 24 MB)
 ```
 
 ---
 
 ## Troubleshooting
 
-**"Failed to fetch restaurants"** — check `VITE_API_URL` has no trailing slash and the
+**"Failed to load restaurants"** — check `VITE_API_URL` has no trailing slash and the
 worker is deployed (`wrangler deploy` from the `worker/` directory).
 
-**401 Unauthorized** — `VITE_API_TOKEN` doesn't match the secret set with
-`wrangler secret put API_TOKEN`. Re-set the secret or update the env var.
+**Login shows "Incorrect password"** — the typed password doesn't match the secret set with
+`wrangler secret put API_TOKEN`. Re-set the secret with that command and redeploy the worker.
 
-**Blank map** — likely a CORS issue if you're testing from a non-Pages URL. The worker
-allows all origins, so this shouldn't happen in production.
+**Login shows "Could not reach server"** — the worker URL is unreachable. Check `VITE_API_URL`
+is set correctly and the worker is deployed.
 
 **Data not updating on phone after Mac edit** — the app caches data in memory per session.
-Pull-to-refresh or reload the page on the phone to fetch the latest from KV.
+Reload the page on the phone to fetch the latest from KV.
 
 **Wrangler not found** — run `npm install -g wrangler` or use `npx wrangler` prefix instead.
