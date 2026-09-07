@@ -1,30 +1,26 @@
 import { useEffect, useRef } from 'react';
 import L from 'leaflet';
 
+const API_KEY = 'cb1_3073_1_c3d977f630f5c503440cd68f';
+
 const STYLES = [
   {
     id: 'voyager',
     label: 'Carto Voyager',
-    url: 'https://{s}.basemaps.cartocdn.com/rastertiles/voyager/{z}/{x}/{y}{r}.png',
+    url: `https://{s}.basemaps.cartocdn.com/rastertiles/voyager/{z}/{x}/{y}{r}.png?key=${API_KEY}`,
     attribution: '© CartoDB',
   },
   {
     id: 'positron',
     label: 'Carto Positron',
-    url: 'https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png',
+    url: `https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png?key=${API_KEY}`,
     attribution: '© CartoDB',
   },
   {
     id: 'dark',
     label: 'Carto Dark Matter',
-    url: 'https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png',
+    url: `https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png?key=${API_KEY}`,
     attribution: '© CartoDB',
-  },
-  {
-    id: 'stadia',
-    label: 'Stadia Alidade Smooth',
-    url: 'https://tiles.stadiamaps.com/tiles/alidade_smooth/{z}/{x}/{y}{r}.png',
-    attribution: '© Stadia Maps',
   },
 ];
 

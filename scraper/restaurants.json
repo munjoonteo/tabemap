@@ -11,7 +11,9 @@
     "price_tier": 1,
     "awards": [],
     "tabelog_url": "https://tabelog.com/tokyo/A1314/A131401/13201172/",
-    "tags": ["australian cafe"],
+    "tags": [
+      "australian cafe"
+    ],
     "notes": "",
     "visited": false
   },
@@ -27,7 +29,9 @@
     "price_tier": 2,
     "awards": [],
     "tabelog_url": "https://tabelog.com/tokyo/A1302/A130204/13264861/",
-    "tags": ["australian cafe"],
+    "tags": [
+      "australian cafe"
+    ],
     "notes": "",
     "visited": false
   },
@@ -43,7 +47,9 @@
     "price_tier": 1,
     "awards": [],
     "tabelog_url": "https://tabelog.com/tokyo/A1303/A130301/13248368/",
-    "tags": ["ice cream"],
+    "tags": [
+      "ice cream"
+    ],
     "notes": "",
     "visited": false
   },
@@ -59,7 +65,9 @@
     "price_tier": 1,
     "awards": [],
     "tabelog_url": "https://tabelog.com/tokyo/A1308/A130801/13306089/",
-    "tags": ["ice cream"],
+    "tags": [
+      "ice cream"
+    ],
     "notes": "",
     "visited": false
   },
@@ -75,7 +83,9 @@
     "price_tier": 2,
     "awards": [],
     "tabelog_url": "https://tabelog.com/tokyo/A1317/A131701/13272143/",
-    "tags": ["ice cream"],
+    "tags": [
+      "ice cream"
+    ],
     "notes": "",
     "visited": false
   },
@@ -91,7 +101,9 @@
     "price_tier": 1,
     "awards": [],
     "tabelog_url": "https://tabelog.com/tokyo/A1304/A130401/13284072/",
-    "tags": ["ice cream"],
+    "tags": [
+      "ice cream"
+    ],
     "notes": "",
     "visited": false
   },
@@ -107,7 +119,9 @@
     "price_tier": 2,
     "awards": [],
     "tabelog_url": "https://tabelog.com/tokyo/A1306/A130602/13309259/",
-    "tags": ["ice cream"],
+    "tags": [
+      "ice cream"
+    ],
     "notes": "",
     "visited": false
   },
@@ -129,7 +143,9 @@
       }
     ],
     "tabelog_url": "https://tabelog.com/tokyo/A1301/A130101/13212493/",
-    "tags": ["ice cream"],
+    "tags": [
+      "ice cream"
+    ],
     "notes": "",
     "visited": false
   },
@@ -167,7 +183,9 @@
       }
     ],
     "tabelog_url": "https://tabelog.com/tokyo/A1317/A131701/13223646/",
-    "tags": ["ice cream"],
+    "tags": [
+      "ice cream"
+    ],
     "notes": "",
     "visited": false
   },
@@ -183,7 +201,9 @@
     "price_tier": 2,
     "awards": [],
     "tabelog_url": "https://tabelog.com/tokyo/A1317/A131702/13322680/",
-    "tags": ["ice cream"],
+    "tags": [
+      "ice cream"
+    ],
     "notes": "",
     "visited": false
   },
@@ -199,7 +219,9 @@
     "price_tier": 3,
     "awards": [],
     "tabelog_url": "https://tabelog.com/tokyo/A1304/A130401/13314634/",
-    "tags": ["ice cream"],
+    "tags": [
+      "ice cream"
+    ],
     "notes": "",
     "visited": false
   },
@@ -2671,7 +2693,7 @@
     "tabelog_url": "https://tabelog.com/tokyo/A1304/A130403/13212998/",
     "tags": [],
     "notes": "",
-    "visited": false
+    "visited": true
   },
   {
     "id": "6aa0dba4-3169-449c-bc16-7e73fee66198",
@@ -6208,6 +6230,118 @@
     "price_tier": 4,
     "awards": [],
     "tabelog_url": "https://tabelog.com/tokyo/A1303/A130301/13298889/",
+    "tags": [],
+    "notes": "",
+    "visited": false
+  },
+  {
+    "id": "7d0fa65a-2e94-4856-ac22-c5a7e2a3a77b",
+    "name": "コスギカレー",
+    "address": "神奈川県川崎市中原区新丸子東2-897-11 ラポール新丸子102",
+    "lat": 35.57829483794297,
+    "lng": 139.66265438225568,
+    "tabelog_rating": 3.71,
+    "personal_rating": null,
+    "cuisine": "カレー",
+    "price_tier": 2,
+    "awards": [
+      {
+        "type": "hyakumeiten",
+        "year": 2026,
+        "category": "Curry"
+      },
+      {
+        "type": "hyakumeiten",
+        "year": 2024,
+        "category": "Curry"
+      },
+      {
+        "type": "hyakumeiten",
+        "year": 2023,
+        "category": "Curry"
+      },
+      {
+        "type": "hyakumeiten",
+        "year": 2020,
+        "category": "Curry"
+      },
+      {
+        "type": "hyakumeiten",
+        "year": 2019,
+        "category": "Curry"
+      }
+    ],
+    "tabelog_url": "https://tabelog.com/kanagawa/A1405/A140504/14042207/",
+    "tags": [],
+    "notes": "",
+    "visited": false
+  },
+  {
+    "id": "12f49f50-fdfb-4f78-940a-8f8a80e4a16e",
+    "name": "三陽飯店",
+    "address": "神奈川県川崎市中原区下新城1-11-13",
+    "lat": 35.578482288738954,
+    "lng": 139.63352133343972,
+    "tabelog_rating": 3.45,
+    "personal_rating": 3.3,
+    "cuisine": "中華料理",
+    "price_tier": 2,
+    "awards": [],
+    "tabelog_url": "https://tabelog.com/kanagawa/A1405/A140504/14021436/",
+    "tags": [],
+    "notes": "",
+    "visited": true
+  },
+  {
+    "id": "0701f722-55c4-466d-9c8e-2bc3d286c029",
+    "name": "千代田鮨",
+    "address": "神奈川県川崎市中原区宮内4-10-2",
+    "lat": 35.58534822873813,
+    "lng": 139.6446157435013,
+    "tabelog_rating": 3.62,
+    "personal_rating": null,
+    "cuisine": "寿司",
+    "price_tier": 4,
+    "awards": [],
+    "tabelog_url": "https://tabelog.com/kanagawa/A1405/A140504/14020560/",
+    "tags": [],
+    "notes": "",
+    "visited": false
+  },
+  {
+    "id": "7c5a013c-7a2d-4729-b3eb-5dde50bacf0c",
+    "name": "とんかつ 武蔵",
+    "address": "神奈川県川崎市中原区上小田中6-21-6 Fビル 2F",
+    "lat": 35.580884837934846,
+    "lng": 139.64228898229612,
+    "tabelog_rating": 3.48,
+    "personal_rating": 3.3,
+    "cuisine": "とんかつ",
+    "price_tier": 3,
+    "awards": [
+      {
+        "type": "hyakumeiten",
+        "year": 2017,
+        "category": "Tonkatsu"
+      }
+    ],
+    "tabelog_url": "https://tabelog.com/kanagawa/A1405/A140504/14002413/",
+    "tags": [],
+    "notes": "",
+    "visited": true
+  },
+  {
+    "id": "009e6fc0-fd37-4a1d-becb-c009c0b9eef9",
+    "name": "CHINA STAND",
+    "address": "神奈川県川崎市中原区下小田中2-4-23",
+    "lat": 35.57977913823646,
+    "lng": 139.6405563754609,
+    "tabelog_rating": 3.1,
+    "personal_rating": null,
+    "cuisine": "中華料理",
+    "price_tier": 3,
+    "awards": [],
+    "tabelog_url": "https://tabelog.com/kanagawa/A1405/A140504/14100179/",
     "tags": [],
     "notes": "",
     "visited": false
